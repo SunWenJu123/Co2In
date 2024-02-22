@@ -1,0 +1,2766 @@
+nohup: ignoring input
+
+=================================================================
+========================== seq-tinyimg : 1 ==========================
+=================================================================
+
+Namespace(root='./data/', transform='default', featureNet=None, nt=None, t_c_arr=None, validation=False, class_shuffle=False, backbone='None', n_epochs=100, learning_rate=None, batch_size=64, print_freq=10, img_dir='img/bmkpv2/', seed=None, model='bmkpv2', device=device(type='cuda'), dataset='seq-tinyimg', retrain_epochs=100, net='resnet18', lr=0.03, threshold=0.98, threshold_first=0.98, nf=20, lambd=10, is_bn_stats=True, is_update_basis=True, is_rotate=False, example_num=500, c_reg_lambd=0)
+Download not needed, files already on disk.
+Download not needed, files already on disk.
+begin_cat 0 end_cat 20
+epoch:0, loss:2.68353, loss_ce:2.68353, loss_mu:0.00000
+epoch:10, loss:1.32128, loss_ce:1.32128, loss_mu:0.00000
+epoch:20, loss:0.62306, loss_ce:0.62306, loss_mu:0.00000
+epoch:30, loss:0.65604, loss_ce:0.65604, loss_mu:0.00000
+epoch:40, loss:0.68913, loss_ce:0.68913, loss_mu:0.00000
+epoch:50, loss:0.03289, loss_ce:0.03289, loss_mu:0.00000
+epoch:60, loss:0.28510, loss_ce:0.28510, loss_mu:0.00000
+epoch:70, loss:0.00628, loss_ce:0.00628, loss_mu:0.00000
+epoch:80, loss:0.00084, loss_ce:0.00084, loss_mu:0.00000
+epoch:90, loss:0.01881, loss_ce:0.01881, loss_mu:0.00000
+basis_size: torch.Size([20, 8]) weight_size torch.Size([8, 27])
+basis_size: torch.Size([20, 12]) weight_size torch.Size([12, 180])
+basis_size: torch.Size([20, 12]) weight_size torch.Size([12, 180])
+basis_size: torch.Size([20, 13]) weight_size torch.Size([13, 180])
+basis_size: torch.Size([20, 12]) weight_size torch.Size([12, 180])
+basis_size: torch.Size([40, 22]) weight_size torch.Size([22, 180])
+basis_size: torch.Size([40, 25]) weight_size torch.Size([25, 360])
+basis_size: torch.Size([40, 13]) weight_size torch.Size([13, 20])
+basis_size: torch.Size([40, 26]) weight_size torch.Size([26, 360])
+basis_size: torch.Size([40, 22]) weight_size torch.Size([22, 360])
+basis_size: torch.Size([80, 42]) weight_size torch.Size([42, 360])
+basis_size: torch.Size([80, 44]) weight_size torch.Size([44, 720])
+basis_size: torch.Size([80, 24]) weight_size torch.Size([24, 40])
+basis_size: torch.Size([80, 45]) weight_size torch.Size([45, 720])
+basis_size: torch.Size([80, 40]) weight_size torch.Size([40, 720])
+basis_size: torch.Size([160, 70]) weight_size torch.Size([70, 720])
+basis_size: torch.Size([160, 85]) weight_size torch.Size([85, 1440])
+basis_size: torch.Size([160, 44]) weight_size torch.Size([44, 80])
+basis_size: torch.Size([160, 94]) weight_size torch.Size([94, 1440])
+basis_size: torch.Size([160, 89]) weight_size torch.Size([89, 1440])
+total_basis_size 82180.0 total_weight_size 588336.0
+begin_cat 0 end_cat 20
+epoch:0, loss:1.17105, loss_ce:1.17105, loss_mu:0.00000
+epoch:10, loss:0.52247, loss_ce:0.52247, loss_mu:0.00000
+epoch:20, loss:0.06645, loss_ce:0.06645, loss_mu:0.00000
+epoch:30, loss:0.06942, loss_ce:0.06942, loss_mu:0.00000
+epoch:40, loss:0.25402, loss_ce:0.25402, loss_mu:0.00000
+epoch:50, loss:0.04934, loss_ce:0.04934, loss_mu:0.00000
+epoch:60, loss:0.06954, loss_ce:0.06954, loss_mu:0.00000
+epoch:70, loss:0.00487, loss_ce:0.00487, loss_mu:0.00000
+epoch:80, loss:0.03251, loss_ce:0.03251, loss_mu:0.00000
+epoch:90, loss:0.68343, loss_ce:0.68343, loss_mu:0.00000
+train_time: -1867.8663129806519 decompose_time: -152.27917909622192 retrain_time: -1182.3184690475464
+train_time 3202.934030532837 test_time 0.6081063747406006
+Acc for task 0 : [0.0, 69.3]
+Accuracy for 1 task(s): 	 [Class-IL]: 69.3 % 	 [Task-IL]: 69.3 %
+Download not needed, files already on disk.
+Download not needed, files already on disk.
+begin_cat 20 end_cat 40
+epoch:0, loss:38.81129, loss_ce:2.09692, loss_mu:3.67144
+epoch:10, loss:25.23405, loss_ce:1.29836, loss_mu:2.39357
+epoch:20, loss:23.80278, loss_ce:1.02008, loss_mu:2.27827
+epoch:30, loss:23.40543, loss_ce:1.13761, loss_mu:2.22678
+epoch:40, loss:23.07736, loss_ce:1.11785, loss_mu:2.19595
+epoch:50, loss:22.35534, loss_ce:0.50907, loss_mu:2.18463
+epoch:60, loss:22.17822, loss_ce:0.35722, loss_mu:2.18210
+epoch:70, loss:22.19653, loss_ce:0.39857, loss_mu:2.17980
+epoch:80, loss:22.23773, loss_ce:0.46141, loss_mu:2.17763
+epoch:90, loss:22.04997, loss_ce:0.29283, loss_mu:2.17571
+basis_size: torch.Size([20, 9]) weight_size torch.Size([9, 27])
+basis_size: torch.Size([20, 13]) weight_size torch.Size([13, 180])
+basis_size: torch.Size([20, 13]) weight_size torch.Size([13, 180])
+basis_size: torch.Size([20, 14]) weight_size torch.Size([14, 180])
+basis_size: torch.Size([20, 13]) weight_size torch.Size([13, 180])
+basis_size: torch.Size([40, 23]) weight_size torch.Size([23, 180])
+basis_size: torch.Size([40, 26]) weight_size torch.Size([26, 360])
+basis_size: torch.Size([40, 14]) weight_size torch.Size([14, 20])
+basis_size: torch.Size([40, 27]) weight_size torch.Size([27, 360])
+basis_size: torch.Size([40, 23]) weight_size torch.Size([23, 360])
+basis_size: torch.Size([80, 45]) weight_size torch.Size([45, 360])
+basis_size: torch.Size([80, 46]) weight_size torch.Size([46, 720])
+basis_size: torch.Size([80, 25]) weight_size torch.Size([25, 40])
+basis_size: torch.Size([80, 47]) weight_size torch.Size([47, 720])
+basis_size: torch.Size([80, 43]) weight_size torch.Size([43, 720])
+basis_size: torch.Size([160, 83]) weight_size torch.Size([83, 720])
+basis_size: torch.Size([160, 99]) weight_size torch.Size([99, 1440])
+basis_size: torch.Size([160, 46]) weight_size torch.Size([46, 80])
+basis_size: torch.Size([160, 97]) weight_size torch.Size([97, 1440])
+basis_size: torch.Size([160, 92]) weight_size torch.Size([92, 1440])
+total_basis_size 88960.0 total_weight_size 1223179.0
+begin_cat 20 end_cat 40
+epoch:0, loss:0.59215, loss_ce:0.59215, loss_mu:0.00000
+epoch:10, loss:0.94666, loss_ce:0.94666, loss_mu:0.00000
+epoch:20, loss:1.06039, loss_ce:1.06039, loss_mu:0.00000
+epoch:30, loss:0.50508, loss_ce:0.50508, loss_mu:0.00000
+epoch:40, loss:0.59668, loss_ce:0.59668, loss_mu:0.00000
+epoch:50, loss:0.87235, loss_ce:0.87235, loss_mu:0.00000
+epoch:60, loss:1.07012, loss_ce:1.07012, loss_mu:0.00000
+epoch:70, loss:1.09081, loss_ce:1.09081, loss_mu:0.00000
+epoch:80, loss:0.60833, loss_ce:0.60833, loss_mu:0.00000
+epoch:90, loss:0.88594, loss_ce:0.88594, loss_mu:0.00000
+train_time: -1995.1305994987488 decompose_time: -301.51559042930603 retrain_time: -1171.0982184410095
+train_time 3468.194591283798 test_time 1.9292049407958984
+Acc for task 0 : [0.0, 69.3, 69.39999999999999]
+Acc for task 1 : [0.0, 58.699999999999996]
+Accuracy for 2 task(s): 	 [Class-IL]: 36.4 % 	 [Task-IL]: 64.05 %
+Download not needed, files already on disk.
+Download not needed, files already on disk.
+begin_cat 40 end_cat 60
+epoch:0, loss:113.23705, loss_ce:1.53389, loss_mu:11.17032
+epoch:10, loss:112.36208, loss_ce:1.12804, loss_mu:11.12340
+epoch:20, loss:112.00063, loss_ce:0.78048, loss_mu:11.12201
+epoch:30, loss:112.23103, loss_ce:1.01680, loss_mu:11.12142
+epoch:40, loss:111.94216, loss_ce:0.73182, loss_mu:11.12103
+epoch:50, loss:111.43975, loss_ce:0.25086, loss_mu:11.11889
+epoch:60, loss:111.80750, loss_ce:0.62474, loss_mu:11.11828
+epoch:70, loss:111.82993, loss_ce:0.64882, loss_mu:11.11811
+epoch:80, loss:111.57068, loss_ce:0.39041, loss_mu:11.11803
+epoch:90, loss:111.39616, loss_ce:0.21634, loss_mu:11.11798
+basis_size: torch.Size([20, 9]) weight_size torch.Size([9, 27])
+basis_size: torch.Size([20, 13]) weight_size torch.Size([13, 180])
+basis_size: torch.Size([20, 13]) weight_size torch.Size([13, 180])
+basis_size: torch.Size([20, 14]) weight_size torch.Size([14, 180])
+basis_size: torch.Size([20, 13]) weight_size torch.Size([13, 180])
+basis_size: torch.Size([40, 23]) weight_size torch.Size([23, 180])
+basis_size: torch.Size([40, 26]) weight_size torch.Size([26, 360])
+basis_size: torch.Size([40, 14]) weight_size torch.Size([14, 20])
+basis_size: torch.Size([40, 27]) weight_size torch.Size([27, 360])
+basis_size: torch.Size([40, 23]) weight_size torch.Size([23, 360])
+basis_size: torch.Size([80, 45]) weight_size torch.Size([45, 360])
+basis_size: torch.Size([80, 46]) weight_size torch.Size([46, 720])
+basis_size: torch.Size([80, 25]) weight_size torch.Size([25, 40])
+basis_size: torch.Size([80, 47]) weight_size torch.Size([47, 720])
+basis_size: torch.Size([80, 43]) weight_size torch.Size([43, 720])
+basis_size: torch.Size([160, 83]) weight_size torch.Size([83, 720])
+basis_size: torch.Size([160, 99]) weight_size torch.Size([99, 1440])
+basis_size: torch.Size([160, 46]) weight_size torch.Size([46, 80])
+basis_size: torch.Size([160, 97]) weight_size torch.Size([97, 1440])
+basis_size: torch.Size([160, 94]) weight_size torch.Size([94, 1440])
+total_basis_size 89280.0 total_weight_size 1860902.0
+begin_cat 40 end_cat 60
+epoch:0, loss:0.47724, loss_ce:0.47724, loss_mu:0.00000
+epoch:10, loss:0.34683, loss_ce:0.34683, loss_mu:0.00000
+epoch:20, loss:0.50361, loss_ce:0.50361, loss_mu:0.00000
+epoch:30, loss:0.23081, loss_ce:0.23081, loss_mu:0.00000
+epoch:40, loss:0.33160, loss_ce:0.33160, loss_mu:0.00000
+epoch:50, loss:0.29902, loss_ce:0.29902, loss_mu:0.00000
+epoch:60, loss:0.49948, loss_ce:0.49948, loss_mu:0.00000
+epoch:70, loss:0.42735, loss_ce:0.42735, loss_mu:0.00000
+epoch:80, loss:0.26220, loss_ce:0.26220, loss_mu:0.00000
+epoch:90, loss:0.58526, loss_ce:0.58526, loss_mu:0.00000
+train_time: -1998.976045846939 decompose_time: -308.0249242782593 retrain_time: -1167.5423243045807
+train_time 3474.9978470802307 test_time 3.6433188915252686
+Acc for task 0 : [0.0, 69.3, 69.39999999999999, 69.3]
+Acc for task 1 : [0.0, 58.699999999999996, 58.699999999999996]
+Acc for task 2 : [0.0, 71.7]
+Accuracy for 3 task(s): 	 [Class-IL]: 38.9 % 	 [Task-IL]: 66.57 %
+Download not needed, files already on disk.
+Download not needed, files already on disk.
+begin_cat 60 end_cat 80
+epoch:0, loss:112.57293, loss_ce:1.19724, loss_mu:11.13757
+epoch:10, loss:112.56366, loss_ce:1.22575, loss_mu:11.13379
+epoch:20, loss:111.87445, loss_ce:0.54614, loss_mu:11.13283
+epoch:30, loss:111.66520, loss_ce:0.34116, loss_mu:11.13240
+epoch:40, loss:111.90869, loss_ce:0.58760, loss_mu:11.13211
+epoch:50, loss:111.55138, loss_ce:0.24790, loss_mu:11.13035
+epoch:60, loss:111.40916, loss_ce:0.11095, loss_mu:11.12982
+epoch:70, loss:111.64502, loss_ce:0.34832, loss_mu:11.12967
+epoch:80, loss:111.69043, loss_ce:0.39442, loss_mu:11.12960
+epoch:90, loss:111.49419, loss_ce:0.19871, loss_mu:11.12955
+basis_size: torch.Size([20, 9]) weight_size torch.Size([9, 27])
+basis_size: torch.Size([20, 13]) weight_size torch.Size([13, 180])
+basis_size: torch.Size([20, 13]) weight_size torch.Size([13, 180])
+basis_size: torch.Size([20, 14]) weight_size torch.Size([14, 180])
+basis_size: torch.Size([20, 13]) weight_size torch.Size([13, 180])
+basis_size: torch.Size([40, 23]) weight_size torch.Size([23, 180])
+basis_size: torch.Size([40, 26]) weight_size torch.Size([26, 360])
+basis_size: torch.Size([40, 14]) weight_size torch.Size([14, 20])
+basis_size: torch.Size([40, 27]) weight_size torch.Size([27, 360])
+basis_size: torch.Size([40, 23]) weight_size torch.Size([23, 360])
+basis_size: torch.Size([80, 45]) weight_size torch.Size([45, 360])
+basis_size: torch.Size([80, 46]) weight_size torch.Size([46, 720])
+basis_size: torch.Size([80, 25]) weight_size torch.Size([25, 40])
+basis_size: torch.Size([80, 47]) weight_size torch.Size([47, 720])
+basis_size: torch.Size([80, 43]) weight_size torch.Size([43, 720])
+basis_size: torch.Size([160, 83]) weight_size torch.Size([83, 720])
+basis_size: torch.Size([160, 99]) weight_size torch.Size([99, 1440])
+basis_size: torch.Size([160, 46]) weight_size torch.Size([46, 80])
+basis_size: torch.Size([160, 97]) weight_size torch.Size([97, 1440])
+basis_size: torch.Size([160, 96]) weight_size torch.Size([96, 1440])
+total_basis_size 89600.0 total_weight_size 2501505.0
+begin_cat 60 end_cat 80
+epoch:0, loss:0.16179, loss_ce:0.16179, loss_mu:0.00000
+epoch:10, loss:0.26320, loss_ce:0.26320, loss_mu:0.00000
+epoch:20, loss:0.17973, loss_ce:0.17973, loss_mu:0.00000
+epoch:30, loss:0.09800, loss_ce:0.09800, loss_mu:0.00000
+epoch:40, loss:0.40021, loss_ce:0.40021, loss_mu:0.00000
+epoch:50, loss:0.32756, loss_ce:0.32756, loss_mu:0.00000
+epoch:60, loss:0.48702, loss_ce:0.48702, loss_mu:0.00000
+epoch:70, loss:0.60116, loss_ce:0.60116, loss_mu:0.00000
+epoch:80, loss:0.37804, loss_ce:0.37804, loss_mu:0.00000
+epoch:90, loss:0.41272, loss_ce:0.41272, loss_mu:0.00000
+train_time: -1995.9267587661743 decompose_time: -301.01965284347534 retrain_time: -1171.9049410820007
+train_time 3469.304058790207 test_time 5.874511957168579
+Acc for task 0 : [0.0, 69.3, 69.39999999999999, 69.3, 69.39999999999999]
+Acc for task 1 : [0.0, 58.699999999999996, 58.699999999999996, 58.699999999999996]
+Acc for task 2 : [0.0, 71.7, 71.7]
+Acc for task 3 : [0.0, 73.3]
+Accuracy for 4 task(s): 	 [Class-IL]: 39.67 % 	 [Task-IL]: 68.27 %
+Download not needed, files already on disk.
+Download not needed, files already on disk.
+begin_cat 80 end_cat 100
+epoch:0, loss:112.92780, loss_ce:1.43286, loss_mu:11.14949
+epoch:10, loss:112.53121, loss_ce:1.07513, loss_mu:11.14561
+epoch:20, loss:111.93296, loss_ce:0.48560, loss_mu:11.14474
+epoch:30, loss:112.68541, loss_ce:1.24289, loss_mu:11.14425
+epoch:40, loss:111.77602, loss_ce:0.33733, loss_mu:11.14387
+epoch:50, loss:111.65239, loss_ce:0.22997, loss_mu:11.14224
+epoch:60, loss:111.58628, loss_ce:0.16832, loss_mu:11.14180
+epoch:70, loss:111.58879, loss_ce:0.17205, loss_mu:11.14167
+epoch:80, loss:111.97009, loss_ce:0.55408, loss_mu:11.14160
+epoch:90, loss:111.53322, loss_ce:0.11766, loss_mu:11.14156
+basis_size: torch.Size([20, 9]) weight_size torch.Size([9, 27])
+basis_size: torch.Size([20, 13]) weight_size torch.Size([13, 180])
+basis_size: torch.Size([20, 13]) weight_size torch.Size([13, 180])
+basis_size: torch.Size([20, 14]) weight_size torch.Size([14, 180])
+basis_size: torch.Size([20, 13]) weight_size torch.Size([13, 180])
+basis_size: torch.Size([40, 23]) weight_size torch.Size([23, 180])
+basis_size: torch.Size([40, 26]) weight_size torch.Size([26, 360])
+basis_size: torch.Size([40, 14]) weight_size torch.Size([14, 20])
+basis_size: torch.Size([40, 27]) weight_size torch.Size([27, 360])
+basis_size: torch.Size([40, 23]) weight_size torch.Size([23, 360])
+basis_size: torch.Size([80, 45]) weight_size torch.Size([45, 360])
+basis_size: torch.Size([80, 46]) weight_size torch.Size([46, 720])
+basis_size: torch.Size([80, 25]) weight_size torch.Size([25, 40])
+basis_size: torch.Size([80, 47]) weight_size torch.Size([47, 720])
+basis_size: torch.Size([80, 43]) weight_size torch.Size([43, 720])
+basis_size: torch.Size([160, 83]) weight_size torch.Size([83, 720])
+basis_size: torch.Size([160, 99]) weight_size torch.Size([99, 1440])
+basis_size: torch.Size([160, 46]) weight_size torch.Size([46, 80])
+basis_size: torch.Size([160, 97]) weight_size torch.Size([97, 1440])
+basis_size: torch.Size([160, 97]) weight_size torch.Size([97, 1440])
+total_basis_size 89760.0 total_weight_size 3143548.0
+begin_cat 80 end_cat 100
+epoch:0, loss:0.38759, loss_ce:0.38759, loss_mu:0.00000
+epoch:10, loss:0.35303, loss_ce:0.35303, loss_mu:0.00000
+epoch:20, loss:0.22490, loss_ce:0.22490, loss_mu:0.00000
+epoch:30, loss:0.23866, loss_ce:0.23866, loss_mu:0.00000
+epoch:40, loss:0.28846, loss_ce:0.28846, loss_mu:0.00000
+epoch:50, loss:0.14936, loss_ce:0.14936, loss_mu:0.00000
+epoch:60, loss:0.29180, loss_ce:0.29180, loss_mu:0.00000
+epoch:70, loss:0.24369, loss_ce:0.24369, loss_mu:0.00000
+epoch:80, loss:0.19381, loss_ce:0.19381, loss_mu:0.00000
+epoch:90, loss:0.38702, loss_ce:0.38702, loss_mu:0.00000
+train_time: -2000.798143863678 decompose_time: -301.69955706596375 retrain_time: -1237.7921493053436
+train_time 3540.743570804596 test_time 17.280286073684692
+Acc for task 0 : [0.0, 69.3, 69.39999999999999, 69.3, 69.39999999999999, 69.3]
+Acc for task 1 : [0.0, 58.699999999999996, 58.699999999999996, 58.699999999999996, 58.699999999999996]
+Acc for task 2 : [0.0, 71.7, 71.7, 71.7]
+Acc for task 3 : [0.0, 73.3, 73.3]
+Acc for task 4 : [0.0, 73.8]
+Accuracy for 5 task(s): 	 [Class-IL]: 38.7 % 	 [Task-IL]: 69.36 %
+Download not needed, files already on disk.
+Download not needed, files already on disk.
+begin_cat 100 end_cat 120
+epoch:0, loss:112.97540, loss_ce:1.42293, loss_mu:11.15525
+epoch:10, loss:112.30170, loss_ce:0.77927, loss_mu:11.15224
+epoch:20, loss:112.37982, loss_ce:0.86577, loss_mu:11.15141
+epoch:30, loss:113.01657, loss_ce:1.50641, loss_mu:11.15102
+epoch:40, loss:112.36360, loss_ce:0.85901, loss_mu:11.15046
+epoch:50, loss:111.82607, loss_ce:0.33739, loss_mu:11.14887
+epoch:60, loss:111.89809, loss_ce:0.41391, loss_mu:11.14842
+epoch:70, loss:111.86839, loss_ce:0.38547, loss_mu:11.14829
+epoch:80, loss:111.74124, loss_ce:0.25904, loss_mu:11.14822
+epoch:90, loss:111.69705, loss_ce:0.21516, loss_mu:11.14819
+basis_size: torch.Size([20, 9]) weight_size torch.Size([9, 27])
+basis_size: torch.Size([20, 13]) weight_size torch.Size([13, 180])
+basis_size: torch.Size([20, 13]) weight_size torch.Size([13, 180])
+basis_size: torch.Size([20, 14]) weight_size torch.Size([14, 180])
+basis_size: torch.Size([20, 13]) weight_size torch.Size([13, 180])
+basis_size: torch.Size([40, 23]) weight_size torch.Size([23, 180])
+basis_size: torch.Size([40, 26]) weight_size torch.Size([26, 360])
+basis_size: torch.Size([40, 14]) weight_size torch.Size([14, 20])
+basis_size: torch.Size([40, 27]) weight_size torch.Size([27, 360])
+basis_size: torch.Size([40, 23]) weight_size torch.Size([23, 360])
+basis_size: torch.Size([80, 45]) weight_size torch.Size([45, 360])
+basis_size: torch.Size([80, 46]) weight_size torch.Size([46, 720])
+basis_size: torch.Size([80, 25]) weight_size torch.Size([25, 40])
+basis_size: torch.Size([80, 47]) weight_size torch.Size([47, 720])
+basis_size: torch.Size([80, 43]) weight_size torch.Size([43, 720])
+basis_size: torch.Size([160, 83]) weight_size torch.Size([83, 720])
+basis_size: torch.Size([160, 99]) weight_size torch.Size([99, 1440])
+basis_size: torch.Size([160, 46]) weight_size torch.Size([46, 80])
+basis_size: torch.Size([160, 97]) weight_size torch.Size([97, 1440])
+basis_size: torch.Size([160, 99]) weight_size torch.Size([99, 1440])
+total_basis_size 90080.0 total_weight_size 3788471.0
+begin_cat 100 end_cat 120
+epoch:0, loss:0.53326, loss_ce:0.53326, loss_mu:0.00000
+epoch:10, loss:0.38175, loss_ce:0.38175, loss_mu:0.00000
+epoch:20, loss:0.21628, loss_ce:0.21628, loss_mu:0.00000
+epoch:30, loss:0.36206, loss_ce:0.36206, loss_mu:0.00000
+epoch:40, loss:0.36458, loss_ce:0.36458, loss_mu:0.00000
+epoch:50, loss:0.39120, loss_ce:0.39120, loss_mu:0.00000
+epoch:60, loss:0.16617, loss_ce:0.16617, loss_mu:0.00000
+epoch:70, loss:0.58816, loss_ce:0.58816, loss_mu:0.00000
+epoch:80, loss:0.48789, loss_ce:0.48789, loss_mu:0.00000
+epoch:90, loss:0.32668, loss_ce:0.32668, loss_mu:0.00000
+train_time: -2473.2449922561646 decompose_time: -302.1458818912506 retrain_time: -1292.3905651569366
+train_time 4068.239047050476 test_time 24.467182159423828
+Acc for task 0 : [0.0, 69.3, 69.39999999999999, 69.3, 69.39999999999999, 69.3, 69.3]
+Acc for task 1 : [0.0, 58.699999999999996, 58.699999999999996, 58.699999999999996, 58.699999999999996, 58.699999999999996]
+Acc for task 2 : [0.0, 71.7, 71.7, 71.7, 71.7]
+Acc for task 3 : [0.0, 73.3, 73.3, 73.3]
+Acc for task 4 : [0.0, 73.8, 73.8]
+Acc for task 5 : [0.0, 70.5]
+Accuracy for 6 task(s): 	 [Class-IL]: 36.9 % 	 [Task-IL]: 69.55 %
+Download not needed, files already on disk.
+Download not needed, files already on disk.
+begin_cat 120 end_cat 140
+epoch:0, loss:113.57713, loss_ce:1.89924, loss_mu:11.16779
+epoch:10, loss:112.35836, loss_ce:0.71830, loss_mu:11.16401
+epoch:20, loss:112.51295, loss_ce:0.88271, loss_mu:11.16302
+epoch:30, loss:112.93118, loss_ce:1.30469, loss_mu:11.16265
+epoch:40, loss:111.98129, loss_ce:0.35943, loss_mu:11.16219
+epoch:50, loss:111.75423, loss_ce:0.14670, loss_mu:11.16075
+epoch:60, loss:112.14316, loss_ce:0.53950, loss_mu:11.16037
+epoch:70, loss:111.99948, loss_ce:0.39692, loss_mu:11.16026
+epoch:80, loss:111.80952, loss_ce:0.20749, loss_mu:11.16020
+epoch:90, loss:112.04658, loss_ce:0.44487, loss_mu:11.16017
+basis_size: torch.Size([20, 9]) weight_size torch.Size([9, 27])
+basis_size: torch.Size([20, 13]) weight_size torch.Size([13, 180])
+basis_size: torch.Size([20, 13]) weight_size torch.Size([13, 180])
+basis_size: torch.Size([20, 14]) weight_size torch.Size([14, 180])
+basis_size: torch.Size([20, 13]) weight_size torch.Size([13, 180])
+basis_size: torch.Size([40, 23]) weight_size torch.Size([23, 180])
+basis_size: torch.Size([40, 26]) weight_size torch.Size([26, 360])
+basis_size: torch.Size([40, 14]) weight_size torch.Size([14, 20])
+basis_size: torch.Size([40, 27]) weight_size torch.Size([27, 360])
+basis_size: torch.Size([40, 23]) weight_size torch.Size([23, 360])
+basis_size: torch.Size([80, 45]) weight_size torch.Size([45, 360])
+basis_size: torch.Size([80, 46]) weight_size torch.Size([46, 720])
+basis_size: torch.Size([80, 25]) weight_size torch.Size([25, 40])
+basis_size: torch.Size([80, 47]) weight_size torch.Size([47, 720])
+basis_size: torch.Size([80, 43]) weight_size torch.Size([43, 720])
+basis_size: torch.Size([160, 83]) weight_size torch.Size([83, 720])
+basis_size: torch.Size([160, 99]) weight_size torch.Size([99, 1440])
+basis_size: torch.Size([160, 46]) weight_size torch.Size([46, 80])
+basis_size: torch.Size([160, 97]) weight_size torch.Size([97, 1440])
+basis_size: torch.Size([160, 100]) weight_size torch.Size([100, 1440])
+total_basis_size 90240.0 total_weight_size 4434834.0
+begin_cat 120 end_cat 140
+epoch:0, loss:0.28471, loss_ce:0.28471, loss_mu:0.00000
+epoch:10, loss:0.32326, loss_ce:0.32326, loss_mu:0.00000
+epoch:20, loss:0.47027, loss_ce:0.47027, loss_mu:0.00000
+epoch:30, loss:0.35314, loss_ce:0.35314, loss_mu:0.00000
+epoch:40, loss:0.41035, loss_ce:0.41035, loss_mu:0.00000
+epoch:50, loss:0.23133, loss_ce:0.23133, loss_mu:0.00000
+epoch:60, loss:0.21331, loss_ce:0.21331, loss_mu:0.00000
+epoch:70, loss:0.18885, loss_ce:0.18885, loss_mu:0.00000
+epoch:80, loss:0.54040, loss_ce:0.54040, loss_mu:0.00000
+epoch:90, loss:0.27973, loss_ce:0.27973, loss_mu:0.00000
+train_time: -2480.4810853004456 decompose_time: -296.4756739139557 retrain_time: -1286.1243648529053
+train_time 4063.5389664173126 test_time 32.50494861602783
+Acc for task 0 : [0.0, 69.3, 69.39999999999999, 69.3, 69.39999999999999, 69.3, 69.3, 69.39999999999999]
+Acc for task 1 : [0.0, 58.699999999999996, 58.699999999999996, 58.699999999999996, 58.699999999999996, 58.699999999999996, 58.699999999999996]
+Acc for task 2 : [0.0, 71.7, 71.7, 71.7, 71.7, 71.7]
+Acc for task 3 : [0.0, 73.3, 73.3, 73.3, 73.3]
+Acc for task 4 : [0.0, 73.8, 73.8, 73.8]
+Acc for task 5 : [0.0, 70.5, 70.5]
+Acc for task 6 : [0.0, 72.39999999999999]
+Accuracy for 7 task(s): 	 [Class-IL]: 36.0 % 	 [Task-IL]: 69.97 %
+Download not needed, files already on disk.
+Download not needed, files already on disk.
+begin_cat 140 end_cat 160
+epoch:0, loss:113.41951, loss_ce:1.68109, loss_mu:11.17384
+epoch:10, loss:112.36330, loss_ce:0.66064, loss_mu:11.17027
+epoch:20, loss:112.24303, loss_ce:0.55010, loss_mu:11.16929
+epoch:30, loss:112.26626, loss_ce:0.57600, loss_mu:11.16903
+epoch:40, loss:112.12827, loss_ce:0.44179, loss_mu:11.16865
+epoch:50, loss:112.01452, loss_ce:0.34326, loss_mu:11.16713
+epoch:60, loss:111.96134, loss_ce:0.29418, loss_mu:11.16672
+epoch:70, loss:111.96926, loss_ce:0.30314, loss_mu:11.16661
+epoch:80, loss:111.93712, loss_ce:0.27152, loss_mu:11.16656
+epoch:90, loss:111.79662, loss_ce:0.13135, loss_mu:11.16653
+basis_size: torch.Size([20, 9]) weight_size torch.Size([9, 27])
+basis_size: torch.Size([20, 13]) weight_size torch.Size([13, 180])
+basis_size: torch.Size([20, 13]) weight_size torch.Size([13, 180])
+basis_size: torch.Size([20, 14]) weight_size torch.Size([14, 180])
+basis_size: torch.Size([20, 13]) weight_size torch.Size([13, 180])
+basis_size: torch.Size([40, 23]) weight_size torch.Size([23, 180])
+basis_size: torch.Size([40, 26]) weight_size torch.Size([26, 360])
+basis_size: torch.Size([40, 14]) weight_size torch.Size([14, 20])
+basis_size: torch.Size([40, 27]) weight_size torch.Size([27, 360])
+basis_size: torch.Size([40, 23]) weight_size torch.Size([23, 360])
+basis_size: torch.Size([80, 45]) weight_size torch.Size([45, 360])
+basis_size: torch.Size([80, 46]) weight_size torch.Size([46, 720])
+basis_size: torch.Size([80, 25]) weight_size torch.Size([25, 40])
+basis_size: torch.Size([80, 47]) weight_size torch.Size([47, 720])
+basis_size: torch.Size([80, 43]) weight_size torch.Size([43, 720])
+basis_size: torch.Size([160, 83]) weight_size torch.Size([83, 720])
+basis_size: torch.Size([160, 99]) weight_size torch.Size([99, 1440])
+basis_size: torch.Size([160, 46]) weight_size torch.Size([46, 80])
+basis_size: torch.Size([160, 97]) weight_size torch.Size([97, 1440])
+basis_size: torch.Size([160, 101]) weight_size torch.Size([101, 1440])
+total_basis_size 90400.0 total_weight_size 5082637.0
+begin_cat 140 end_cat 160
+epoch:0, loss:0.59996, loss_ce:0.59996, loss_mu:0.00000
+epoch:10, loss:0.38942, loss_ce:0.38942, loss_mu:0.00000
+epoch:20, loss:0.42468, loss_ce:0.42468, loss_mu:0.00000
+epoch:30, loss:0.32550, loss_ce:0.32550, loss_mu:0.00000
+epoch:40, loss:0.58650, loss_ce:0.58650, loss_mu:0.00000
+epoch:50, loss:0.25788, loss_ce:0.25788, loss_mu:0.00000
+epoch:60, loss:0.30518, loss_ce:0.30518, loss_mu:0.00000
+epoch:70, loss:0.22068, loss_ce:0.22068, loss_mu:0.00000
+epoch:80, loss:0.38878, loss_ce:0.38878, loss_mu:0.00000
+epoch:90, loss:0.21695, loss_ce:0.21695, loss_mu:0.00000
+train_time: -2482.4578647613525 decompose_time: -304.15152406692505 retrain_time: -1288.577511548996
+train_time 4075.645097732544 test_time 41.777812004089355
+Acc for task 0 : [0.0, 69.3, 69.39999999999999, 69.3, 69.39999999999999, 69.3, 69.3, 69.39999999999999, 69.3]
+Acc for task 1 : [0.0, 58.699999999999996, 58.699999999999996, 58.699999999999996, 58.699999999999996, 58.699999999999996, 58.699999999999996, 58.699999999999996]
+Acc for task 2 : [0.0, 71.7, 71.7, 71.7, 71.7, 71.7, 71.7]
+Acc for task 3 : [0.0, 73.3, 73.3, 73.3, 73.3, 73.3]
+Acc for task 4 : [0.0, 73.8, 73.8, 73.8, 73.8]
+Acc for task 5 : [0.0, 70.5, 70.5, 70.5]
+Acc for task 6 : [0.0, 72.39999999999999, 72.39999999999999]
+Acc for task 7 : [0.0, 71.39999999999999]
+Accuracy for 8 task(s): 	 [Class-IL]: 34.62 % 	 [Task-IL]: 70.14 %
+Download not needed, files already on disk.
+Download not needed, files already on disk.
+begin_cat 160 end_cat 180
+epoch:0, loss:114.02804, loss_ce:2.23189, loss_mu:11.17961
+epoch:10, loss:113.13312, loss_ce:1.36866, loss_mu:11.17645
+epoch:20, loss:112.95740, loss_ce:1.19867, loss_mu:11.17587
+epoch:30, loss:112.36592, loss_ce:0.61108, loss_mu:11.17548
+epoch:40, loss:112.30898, loss_ce:0.55648, loss_mu:11.17525
+epoch:50, loss:112.04150, loss_ce:0.30573, loss_mu:11.17358
+epoch:60, loss:111.97633, loss_ce:0.24501, loss_mu:11.17313
+epoch:70, loss:112.11330, loss_ce:0.38314, loss_mu:11.17302
+epoch:80, loss:111.83295, loss_ce:0.10329, loss_mu:11.17297
+epoch:90, loss:111.80991, loss_ce:0.08061, loss_mu:11.17293
+basis_size: torch.Size([20, 9]) weight_size torch.Size([9, 27])
+basis_size: torch.Size([20, 13]) weight_size torch.Size([13, 180])
+basis_size: torch.Size([20, 13]) weight_size torch.Size([13, 180])
+basis_size: torch.Size([20, 14]) weight_size torch.Size([14, 180])
+basis_size: torch.Size([20, 13]) weight_size torch.Size([13, 180])
+basis_size: torch.Size([40, 23]) weight_size torch.Size([23, 180])
+basis_size: torch.Size([40, 26]) weight_size torch.Size([26, 360])
+basis_size: torch.Size([40, 14]) weight_size torch.Size([14, 20])
+basis_size: torch.Size([40, 27]) weight_size torch.Size([27, 360])
+basis_size: torch.Size([40, 23]) weight_size torch.Size([23, 360])
+basis_size: torch.Size([80, 45]) weight_size torch.Size([45, 360])
+basis_size: torch.Size([80, 46]) weight_size torch.Size([46, 720])
+basis_size: torch.Size([80, 25]) weight_size torch.Size([25, 40])
+basis_size: torch.Size([80, 47]) weight_size torch.Size([47, 720])
+basis_size: torch.Size([80, 43]) weight_size torch.Size([43, 720])
+basis_size: torch.Size([160, 83]) weight_size torch.Size([83, 720])
+basis_size: torch.Size([160, 99]) weight_size torch.Size([99, 1440])
+basis_size: torch.Size([160, 46]) weight_size torch.Size([46, 80])
+basis_size: torch.Size([160, 97]) weight_size torch.Size([97, 1440])
+basis_size: torch.Size([160, 101]) weight_size torch.Size([101, 1440])
+total_basis_size 90400.0 total_weight_size 5730440.0
+begin_cat 160 end_cat 180
+epoch:0, loss:0.24274, loss_ce:0.24274, loss_mu:0.00000
+epoch:10, loss:0.80601, loss_ce:0.80601, loss_mu:0.00000
+epoch:20, loss:0.36913, loss_ce:0.36913, loss_mu:0.00000
+epoch:30, loss:0.30060, loss_ce:0.30060, loss_mu:0.00000
+epoch:40, loss:0.51781, loss_ce:0.51781, loss_mu:0.00000
+epoch:50, loss:0.21925, loss_ce:0.21925, loss_mu:0.00000
+epoch:60, loss:0.15471, loss_ce:0.15471, loss_mu:0.00000
+epoch:70, loss:0.36646, loss_ce:0.36646, loss_mu:0.00000
+epoch:80, loss:0.60842, loss_ce:0.60842, loss_mu:0.00000
+epoch:90, loss:0.61771, loss_ce:0.61771, loss_mu:0.00000
+train_time: -2475.931599378586 decompose_time: -305.96006417274475 retrain_time: -1287.3698241710663
+train_time 4069.7227091789246 test_time 52.31824612617493
+Acc for task 0 : [0.0, 69.3, 69.39999999999999, 69.3, 69.39999999999999, 69.3, 69.3, 69.39999999999999, 69.3, 69.3]
+Acc for task 1 : [0.0, 58.699999999999996, 58.699999999999996, 58.699999999999996, 58.699999999999996, 58.699999999999996, 58.699999999999996, 58.699999999999996, 58.699999999999996]
+Acc for task 2 : [0.0, 71.7, 71.7, 71.7, 71.7, 71.7, 71.7, 71.7]
+Acc for task 3 : [0.0, 73.3, 73.3, 73.3, 73.3, 73.3, 73.3]
+Acc for task 4 : [0.0, 73.8, 73.8, 73.8, 73.8, 73.8]
+Acc for task 5 : [0.0, 70.5, 70.5, 70.5, 70.5]
+Acc for task 6 : [0.0, 72.39999999999999, 72.39999999999999, 72.39999999999999]
+Acc for task 7 : [0.0, 71.39999999999999, 71.39999999999999]
+Acc for task 8 : [0.0, 67.10000000000001]
+Accuracy for 9 task(s): 	 [Class-IL]: 33.02 % 	 [Task-IL]: 69.8 %
+Download not needed, files already on disk.
+Download not needed, files already on disk.
+begin_cat 180 end_cat 200
+epoch:0, loss:113.42425, loss_ce:1.61840, loss_mu:11.18058
+epoch:10, loss:112.49589, loss_ce:0.73503, loss_mu:11.17609
+epoch:20, loss:112.55103, loss_ce:0.79873, loss_mu:11.17523
+epoch:30, loss:112.15289, loss_ce:0.40568, loss_mu:11.17472
+epoch:40, loss:111.98042, loss_ce:0.23717, loss_mu:11.17433
+epoch:50, loss:112.14123, loss_ce:0.41016, loss_mu:11.17311
+epoch:60, loss:111.97620, loss_ce:0.24885, loss_mu:11.17274
+epoch:70, loss:112.20523, loss_ce:0.47890, loss_mu:11.17263
+epoch:80, loss:111.91394, loss_ce:0.18813, loss_mu:11.17258
+epoch:90, loss:112.14429, loss_ce:0.41874, loss_mu:11.17255
+basis_size: torch.Size([20, 9]) weight_size torch.Size([9, 27])
+basis_size: torch.Size([20, 13]) weight_size torch.Size([13, 180])
+basis_size: torch.Size([20, 13]) weight_size torch.Size([13, 180])
+basis_size: torch.Size([20, 14]) weight_size torch.Size([14, 180])
+basis_size: torch.Size([20, 13]) weight_size torch.Size([13, 180])
+basis_size: torch.Size([40, 23]) weight_size torch.Size([23, 180])
+basis_size: torch.Size([40, 26]) weight_size torch.Size([26, 360])
+basis_size: torch.Size([40, 14]) weight_size torch.Size([14, 20])
+basis_size: torch.Size([40, 27]) weight_size torch.Size([27, 360])
+basis_size: torch.Size([40, 23]) weight_size torch.Size([23, 360])
+basis_size: torch.Size([80, 45]) weight_size torch.Size([45, 360])
+basis_size: torch.Size([80, 46]) weight_size torch.Size([46, 720])
+basis_size: torch.Size([80, 25]) weight_size torch.Size([25, 40])
+basis_size: torch.Size([80, 47]) weight_size torch.Size([47, 720])
+basis_size: torch.Size([80, 43]) weight_size torch.Size([43, 720])
+basis_size: torch.Size([160, 83]) weight_size torch.Size([83, 720])
+basis_size: torch.Size([160, 99]) weight_size torch.Size([99, 1440])
+basis_size: torch.Size([160, 46]) weight_size torch.Size([46, 80])
+basis_size: torch.Size([160, 97]) weight_size torch.Size([97, 1440])
+basis_size: torch.Size([160, 101]) weight_size torch.Size([101, 1440])
+total_basis_size 90400.0 total_weight_size 6378243.0
+begin_cat 180 end_cat 200
+epoch:0, loss:0.23770, loss_ce:0.23770, loss_mu:0.00000
+epoch:10, loss:0.24785, loss_ce:0.24785, loss_mu:0.00000
+epoch:20, loss:0.55064, loss_ce:0.55064, loss_mu:0.00000
+epoch:30, loss:0.41710, loss_ce:0.41710, loss_mu:0.00000
+epoch:40, loss:0.16557, loss_ce:0.16557, loss_mu:0.00000
+epoch:50, loss:0.48259, loss_ce:0.48259, loss_mu:0.00000
+epoch:60, loss:0.30042, loss_ce:0.30042, loss_mu:0.00000
+epoch:70, loss:0.18095, loss_ce:0.18095, loss_mu:0.00000
+epoch:80, loss:0.33347, loss_ce:0.33347, loss_mu:0.00000
+epoch:90, loss:0.41885, loss_ce:0.41885, loss_mu:0.00000
+train_time: -2487.473962545395 decompose_time: -298.7690691947937 retrain_time: -1294.2209980487823
+train_time 4080.921745300293 test_time 64.29558396339417
+Acc for task 0 : [0.0, 69.3, 69.39999999999999, 69.3, 69.39999999999999, 69.3, 69.3, 69.39999999999999, 69.3, 69.3, 69.3]
+Acc for task 1 : [0.0, 58.699999999999996, 58.699999999999996, 58.699999999999996, 58.699999999999996, 58.699999999999996, 58.699999999999996, 58.699999999999996, 58.699999999999996, 58.699999999999996]
+Acc for task 2 : [0.0, 71.7, 71.7, 71.7, 71.7, 71.7, 71.7, 71.7, 71.7]
+Acc for task 3 : [0.0, 73.3, 73.3, 73.3, 73.3, 73.3, 73.3, 73.3]
+Acc for task 4 : [0.0, 73.8, 73.8, 73.8, 73.8, 73.8, 73.8]
+Acc for task 5 : [0.0, 70.5, 70.5, 70.5, 70.5, 70.5]
+Acc for task 6 : [0.0, 72.39999999999999, 72.39999999999999, 72.39999999999999, 72.39999999999999]
+Acc for task 7 : [0.0, 71.39999999999999, 71.39999999999999, 71.39999999999999]
+Acc for task 8 : [0.0, 67.10000000000001, 67.10000000000001]
+Acc for task 9 : [0.0, 72.5]
+Accuracy for 10 task(s): 	 [Class-IL]: 31.91 % 	 [Task-IL]: 70.07 %
+predict_time -0.3772258758544922
+Accuracy for 1 task(s): 	 [Class-IL]: 69.3 % 	 [Task-IL]: 69.3 %
+Accuracy for 2 task(s): 	 [Class-IL]: 36.4 % 	 [Task-IL]: 64.05 %
+Accuracy for 3 task(s): 	 [Class-IL]: 38.9 % 	 [Task-IL]: 66.57 %
+Accuracy for 4 task(s): 	 [Class-IL]: 39.67 % 	 [Task-IL]: 68.28 %
+Accuracy for 5 task(s): 	 [Class-IL]: 38.7 % 	 [Task-IL]: 69.36 %
+Accuracy for 6 task(s): 	 [Class-IL]: 36.9 % 	 [Task-IL]: 69.55 %
+Accuracy for 7 task(s): 	 [Class-IL]: 36.0 % 	 [Task-IL]: 69.97 %
+Accuracy for 8 task(s): 	 [Class-IL]: 34.62 % 	 [Task-IL]: 70.14 %
+Accuracy for 9 task(s): 	 [Class-IL]: 33.02 % 	 [Task-IL]: 69.8 %
+Accuracy for 10 task(s): 	 [Class-IL]: 31.91 % 	 [Task-IL]: 70.07 %
+forget_taskil: 0.01 forget_classil: 16.26 bwt_taskil: 0.0 bwt_classil: -16.26
+
+=================================================================
+========================== seq-tinyimg : 2 ==========================
+=================================================================
+
+Namespace(root='./data/', transform='default', featureNet=None, nt=None, t_c_arr=None, validation=False, class_shuffle=False, backbone='None', n_epochs=100, learning_rate=None, batch_size=64, print_freq=10, img_dir='img/bmkpv2/', seed=None, model='bmkpv2', device=device(type='cuda'), dataset='seq-tinyimg', retrain_epochs=100, net='resnet18', lr=0.03, threshold=0.98, threshold_first=0.98, nf=20, lambd=10, is_bn_stats=True, is_update_basis=True, is_rotate=False, example_num=500, c_reg_lambd=0)
+Download not needed, files already on disk.
+Download not needed, files already on disk.
+begin_cat 0 end_cat 20
+epoch:0, loss:2.66395, loss_ce:2.66395, loss_mu:0.00000
+epoch:10, loss:1.65147, loss_ce:1.65147, loss_mu:0.00000
+epoch:20, loss:1.18875, loss_ce:1.18875, loss_mu:0.00000
+epoch:30, loss:0.81981, loss_ce:0.81981, loss_mu:0.00000
+epoch:40, loss:0.63620, loss_ce:0.63620, loss_mu:0.00000
+epoch:50, loss:0.03835, loss_ce:0.03835, loss_mu:0.00000
+epoch:60, loss:0.20069, loss_ce:0.20069, loss_mu:0.00000
+epoch:70, loss:0.01769, loss_ce:0.01769, loss_mu:0.00000
+epoch:80, loss:0.01849, loss_ce:0.01849, loss_mu:0.00000
+epoch:90, loss:0.07051, loss_ce:0.07051, loss_mu:0.00000
+basis_size: torch.Size([20, 7]) weight_size torch.Size([7, 27])
+basis_size: torch.Size([20, 13]) weight_size torch.Size([13, 180])
+basis_size: torch.Size([20, 14]) weight_size torch.Size([14, 180])
+basis_size: torch.Size([20, 13]) weight_size torch.Size([13, 180])
+basis_size: torch.Size([20, 13]) weight_size torch.Size([13, 180])
+basis_size: torch.Size([40, 22]) weight_size torch.Size([22, 180])
+basis_size: torch.Size([40, 23]) weight_size torch.Size([23, 360])
+basis_size: torch.Size([40, 13]) weight_size torch.Size([13, 20])
+basis_size: torch.Size([40, 24]) weight_size torch.Size([24, 360])
+basis_size: torch.Size([40, 20]) weight_size torch.Size([20, 360])
+basis_size: torch.Size([80, 38]) weight_size torch.Size([38, 360])
+basis_size: torch.Size([80, 42]) weight_size torch.Size([42, 720])
+basis_size: torch.Size([80, 23]) weight_size torch.Size([23, 40])
+basis_size: torch.Size([80, 41]) weight_size torch.Size([41, 720])
+basis_size: torch.Size([80, 39]) weight_size torch.Size([39, 720])
+basis_size: torch.Size([160, 71]) weight_size torch.Size([71, 720])
+basis_size: torch.Size([160, 76]) weight_size torch.Size([76, 1440])
+basis_size: torch.Size([160, 44]) weight_size torch.Size([44, 80])
+basis_size: torch.Size([160, 95]) weight_size torch.Size([95, 1440])
+basis_size: torch.Size([160, 78]) weight_size torch.Size([78, 1440])
+total_basis_size 78160.0 total_weight_size 553709.0
+begin_cat 0 end_cat 20
+epoch:0, loss:0.23261, loss_ce:0.23261, loss_mu:0.00000
+epoch:10, loss:0.01230, loss_ce:0.01230, loss_mu:0.00000
+epoch:20, loss:0.00635, loss_ce:0.00635, loss_mu:0.00000
+epoch:30, loss:0.24201, loss_ce:0.24201, loss_mu:0.00000
+epoch:40, loss:0.01282, loss_ce:0.01282, loss_mu:0.00000
+epoch:50, loss:0.49518, loss_ce:0.49518, loss_mu:0.00000
+epoch:60, loss:0.25145, loss_ce:0.25145, loss_mu:0.00000
+epoch:70, loss:0.00546, loss_ce:0.00546, loss_mu:0.00000
+epoch:80, loss:0.05215, loss_ce:0.05215, loss_mu:0.00000
+epoch:90, loss:0.00437, loss_ce:0.00437, loss_mu:0.00000
+train_time: -2340.8939826488495 decompose_time: -150.77906894683838 retrain_time: -1317.358737230301
+train_time 3809.492465019226 test_time 0.8370754718780518
+Acc for task 0 : [0.0, 68.4]
+Accuracy for 1 task(s): 	 [Class-IL]: 68.4 % 	 [Task-IL]: 68.4 %
+Download not needed, files already on disk.
+Download not needed, files already on disk.
+begin_cat 20 end_cat 40
+epoch:0, loss:44.08975, loss_ce:2.43631, loss_mu:4.16534
+epoch:10, loss:29.78401, loss_ce:1.45582, loss_mu:2.83282
+epoch:20, loss:28.48155, loss_ce:1.34105, loss_mu:2.71405
+epoch:30, loss:27.55956, loss_ce:0.94468, loss_mu:2.66149
+epoch:40, loss:26.98279, loss_ce:0.68204, loss_mu:2.63007
+epoch:50, loss:26.80000, loss_ce:0.61564, loss_mu:2.61844
+epoch:60, loss:26.43402, loss_ce:0.27705, loss_mu:2.61570
+epoch:70, loss:26.37189, loss_ce:0.23882, loss_mu:2.61331
+epoch:80, loss:26.53576, loss_ce:0.42530, loss_mu:2.61105
+epoch:90, loss:26.38259, loss_ce:0.29189, loss_mu:2.60907
+basis_size: torch.Size([20, 8]) weight_size torch.Size([8, 27])
+basis_size: torch.Size([20, 14]) weight_size torch.Size([14, 180])
+basis_size: torch.Size([20, 15]) weight_size torch.Size([15, 180])
+basis_size: torch.Size([20, 14]) weight_size torch.Size([14, 180])
+basis_size: torch.Size([20, 14]) weight_size torch.Size([14, 180])
+basis_size: torch.Size([40, 23]) weight_size torch.Size([23, 180])
+basis_size: torch.Size([40, 25]) weight_size torch.Size([25, 360])
+basis_size: torch.Size([40, 14]) weight_size torch.Size([14, 20])
+basis_size: torch.Size([40, 25]) weight_size torch.Size([25, 360])
+basis_size: torch.Size([40, 22]) weight_size torch.Size([22, 360])
+basis_size: torch.Size([80, 42]) weight_size torch.Size([42, 360])
+basis_size: torch.Size([80, 44]) weight_size torch.Size([44, 720])
+basis_size: torch.Size([80, 24]) weight_size torch.Size([24, 40])
+basis_size: torch.Size([80, 43]) weight_size torch.Size([43, 720])
+basis_size: torch.Size([80, 44]) weight_size torch.Size([44, 720])
+basis_size: torch.Size([160, 85]) weight_size torch.Size([85, 720])
+basis_size: torch.Size([160, 93]) weight_size torch.Size([93, 1440])
+basis_size: torch.Size([160, 46]) weight_size torch.Size([46, 80])
+basis_size: torch.Size([160, 98]) weight_size torch.Size([98, 1440])
+basis_size: torch.Size([160, 81]) weight_size torch.Size([81, 1440])
+total_basis_size 85900.0 total_weight_size 1161485.0
+begin_cat 20 end_cat 40
+epoch:0, loss:0.57349, loss_ce:0.57349, loss_mu:0.00000
+epoch:10, loss:0.94844, loss_ce:0.94844, loss_mu:0.00000
+epoch:20, loss:1.10331, loss_ce:1.10331, loss_mu:0.00000
+epoch:30, loss:0.64192, loss_ce:0.64192, loss_mu:0.00000
+epoch:40, loss:0.84212, loss_ce:0.84212, loss_mu:0.00000
+epoch:50, loss:0.62779, loss_ce:0.62779, loss_mu:0.00000
+epoch:60, loss:0.55165, loss_ce:0.55165, loss_mu:0.00000
+epoch:70, loss:0.84421, loss_ce:0.84421, loss_mu:0.00000
+epoch:80, loss:1.17887, loss_ce:1.17887, loss_mu:0.00000
+epoch:90, loss:1.09329, loss_ce:1.09329, loss_mu:0.00000
+train_time: -2499.7858576774597 decompose_time: -300.867388010025 retrain_time: -1299.3925728797913
+train_time 4100.50760102272 test_time 3.486328125
+Acc for task 0 : [0.0, 68.4, 68.30000000000001]
+Acc for task 1 : [0.0, 55.7]
+Accuracy for 2 task(s): 	 [Class-IL]: 34.45 % 	 [Task-IL]: 62.0 %
+Download not needed, files already on disk.
+Download not needed, files already on disk.
+begin_cat 40 end_cat 60
+epoch:0, loss:111.40644, loss_ce:1.19070, loss_mu:11.02157
+epoch:10, loss:110.96526, loss_ce:1.22877, loss_mu:10.97365
+epoch:20, loss:110.50288, loss_ce:0.77494, loss_mu:10.97279
+epoch:30, loss:110.52055, loss_ce:0.79824, loss_mu:10.97223
+epoch:40, loss:110.30569, loss_ce:0.58815, loss_mu:10.97175
+epoch:50, loss:109.96790, loss_ce:0.27305, loss_mu:10.96948
+epoch:60, loss:110.35650, loss_ce:0.66867, loss_mu:10.96878
+epoch:70, loss:110.01933, loss_ce:0.33319, loss_mu:10.96861
+epoch:80, loss:110.16327, loss_ce:0.47815, loss_mu:10.96851
+epoch:90, loss:109.82607, loss_ce:0.14139, loss_mu:10.96847
+basis_size: torch.Size([20, 8]) weight_size torch.Size([8, 27])
+basis_size: torch.Size([20, 14]) weight_size torch.Size([14, 180])
+basis_size: torch.Size([20, 15]) weight_size torch.Size([15, 180])
+basis_size: torch.Size([20, 14]) weight_size torch.Size([14, 180])
+basis_size: torch.Size([20, 14]) weight_size torch.Size([14, 180])
+basis_size: torch.Size([40, 23]) weight_size torch.Size([23, 180])
+basis_size: torch.Size([40, 25]) weight_size torch.Size([25, 360])
+basis_size: torch.Size([40, 14]) weight_size torch.Size([14, 20])
+basis_size: torch.Size([40, 25]) weight_size torch.Size([25, 360])
+basis_size: torch.Size([40, 22]) weight_size torch.Size([22, 360])
+basis_size: torch.Size([80, 42]) weight_size torch.Size([42, 360])
+basis_size: torch.Size([80, 44]) weight_size torch.Size([44, 720])
+basis_size: torch.Size([80, 24]) weight_size torch.Size([24, 40])
+basis_size: torch.Size([80, 43]) weight_size torch.Size([43, 720])
+basis_size: torch.Size([80, 44]) weight_size torch.Size([44, 720])
+basis_size: torch.Size([160, 85]) weight_size torch.Size([85, 720])
+basis_size: torch.Size([160, 93]) weight_size torch.Size([93, 1440])
+basis_size: torch.Size([160, 46]) weight_size torch.Size([46, 80])
+basis_size: torch.Size([160, 98]) weight_size torch.Size([98, 1440])
+basis_size: torch.Size([160, 84]) weight_size torch.Size([84, 1440])
+total_basis_size 86380.0 total_weight_size 1773581.0
+begin_cat 40 end_cat 60
+epoch:0, loss:0.27248, loss_ce:0.27248, loss_mu:0.00000
+epoch:10, loss:0.33084, loss_ce:0.33084, loss_mu:0.00000
+epoch:20, loss:0.32959, loss_ce:0.32959, loss_mu:0.00000
+epoch:30, loss:0.30383, loss_ce:0.30383, loss_mu:0.00000
+epoch:40, loss:0.15211, loss_ce:0.15211, loss_mu:0.00000
+epoch:50, loss:0.37752, loss_ce:0.37752, loss_mu:0.00000
+epoch:60, loss:0.39746, loss_ce:0.39746, loss_mu:0.00000
+epoch:70, loss:0.41441, loss_ce:0.41441, loss_mu:0.00000
+epoch:80, loss:0.27116, loss_ce:0.27116, loss_mu:0.00000
+epoch:90, loss:0.51249, loss_ce:0.51249, loss_mu:0.00000
+train_time: -2498.1186895370483 decompose_time: -301.4588122367859 retrain_time: -1355.3583433628082
+train_time 4155.392685413361 test_time 6.982876539230347
+Acc for task 0 : [0.0, 68.4, 68.30000000000001, 68.30000000000001]
+Acc for task 1 : [0.0, 55.7, 55.7]
+Acc for task 2 : [0.0, 72.39999999999999]
+Accuracy for 3 task(s): 	 [Class-IL]: 37.67 % 	 [Task-IL]: 65.47 %
+Download not needed, files already on disk.
+Download not needed, files already on disk.
+begin_cat 60 end_cat 80
+epoch:0, loss:111.85522, loss_ce:1.91027, loss_mu:10.99449
+epoch:10, loss:110.63573, loss_ce:0.72972, loss_mu:10.99060
+epoch:20, loss:110.10952, loss_ce:0.21243, loss_mu:10.98971
+epoch:30, loss:110.66220, loss_ce:0.77005, loss_mu:10.98921
+epoch:40, loss:110.55486, loss_ce:0.66822, loss_mu:10.98866
+epoch:50, loss:110.05968, loss_ce:0.19099, loss_mu:10.98687
+epoch:60, loss:110.04307, loss_ce:0.17989, loss_mu:10.98632
+epoch:70, loss:110.09499, loss_ce:0.23346, loss_mu:10.98615
+epoch:80, loss:110.41284, loss_ce:0.55206, loss_mu:10.98608
+epoch:90, loss:110.07873, loss_ce:0.21846, loss_mu:10.98603
+basis_size: torch.Size([20, 8]) weight_size torch.Size([8, 27])
+basis_size: torch.Size([20, 14]) weight_size torch.Size([14, 180])
+basis_size: torch.Size([20, 15]) weight_size torch.Size([15, 180])
+basis_size: torch.Size([20, 14]) weight_size torch.Size([14, 180])
+basis_size: torch.Size([20, 14]) weight_size torch.Size([14, 180])
+basis_size: torch.Size([40, 23]) weight_size torch.Size([23, 180])
+basis_size: torch.Size([40, 25]) weight_size torch.Size([25, 360])
+basis_size: torch.Size([40, 14]) weight_size torch.Size([14, 20])
+basis_size: torch.Size([40, 25]) weight_size torch.Size([25, 360])
+basis_size: torch.Size([40, 22]) weight_size torch.Size([22, 360])
+basis_size: torch.Size([80, 42]) weight_size torch.Size([42, 360])
+basis_size: torch.Size([80, 44]) weight_size torch.Size([44, 720])
+basis_size: torch.Size([80, 24]) weight_size torch.Size([24, 40])
+basis_size: torch.Size([80, 43]) weight_size torch.Size([43, 720])
+basis_size: torch.Size([80, 44]) weight_size torch.Size([44, 720])
+basis_size: torch.Size([160, 85]) weight_size torch.Size([85, 720])
+basis_size: torch.Size([160, 93]) weight_size torch.Size([93, 1440])
+basis_size: torch.Size([160, 46]) weight_size torch.Size([46, 80])
+basis_size: torch.Size([160, 98]) weight_size torch.Size([98, 1440])
+basis_size: torch.Size([160, 86]) weight_size torch.Size([86, 1440])
+total_basis_size 86700.0 total_weight_size 2388557.0
+begin_cat 60 end_cat 80
+epoch:0, loss:0.34319, loss_ce:0.34319, loss_mu:0.00000
+epoch:10, loss:0.17787, loss_ce:0.17787, loss_mu:0.00000
+epoch:20, loss:0.34791, loss_ce:0.34791, loss_mu:0.00000
+epoch:30, loss:0.37256, loss_ce:0.37256, loss_mu:0.00000
+epoch:40, loss:0.24697, loss_ce:0.24697, loss_mu:0.00000
+epoch:50, loss:0.34311, loss_ce:0.34311, loss_mu:0.00000
+epoch:60, loss:0.17992, loss_ce:0.17992, loss_mu:0.00000
+epoch:70, loss:0.19933, loss_ce:0.19933, loss_mu:0.00000
+epoch:80, loss:0.25047, loss_ce:0.25047, loss_mu:0.00000
+epoch:90, loss:0.15402, loss_ce:0.15402, loss_mu:0.00000
+train_time: -2502.3231494426727 decompose_time: -303.23721647262573 retrain_time: -1293.7629511356354
+train_time 4099.829673051834 test_time 11.550332069396973
+Acc for task 0 : [0.0, 68.4, 68.30000000000001, 68.30000000000001, 68.30000000000001]
+Acc for task 1 : [0.0, 55.7, 55.7, 55.7]
+Acc for task 2 : [0.0, 72.39999999999999, 72.39999999999999]
+Acc for task 3 : [0.0, 72.3]
+Accuracy for 4 task(s): 	 [Class-IL]: 38.82 % 	 [Task-IL]: 67.18 %
+Download not needed, files already on disk.
+Download not needed, files already on disk.
+begin_cat 80 end_cat 100
+epoch:0, loss:111.16853, loss_ce:1.10096, loss_mu:11.00676
+epoch:10, loss:111.18472, loss_ce:1.15275, loss_mu:11.00320
+epoch:20, loss:110.56912, loss_ce:0.54879, loss_mu:11.00203
+epoch:30, loss:110.77902, loss_ce:0.76368, loss_mu:11.00153
+epoch:40, loss:110.59348, loss_ce:0.58377, loss_mu:11.00097
+epoch:50, loss:110.21207, loss_ce:0.21885, loss_mu:10.99932
+epoch:60, loss:110.29320, loss_ce:0.30536, loss_mu:10.99878
+epoch:70, loss:110.36381, loss_ce:0.37753, loss_mu:10.99863
+epoch:80, loss:110.56274, loss_ce:0.57730, loss_mu:10.99854
+epoch:90, loss:110.26762, loss_ce:0.28273, loss_mu:10.99849
+basis_size: torch.Size([20, 8]) weight_size torch.Size([8, 27])
+basis_size: torch.Size([20, 14]) weight_size torch.Size([14, 180])
+basis_size: torch.Size([20, 15]) weight_size torch.Size([15, 180])
+basis_size: torch.Size([20, 14]) weight_size torch.Size([14, 180])
+basis_size: torch.Size([20, 14]) weight_size torch.Size([14, 180])
+basis_size: torch.Size([40, 23]) weight_size torch.Size([23, 180])
+basis_size: torch.Size([40, 25]) weight_size torch.Size([25, 360])
+basis_size: torch.Size([40, 14]) weight_size torch.Size([14, 20])
+basis_size: torch.Size([40, 25]) weight_size torch.Size([25, 360])
+basis_size: torch.Size([40, 22]) weight_size torch.Size([22, 360])
+basis_size: torch.Size([80, 42]) weight_size torch.Size([42, 360])
+basis_size: torch.Size([80, 44]) weight_size torch.Size([44, 720])
+basis_size: torch.Size([80, 24]) weight_size torch.Size([24, 40])
+basis_size: torch.Size([80, 43]) weight_size torch.Size([43, 720])
+basis_size: torch.Size([80, 44]) weight_size torch.Size([44, 720])
+basis_size: torch.Size([160, 85]) weight_size torch.Size([85, 720])
+basis_size: torch.Size([160, 93]) weight_size torch.Size([93, 1440])
+basis_size: torch.Size([160, 46]) weight_size torch.Size([46, 80])
+basis_size: torch.Size([160, 98]) weight_size torch.Size([98, 1440])
+basis_size: torch.Size([160, 89]) weight_size torch.Size([89, 1440])
+total_basis_size 87180.0 total_weight_size 3007853.0
+begin_cat 80 end_cat 100
+epoch:0, loss:0.23534, loss_ce:0.23534, loss_mu:0.00000
+epoch:10, loss:0.42893, loss_ce:0.42893, loss_mu:0.00000
+epoch:20, loss:0.32971, loss_ce:0.32971, loss_mu:0.00000
+epoch:30, loss:0.32230, loss_ce:0.32230, loss_mu:0.00000
+epoch:40, loss:0.16354, loss_ce:0.16354, loss_mu:0.00000
+epoch:50, loss:0.47694, loss_ce:0.47694, loss_mu:0.00000
+epoch:60, loss:0.55080, loss_ce:0.55080, loss_mu:0.00000
+epoch:70, loss:0.25144, loss_ce:0.25144, loss_mu:0.00000
+epoch:80, loss:0.27720, loss_ce:0.27720, loss_mu:0.00000
+epoch:90, loss:0.37776, loss_ce:0.37776, loss_mu:0.00000
+train_time: -2497.505318880081 decompose_time: -302.85985493659973 retrain_time: -1293.9175186157227
+train_time 4094.7414634227753 test_time 17.271793127059937
+Acc for task 0 : [0.0, 68.4, 68.30000000000001, 68.30000000000001, 68.30000000000001, 68.30000000000001]
+Acc for task 1 : [0.0, 55.7, 55.7, 55.7, 55.7]
+Acc for task 2 : [0.0, 72.39999999999999, 72.39999999999999, 72.39999999999999]
+Acc for task 3 : [0.0, 72.3, 72.3]
+Acc for task 4 : [0.0, 72.0]
+Accuracy for 5 task(s): 	 [Class-IL]: 37.7 % 	 [Task-IL]: 68.14 %
+Download not needed, files already on disk.
+Download not needed, files already on disk.
+begin_cat 100 end_cat 120
+epoch:0, loss:111.92202, loss_ce:1.68231, loss_mu:11.02397
+epoch:10, loss:111.05872, loss_ce:0.84806, loss_mu:11.02107
+epoch:20, loss:110.94581, loss_ce:0.74633, loss_mu:11.01995
+epoch:30, loss:111.14077, loss_ce:0.94674, loss_mu:11.01940
+epoch:40, loss:110.91468, loss_ce:0.72396, loss_mu:11.01907
+epoch:50, loss:110.51321, loss_ce:0.33979, loss_mu:11.01734
+epoch:60, loss:110.57983, loss_ce:0.41162, loss_mu:11.01682
+epoch:70, loss:110.70401, loss_ce:0.53727, loss_mu:11.01667
+epoch:80, loss:110.97286, loss_ce:0.80707, loss_mu:11.01658
+epoch:90, loss:110.44976, loss_ce:0.28442, loss_mu:11.01653
+basis_size: torch.Size([20, 8]) weight_size torch.Size([8, 27])
+basis_size: torch.Size([20, 14]) weight_size torch.Size([14, 180])
+basis_size: torch.Size([20, 15]) weight_size torch.Size([15, 180])
+basis_size: torch.Size([20, 14]) weight_size torch.Size([14, 180])
+basis_size: torch.Size([20, 14]) weight_size torch.Size([14, 180])
+basis_size: torch.Size([40, 23]) weight_size torch.Size([23, 180])
+basis_size: torch.Size([40, 25]) weight_size torch.Size([25, 360])
+basis_size: torch.Size([40, 14]) weight_size torch.Size([14, 20])
+basis_size: torch.Size([40, 25]) weight_size torch.Size([25, 360])
+basis_size: torch.Size([40, 22]) weight_size torch.Size([22, 360])
+basis_size: torch.Size([80, 42]) weight_size torch.Size([42, 360])
+basis_size: torch.Size([80, 44]) weight_size torch.Size([44, 720])
+basis_size: torch.Size([80, 24]) weight_size torch.Size([24, 40])
+basis_size: torch.Size([80, 43]) weight_size torch.Size([43, 720])
+basis_size: torch.Size([80, 44]) weight_size torch.Size([44, 720])
+basis_size: torch.Size([160, 85]) weight_size torch.Size([85, 720])
+basis_size: torch.Size([160, 93]) weight_size torch.Size([93, 1440])
+basis_size: torch.Size([160, 46]) weight_size torch.Size([46, 80])
+basis_size: torch.Size([160, 98]) weight_size torch.Size([98, 1440])
+basis_size: torch.Size([160, 91]) weight_size torch.Size([91, 1440])
+total_basis_size 87500.0 total_weight_size 3630029.0
+begin_cat 100 end_cat 120
+epoch:0, loss:0.31627, loss_ce:0.31627, loss_mu:0.00000
+epoch:10, loss:0.49660, loss_ce:0.49660, loss_mu:0.00000
+epoch:20, loss:0.98631, loss_ce:0.98631, loss_mu:0.00000
+epoch:30, loss:0.55946, loss_ce:0.55946, loss_mu:0.00000
+epoch:40, loss:0.48943, loss_ce:0.48943, loss_mu:0.00000
+epoch:50, loss:0.25287, loss_ce:0.25287, loss_mu:0.00000
+epoch:60, loss:0.39240, loss_ce:0.39240, loss_mu:0.00000
+epoch:70, loss:0.31306, loss_ce:0.31306, loss_mu:0.00000
+epoch:80, loss:0.25402, loss_ce:0.25402, loss_mu:0.00000
+epoch:90, loss:0.81437, loss_ce:0.81437, loss_mu:0.00000
+train_time: -2253.1484365463257 decompose_time: -297.4297342300415 retrain_time: -1168.8075783252716
+train_time 3719.8466050624847 test_time 11.736997604370117
+Acc for task 0 : [0.0, 68.4, 68.30000000000001, 68.30000000000001, 68.30000000000001, 68.30000000000001, 68.30000000000001]
+Acc for task 1 : [0.0, 55.7, 55.7, 55.7, 55.7, 55.7]
+Acc for task 2 : [0.0, 72.39999999999999, 72.39999999999999, 72.39999999999999, 72.39999999999999]
+Acc for task 3 : [0.0, 72.3, 72.3, 72.3]
+Acc for task 4 : [0.0, 72.0, 72.0]
+Acc for task 5 : [0.0, 69.8]
+Accuracy for 6 task(s): 	 [Class-IL]: 35.32 % 	 [Task-IL]: 68.42 %
+Download not needed, files already on disk.
+Download not needed, files already on disk.
+begin_cat 120 end_cat 140
+epoch:0, loss:112.33479, loss_ce:1.96564, loss_mu:11.03691
+epoch:10, loss:111.35548, loss_ce:1.02561, loss_mu:11.03299
+epoch:20, loss:111.20383, loss_ce:0.88533, loss_mu:11.03185
+epoch:30, loss:110.82075, loss_ce:0.50661, loss_mu:11.03141
+epoch:40, loss:110.71834, loss_ce:0.40938, loss_mu:11.03090
+epoch:50, loss:110.73907, loss_ce:0.44576, loss_mu:11.02933
+epoch:60, loss:110.86614, loss_ce:0.57753, loss_mu:11.02886
+epoch:70, loss:110.71542, loss_ce:0.42811, loss_mu:11.02873
+epoch:80, loss:110.55934, loss_ce:0.27270, loss_mu:11.02866
+epoch:90, loss:110.62179, loss_ce:0.33564, loss_mu:11.02861
+basis_size: torch.Size([20, 8]) weight_size torch.Size([8, 27])
+basis_size: torch.Size([20, 14]) weight_size torch.Size([14, 180])
+basis_size: torch.Size([20, 15]) weight_size torch.Size([15, 180])
+basis_size: torch.Size([20, 14]) weight_size torch.Size([14, 180])
+basis_size: torch.Size([20, 14]) weight_size torch.Size([14, 180])
+basis_size: torch.Size([40, 23]) weight_size torch.Size([23, 180])
+basis_size: torch.Size([40, 25]) weight_size torch.Size([25, 360])
+basis_size: torch.Size([40, 14]) weight_size torch.Size([14, 20])
+basis_size: torch.Size([40, 25]) weight_size torch.Size([25, 360])
+basis_size: torch.Size([40, 22]) weight_size torch.Size([22, 360])
+basis_size: torch.Size([80, 42]) weight_size torch.Size([42, 360])
+basis_size: torch.Size([80, 44]) weight_size torch.Size([44, 720])
+basis_size: torch.Size([80, 24]) weight_size torch.Size([24, 40])
+basis_size: torch.Size([80, 43]) weight_size torch.Size([43, 720])
+basis_size: torch.Size([80, 44]) weight_size torch.Size([44, 720])
+basis_size: torch.Size([160, 85]) weight_size torch.Size([85, 720])
+basis_size: torch.Size([160, 93]) weight_size torch.Size([93, 1440])
+basis_size: torch.Size([160, 46]) weight_size torch.Size([46, 80])
+basis_size: torch.Size([160, 98]) weight_size torch.Size([98, 1440])
+basis_size: torch.Size([160, 93]) weight_size torch.Size([93, 1440])
+total_basis_size 87820.0 total_weight_size 4255085.0
+begin_cat 120 end_cat 140
+epoch:0, loss:0.29098, loss_ce:0.29098, loss_mu:0.00000
+epoch:10, loss:0.33536, loss_ce:0.33536, loss_mu:0.00000
+epoch:20, loss:0.28090, loss_ce:0.28090, loss_mu:0.00000
+epoch:30, loss:0.17005, loss_ce:0.17005, loss_mu:0.00000
+epoch:40, loss:0.23361, loss_ce:0.23361, loss_mu:0.00000
+epoch:50, loss:0.17162, loss_ce:0.17162, loss_mu:0.00000
+epoch:60, loss:0.21285, loss_ce:0.21285, loss_mu:0.00000
+epoch:70, loss:0.16632, loss_ce:0.16632, loss_mu:0.00000
+epoch:80, loss:0.19531, loss_ce:0.19531, loss_mu:0.00000
+epoch:90, loss:0.59292, loss_ce:0.59292, loss_mu:0.00000
+train_time: -1884.1709294319153 decompose_time: -300.77819538116455 retrain_time: -1173.951506137848
+train_time 3359.353944540024 test_time 15.502829313278198
+Acc for task 0 : [0.0, 68.4, 68.30000000000001, 68.30000000000001, 68.30000000000001, 68.30000000000001, 68.30000000000001, 68.30000000000001]
+Acc for task 1 : [0.0, 55.7, 55.7, 55.7, 55.7, 55.7, 55.7]
+Acc for task 2 : [0.0, 72.39999999999999, 72.39999999999999, 72.39999999999999, 72.39999999999999, 72.39999999999999]
+Acc for task 3 : [0.0, 72.3, 72.3, 72.3, 72.3]
+Acc for task 4 : [0.0, 72.0, 72.0, 72.0]
+Acc for task 5 : [0.0, 69.8, 69.8]
+Acc for task 6 : [0.0, 71.6]
+Accuracy for 7 task(s): 	 [Class-IL]: 35.01 % 	 [Task-IL]: 68.87 %
+Download not needed, files already on disk.
+Download not needed, files already on disk.
+begin_cat 140 end_cat 160
+epoch:0, loss:111.98896, loss_ce:1.50237, loss_mu:11.04866
+epoch:10, loss:111.28397, loss_ce:0.83417, loss_mu:11.04498
+epoch:20, loss:111.13222, loss_ce:0.69166, loss_mu:11.04406
+epoch:30, loss:110.91059, loss_ce:0.47475, loss_mu:11.04358
+epoch:40, loss:110.86787, loss_ce:0.43552, loss_mu:11.04323
+epoch:50, loss:111.00224, loss_ce:0.58714, loss_mu:11.04151
+epoch:60, loss:110.64044, loss_ce:0.23006, loss_mu:11.04104
+epoch:70, loss:110.60053, loss_ce:0.19138, loss_mu:11.04091
+epoch:80, loss:110.64337, loss_ce:0.23477, loss_mu:11.04086
+epoch:90, loss:110.63956, loss_ce:0.23142, loss_mu:11.04081
+basis_size: torch.Size([20, 8]) weight_size torch.Size([8, 27])
+basis_size: torch.Size([20, 14]) weight_size torch.Size([14, 180])
+basis_size: torch.Size([20, 15]) weight_size torch.Size([15, 180])
+basis_size: torch.Size([20, 14]) weight_size torch.Size([14, 180])
+basis_size: torch.Size([20, 14]) weight_size torch.Size([14, 180])
+basis_size: torch.Size([40, 23]) weight_size torch.Size([23, 180])
+basis_size: torch.Size([40, 25]) weight_size torch.Size([25, 360])
+basis_size: torch.Size([40, 14]) weight_size torch.Size([14, 20])
+basis_size: torch.Size([40, 25]) weight_size torch.Size([25, 360])
+basis_size: torch.Size([40, 22]) weight_size torch.Size([22, 360])
+basis_size: torch.Size([80, 42]) weight_size torch.Size([42, 360])
+basis_size: torch.Size([80, 44]) weight_size torch.Size([44, 720])
+basis_size: torch.Size([80, 24]) weight_size torch.Size([24, 40])
+basis_size: torch.Size([80, 43]) weight_size torch.Size([43, 720])
+basis_size: torch.Size([80, 44]) weight_size torch.Size([44, 720])
+basis_size: torch.Size([160, 85]) weight_size torch.Size([85, 720])
+basis_size: torch.Size([160, 93]) weight_size torch.Size([93, 1440])
+basis_size: torch.Size([160, 46]) weight_size torch.Size([46, 80])
+basis_size: torch.Size([160, 98]) weight_size torch.Size([98, 1440])
+basis_size: torch.Size([160, 94]) weight_size torch.Size([94, 1440])
+total_basis_size 87980.0 total_weight_size 4881581.0
+begin_cat 140 end_cat 160
+epoch:0, loss:0.18908, loss_ce:0.18908, loss_mu:0.00000
+epoch:10, loss:0.36369, loss_ce:0.36369, loss_mu:0.00000
+epoch:20, loss:0.16760, loss_ce:0.16760, loss_mu:0.00000
+epoch:30, loss:0.28572, loss_ce:0.28572, loss_mu:0.00000
+epoch:40, loss:0.50724, loss_ce:0.50724, loss_mu:0.00000
+epoch:50, loss:0.31673, loss_ce:0.31673, loss_mu:0.00000
+epoch:60, loss:0.35966, loss_ce:0.35966, loss_mu:0.00000
+epoch:70, loss:0.52767, loss_ce:0.52767, loss_mu:0.00000
+epoch:80, loss:0.31895, loss_ce:0.31895, loss_mu:0.00000
+epoch:90, loss:0.41261, loss_ce:0.41261, loss_mu:0.00000
+train_time: -1885.5226047039032 decompose_time: -302.5346100330353 retrain_time: -1162.7978966236115
+train_time 3351.3121712207794 test_time 19.72533369064331
+Acc for task 0 : [0.0, 68.4, 68.30000000000001, 68.30000000000001, 68.30000000000001, 68.30000000000001, 68.30000000000001, 68.30000000000001, 68.30000000000001]
+Acc for task 1 : [0.0, 55.7, 55.7, 55.7, 55.7, 55.7, 55.7, 55.7]
+Acc for task 2 : [0.0, 72.39999999999999, 72.39999999999999, 72.39999999999999, 72.39999999999999, 72.39999999999999, 72.39999999999999]
+Acc for task 3 : [0.0, 72.3, 72.3, 72.3, 72.3, 72.3]
+Acc for task 4 : [0.0, 72.0, 72.0, 72.0, 72.0]
+Acc for task 5 : [0.0, 69.8, 69.8, 69.8]
+Acc for task 6 : [0.0, 71.6, 71.6]
+Acc for task 7 : [0.0, 69.6]
+Accuracy for 8 task(s): 	 [Class-IL]: 33.65 % 	 [Task-IL]: 68.96 %
+Download not needed, files already on disk.
+Download not needed, files already on disk.
+begin_cat 160 end_cat 180
+epoch:0, loss:112.62901, loss_ce:2.08807, loss_mu:11.05409
+epoch:10, loss:111.47054, loss_ce:0.95815, loss_mu:11.05124
+epoch:20, loss:111.25149, loss_ce:0.74889, loss_mu:11.05026
+epoch:30, loss:111.30735, loss_ce:0.80915, loss_mu:11.04982
+epoch:40, loss:110.91751, loss_ce:0.42125, loss_mu:11.04963
+epoch:50, loss:110.73782, loss_ce:0.25903, loss_mu:11.04788
+epoch:60, loss:110.84885, loss_ce:0.37514, loss_mu:11.04737
+epoch:70, loss:110.62151, loss_ce:0.14897, loss_mu:11.04725
+epoch:80, loss:111.17679, loss_ce:0.70474, loss_mu:11.04720
+epoch:90, loss:110.68805, loss_ce:0.21644, loss_mu:11.04716
+basis_size: torch.Size([20, 8]) weight_size torch.Size([8, 27])
+basis_size: torch.Size([20, 14]) weight_size torch.Size([14, 180])
+basis_size: torch.Size([20, 15]) weight_size torch.Size([15, 180])
+basis_size: torch.Size([20, 14]) weight_size torch.Size([14, 180])
+basis_size: torch.Size([20, 14]) weight_size torch.Size([14, 180])
+basis_size: torch.Size([40, 23]) weight_size torch.Size([23, 180])
+basis_size: torch.Size([40, 25]) weight_size torch.Size([25, 360])
+basis_size: torch.Size([40, 14]) weight_size torch.Size([14, 20])
+basis_size: torch.Size([40, 25]) weight_size torch.Size([25, 360])
+basis_size: torch.Size([40, 22]) weight_size torch.Size([22, 360])
+basis_size: torch.Size([80, 42]) weight_size torch.Size([42, 360])
+basis_size: torch.Size([80, 44]) weight_size torch.Size([44, 720])
+basis_size: torch.Size([80, 24]) weight_size torch.Size([24, 40])
+basis_size: torch.Size([80, 43]) weight_size torch.Size([43, 720])
+basis_size: torch.Size([80, 44]) weight_size torch.Size([44, 720])
+basis_size: torch.Size([160, 85]) weight_size torch.Size([85, 720])
+basis_size: torch.Size([160, 93]) weight_size torch.Size([93, 1440])
+basis_size: torch.Size([160, 46]) weight_size torch.Size([46, 80])
+basis_size: torch.Size([160, 98]) weight_size torch.Size([98, 1440])
+basis_size: torch.Size([160, 94]) weight_size torch.Size([94, 1440])
+total_basis_size 87980.0 total_weight_size 5508077.0
+begin_cat 160 end_cat 180
+epoch:0, loss:0.35610, loss_ce:0.35610, loss_mu:0.00000
+epoch:10, loss:0.35038, loss_ce:0.35038, loss_mu:0.00000
+epoch:20, loss:0.39678, loss_ce:0.39678, loss_mu:0.00000
+epoch:30, loss:0.38273, loss_ce:0.38273, loss_mu:0.00000
+epoch:40, loss:0.56076, loss_ce:0.56076, loss_mu:0.00000
+epoch:50, loss:0.54542, loss_ce:0.54542, loss_mu:0.00000
+epoch:60, loss:0.61027, loss_ce:0.61027, loss_mu:0.00000
+epoch:70, loss:0.55005, loss_ce:0.55005, loss_mu:0.00000
+epoch:80, loss:0.70536, loss_ce:0.70536, loss_mu:0.00000
+epoch:90, loss:0.25265, loss_ce:0.25265, loss_mu:0.00000
+train_time: -1887.6515052318573 decompose_time: -304.3875696659088 retrain_time: -1176.000107049942
+train_time 3368.489415168762 test_time 24.578489065170288
+Acc for task 0 : [0.0, 68.4, 68.30000000000001, 68.30000000000001, 68.30000000000001, 68.30000000000001, 68.30000000000001, 68.30000000000001, 68.30000000000001, 68.30000000000001]
+Acc for task 1 : [0.0, 55.7, 55.7, 55.7, 55.7, 55.7, 55.7, 55.7, 55.7]
+Acc for task 2 : [0.0, 72.39999999999999, 72.39999999999999, 72.39999999999999, 72.39999999999999, 72.39999999999999, 72.39999999999999, 72.39999999999999]
+Acc for task 3 : [0.0, 72.3, 72.3, 72.3, 72.3, 72.3, 72.3]
+Acc for task 4 : [0.0, 72.0, 72.0, 72.0, 72.0, 72.0]
+Acc for task 5 : [0.0, 69.8, 69.8, 69.8, 69.8]
+Acc for task 6 : [0.0, 71.6, 71.6, 71.6]
+Acc for task 7 : [0.0, 69.6, 69.6]
+Acc for task 8 : [0.0, 64.2]
+Accuracy for 9 task(s): 	 [Class-IL]: 32.24 % 	 [Task-IL]: 68.43 %
+Download not needed, files already on disk.
+Download not needed, files already on disk.
+begin_cat 180 end_cat 200
+epoch:0, loss:112.65454, loss_ce:2.10589, loss_mu:11.05486
+epoch:10, loss:111.02309, loss_ce:0.51410, loss_mu:11.05090
+epoch:20, loss:111.16835, loss_ce:0.66986, loss_mu:11.04985
+epoch:30, loss:111.59634, loss_ce:1.10214, loss_mu:11.04942
+epoch:40, loss:111.05839, loss_ce:0.56845, loss_mu:11.04899
+epoch:50, loss:110.94770, loss_ce:0.47094, loss_mu:11.04768
+epoch:60, loss:110.75864, loss_ce:0.28577, loss_mu:11.04729
+epoch:70, loss:110.95312, loss_ce:0.48138, loss_mu:11.04717
+epoch:80, loss:110.67005, loss_ce:0.19871, loss_mu:11.04713
+epoch:90, loss:110.75941, loss_ce:0.28856, loss_mu:11.04709
+basis_size: torch.Size([20, 8]) weight_size torch.Size([8, 27])
+basis_size: torch.Size([20, 14]) weight_size torch.Size([14, 180])
+basis_size: torch.Size([20, 15]) weight_size torch.Size([15, 180])
+basis_size: torch.Size([20, 14]) weight_size torch.Size([14, 180])
+basis_size: torch.Size([20, 14]) weight_size torch.Size([14, 180])
+basis_size: torch.Size([40, 23]) weight_size torch.Size([23, 180])
+basis_size: torch.Size([40, 25]) weight_size torch.Size([25, 360])
+basis_size: torch.Size([40, 14]) weight_size torch.Size([14, 20])
+basis_size: torch.Size([40, 25]) weight_size torch.Size([25, 360])
+basis_size: torch.Size([40, 22]) weight_size torch.Size([22, 360])
+basis_size: torch.Size([80, 42]) weight_size torch.Size([42, 360])
+basis_size: torch.Size([80, 44]) weight_size torch.Size([44, 720])
+basis_size: torch.Size([80, 24]) weight_size torch.Size([24, 40])
+basis_size: torch.Size([80, 43]) weight_size torch.Size([43, 720])
+basis_size: torch.Size([80, 44]) weight_size torch.Size([44, 720])
+basis_size: torch.Size([160, 85]) weight_size torch.Size([85, 720])
+basis_size: torch.Size([160, 93]) weight_size torch.Size([93, 1440])
+basis_size: torch.Size([160, 46]) weight_size torch.Size([46, 80])
+basis_size: torch.Size([160, 98]) weight_size torch.Size([98, 1440])
+basis_size: torch.Size([160, 96]) weight_size torch.Size([96, 1440])
+total_basis_size 88300.0 total_weight_size 6137453.0
+begin_cat 180 end_cat 200
+epoch:0, loss:0.40718, loss_ce:0.40718, loss_mu:0.00000
+epoch:10, loss:0.36230, loss_ce:0.36230, loss_mu:0.00000
+epoch:20, loss:0.23561, loss_ce:0.23561, loss_mu:0.00000
+epoch:30, loss:0.15024, loss_ce:0.15024, loss_mu:0.00000
+epoch:40, loss:0.47609, loss_ce:0.47609, loss_mu:0.00000
+epoch:50, loss:0.33825, loss_ce:0.33825, loss_mu:0.00000
+epoch:60, loss:0.24913, loss_ce:0.24913, loss_mu:0.00000
+epoch:70, loss:0.43197, loss_ce:0.43197, loss_mu:0.00000
+epoch:80, loss:0.28498, loss_ce:0.28498, loss_mu:0.00000
+epoch:90, loss:0.24822, loss_ce:0.24822, loss_mu:0.00000
+train_time: -1886.114814043045 decompose_time: -300.6045641899109 retrain_time: -1172.0685617923737
+train_time 3359.241607427597 test_time 29.912715196609497
+Acc for task 0 : [0.0, 68.4, 68.30000000000001, 68.30000000000001, 68.30000000000001, 68.30000000000001, 68.30000000000001, 68.30000000000001, 68.30000000000001, 68.30000000000001, 68.4]
+Acc for task 1 : [0.0, 55.7, 55.7, 55.7, 55.7, 55.7, 55.7, 55.7, 55.7, 55.7]
+Acc for task 2 : [0.0, 72.39999999999999, 72.39999999999999, 72.39999999999999, 72.39999999999999, 72.39999999999999, 72.39999999999999, 72.39999999999999, 72.39999999999999]
+Acc for task 3 : [0.0, 72.3, 72.3, 72.3, 72.3, 72.3, 72.3, 72.39999999999999]
+Acc for task 4 : [0.0, 72.0, 72.0, 72.0, 72.0, 72.0, 72.0]
+Acc for task 5 : [0.0, 69.8, 69.8, 69.8, 69.8, 69.8]
+Acc for task 6 : [0.0, 71.6, 71.6, 71.6, 71.6]
+Acc for task 7 : [0.0, 69.6, 69.6, 69.6]
+Acc for task 8 : [0.0, 64.2, 64.2]
+Acc for task 9 : [0.0, 71.7]
+Accuracy for 10 task(s): 	 [Class-IL]: 31.43 % 	 [Task-IL]: 68.78 %
+predict_time -0.16505932807922363
+Accuracy for 1 task(s): 	 [Class-IL]: 68.4 % 	 [Task-IL]: 68.4 %
+Accuracy for 2 task(s): 	 [Class-IL]: 34.45 % 	 [Task-IL]: 62.0 %
+Accuracy for 3 task(s): 	 [Class-IL]: 37.67 % 	 [Task-IL]: 65.47 %
+Accuracy for 4 task(s): 	 [Class-IL]: 38.83 % 	 [Task-IL]: 67.18 %
+Accuracy for 5 task(s): 	 [Class-IL]: 37.7 % 	 [Task-IL]: 68.14 %
+Accuracy for 6 task(s): 	 [Class-IL]: 35.32 % 	 [Task-IL]: 68.42 %
+Accuracy for 7 task(s): 	 [Class-IL]: 35.01 % 	 [Task-IL]: 68.87 %
+Accuracy for 8 task(s): 	 [Class-IL]: 33.65 % 	 [Task-IL]: 68.96 %
+Accuracy for 9 task(s): 	 [Class-IL]: 32.24 % 	 [Task-IL]: 68.43 %
+Accuracy for 10 task(s): 	 [Class-IL]: 31.43 % 	 [Task-IL]: 68.78 %
+forget_taskil: 0.0 forget_classil: 17.14 bwt_taskil: 0.01 bwt_classil: -17.14
+
+=================================================================
+========================== seq-tinyimg : 3 ==========================
+=================================================================
+
+Namespace(root='./data/', transform='default', featureNet=None, nt=None, t_c_arr=None, validation=False, class_shuffle=False, backbone='None', n_epochs=100, learning_rate=None, batch_size=64, print_freq=10, img_dir='img/bmkpv2/', seed=None, model='bmkpv2', device=device(type='cuda'), dataset='seq-tinyimg', retrain_epochs=100, net='resnet18', lr=0.03, threshold=0.98, threshold_first=0.98, nf=20, lambd=10, is_bn_stats=True, is_update_basis=True, is_rotate=False, example_num=500, c_reg_lambd=0)
+Download not needed, files already on disk.
+Download not needed, files already on disk.
+begin_cat 0 end_cat 20
+epoch:0, loss:2.93297, loss_ce:2.93297, loss_mu:0.00000
+epoch:10, loss:1.73071, loss_ce:1.73071, loss_mu:0.00000
+epoch:20, loss:0.94932, loss_ce:0.94932, loss_mu:0.00000
+epoch:30, loss:1.04463, loss_ce:1.04463, loss_mu:0.00000
+epoch:40, loss:0.43732, loss_ce:0.43732, loss_mu:0.00000
+epoch:50, loss:0.08118, loss_ce:0.08118, loss_mu:0.00000
+epoch:60, loss:0.04203, loss_ce:0.04203, loss_mu:0.00000
+epoch:70, loss:0.67750, loss_ce:0.67750, loss_mu:0.00000
+epoch:80, loss:0.00204, loss_ce:0.00204, loss_mu:0.00000
+epoch:90, loss:0.00282, loss_ce:0.00282, loss_mu:0.00000
+basis_size: torch.Size([20, 6]) weight_size torch.Size([6, 27])
+basis_size: torch.Size([20, 10]) weight_size torch.Size([10, 180])
+basis_size: torch.Size([20, 10]) weight_size torch.Size([10, 180])
+basis_size: torch.Size([20, 9]) weight_size torch.Size([9, 180])
+basis_size: torch.Size([20, 9]) weight_size torch.Size([9, 180])
+basis_size: torch.Size([40, 17]) weight_size torch.Size([17, 180])
+basis_size: torch.Size([40, 22]) weight_size torch.Size([22, 360])
+basis_size: torch.Size([40, 12]) weight_size torch.Size([12, 20])
+basis_size: torch.Size([40, 23]) weight_size torch.Size([23, 360])
+basis_size: torch.Size([40, 24]) weight_size torch.Size([24, 360])
+basis_size: torch.Size([80, 40]) weight_size torch.Size([40, 360])
+basis_size: torch.Size([80, 40]) weight_size torch.Size([40, 720])
+basis_size: torch.Size([80, 24]) weight_size torch.Size([24, 40])
+basis_size: torch.Size([80, 43]) weight_size torch.Size([43, 720])
+basis_size: torch.Size([80, 37]) weight_size torch.Size([37, 720])
+basis_size: torch.Size([160, 70]) weight_size torch.Size([70, 720])
+basis_size: torch.Size([160, 80]) weight_size torch.Size([80, 1440])
+basis_size: torch.Size([160, 45]) weight_size torch.Size([45, 80])
+basis_size: torch.Size([160, 96]) weight_size torch.Size([96, 1440])
+basis_size: torch.Size([160, 80]) weight_size torch.Size([80, 1440])
+total_basis_size 78880.0 total_weight_size 559542.0
+begin_cat 0 end_cat 20
+epoch:0, loss:0.21869, loss_ce:0.21869, loss_mu:0.00000
+epoch:10, loss:0.42211, loss_ce:0.42211, loss_mu:0.00000
+epoch:20, loss:0.16122, loss_ce:0.16122, loss_mu:0.00000
+epoch:30, loss:0.31626, loss_ce:0.31626, loss_mu:0.00000
+epoch:40, loss:0.00734, loss_ce:0.00734, loss_mu:0.00000
+epoch:50, loss:0.04389, loss_ce:0.04389, loss_mu:0.00000
+epoch:60, loss:0.46159, loss_ce:0.46159, loss_mu:0.00000
+epoch:70, loss:0.04109, loss_ce:0.04109, loss_mu:0.00000
+epoch:80, loss:0.02298, loss_ce:0.02298, loss_mu:0.00000
+epoch:90, loss:0.13209, loss_ce:0.13209, loss_mu:0.00000
+train_time: -1741.6775109767914 decompose_time: -148.73551297187805 retrain_time: -1205.5171191692352
+train_time 3096.383228302002 test_time 0.6035664081573486
+Acc for task 0 : [0.0, 66.60000000000001]
+Accuracy for 1 task(s): 	 [Class-IL]: 66.6 % 	 [Task-IL]: 66.6 %
+Download not needed, files already on disk.
+Download not needed, files already on disk.
+begin_cat 20 end_cat 40
+epoch:0, loss:36.89444, loss_ce:2.17405, loss_mu:3.47204
+epoch:10, loss:22.14144, loss_ce:1.64676, loss_mu:2.04947
+epoch:20, loss:20.01730, loss_ce:0.81757, loss_mu:1.91997
+epoch:30, loss:19.35070, loss_ce:0.72101, loss_mu:1.86297
+epoch:40, loss:19.23620, loss_ce:0.94616, loss_mu:1.82900
+epoch:50, loss:18.55139, loss_ce:0.38059, loss_mu:1.81708
+epoch:60, loss:18.72645, loss_ce:0.58241, loss_mu:1.81440
+epoch:70, loss:18.42327, loss_ce:0.30453, loss_mu:1.81187
+epoch:80, loss:18.56413, loss_ce:0.46969, loss_mu:1.80944
+epoch:90, loss:18.29707, loss_ce:0.22384, loss_mu:1.80732
+basis_size: torch.Size([20, 7]) weight_size torch.Size([7, 27])
+basis_size: torch.Size([20, 11]) weight_size torch.Size([11, 180])
+basis_size: torch.Size([20, 11]) weight_size torch.Size([11, 180])
+basis_size: torch.Size([20, 10]) weight_size torch.Size([10, 180])
+basis_size: torch.Size([20, 10]) weight_size torch.Size([10, 180])
+basis_size: torch.Size([40, 19]) weight_size torch.Size([19, 180])
+basis_size: torch.Size([40, 24]) weight_size torch.Size([24, 360])
+basis_size: torch.Size([40, 13]) weight_size torch.Size([13, 20])
+basis_size: torch.Size([40, 24]) weight_size torch.Size([24, 360])
+basis_size: torch.Size([40, 25]) weight_size torch.Size([25, 360])
+basis_size: torch.Size([80, 43]) weight_size torch.Size([43, 360])
+basis_size: torch.Size([80, 42]) weight_size torch.Size([42, 720])
+basis_size: torch.Size([80, 25]) weight_size torch.Size([25, 40])
+basis_size: torch.Size([80, 45]) weight_size torch.Size([45, 720])
+basis_size: torch.Size([80, 41]) weight_size torch.Size([41, 720])
+basis_size: torch.Size([160, 83]) weight_size torch.Size([83, 720])
+basis_size: torch.Size([160, 95]) weight_size torch.Size([95, 1440])
+basis_size: torch.Size([160, 47]) weight_size torch.Size([47, 80])
+basis_size: torch.Size([160, 102]) weight_size torch.Size([102, 1440])
+basis_size: torch.Size([160, 91]) weight_size torch.Size([91, 1440])
+total_basis_size 87740.0 total_weight_size 1184131.0
+begin_cat 20 end_cat 40
+epoch:0, loss:0.99452, loss_ce:0.99452, loss_mu:0.00000
+epoch:10, loss:1.13926, loss_ce:1.13926, loss_mu:0.00000
+epoch:20, loss:1.43516, loss_ce:1.43516, loss_mu:0.00000
+epoch:30, loss:0.72740, loss_ce:0.72740, loss_mu:0.00000
+epoch:40, loss:0.93258, loss_ce:0.93258, loss_mu:0.00000
+epoch:50, loss:0.94732, loss_ce:0.94732, loss_mu:0.00000
+epoch:60, loss:1.10514, loss_ce:1.10514, loss_mu:0.00000
+epoch:70, loss:0.88177, loss_ce:0.88177, loss_mu:0.00000
+epoch:80, loss:1.04018, loss_ce:1.04018, loss_mu:0.00000
+epoch:90, loss:1.61607, loss_ce:1.61607, loss_mu:0.00000
+train_time: -1896.3513963222504 decompose_time: -304.9907455444336 retrain_time: -1180.4658777713776
+train_time 3382.2627396583557 test_time 1.940659999847412
+Acc for task 0 : [0.0, 66.60000000000001, 66.60000000000001]
+Acc for task 1 : [0.0, 53.7]
+Accuracy for 2 task(s): 	 [Class-IL]: 37.65 % 	 [Task-IL]: 60.15 %
+Download not needed, files already on disk.
+Download not needed, files already on disk.
+begin_cat 40 end_cat 60
+epoch:0, loss:103.55958, loss_ce:1.52336, loss_mu:10.20362
+epoch:10, loss:102.42580, loss_ce:0.93095, loss_mu:10.14948
+epoch:20, loss:102.74866, loss_ce:1.26390, loss_mu:10.14848
+epoch:30, loss:102.03862, loss_ce:0.55943, loss_mu:10.14792
+epoch:40, loss:102.42504, loss_ce:0.94894, loss_mu:10.14761
+epoch:50, loss:101.88091, loss_ce:0.42650, loss_mu:10.14544
+epoch:60, loss:101.77724, loss_ce:0.32842, loss_mu:10.14488
+epoch:70, loss:101.80460, loss_ce:0.35697, loss_mu:10.14476
+epoch:80, loss:101.79174, loss_ce:0.34453, loss_mu:10.14472
+epoch:90, loss:101.80137, loss_ce:0.35469, loss_mu:10.14467
+basis_size: torch.Size([20, 7]) weight_size torch.Size([7, 27])
+basis_size: torch.Size([20, 11]) weight_size torch.Size([11, 180])
+basis_size: torch.Size([20, 11]) weight_size torch.Size([11, 180])
+basis_size: torch.Size([20, 10]) weight_size torch.Size([10, 180])
+basis_size: torch.Size([20, 10]) weight_size torch.Size([10, 180])
+basis_size: torch.Size([40, 19]) weight_size torch.Size([19, 180])
+basis_size: torch.Size([40, 24]) weight_size torch.Size([24, 360])
+basis_size: torch.Size([40, 13]) weight_size torch.Size([13, 20])
+basis_size: torch.Size([40, 24]) weight_size torch.Size([24, 360])
+basis_size: torch.Size([40, 25]) weight_size torch.Size([25, 360])
+basis_size: torch.Size([80, 43]) weight_size torch.Size([43, 360])
+basis_size: torch.Size([80, 42]) weight_size torch.Size([42, 720])
+basis_size: torch.Size([80, 25]) weight_size torch.Size([25, 40])
+basis_size: torch.Size([80, 45]) weight_size torch.Size([45, 720])
+basis_size: torch.Size([80, 41]) weight_size torch.Size([41, 720])
+basis_size: torch.Size([160, 83]) weight_size torch.Size([83, 720])
+basis_size: torch.Size([160, 95]) weight_size torch.Size([95, 1440])
+basis_size: torch.Size([160, 47]) weight_size torch.Size([47, 80])
+basis_size: torch.Size([160, 102]) weight_size torch.Size([102, 1440])
+basis_size: torch.Size([160, 92]) weight_size torch.Size([92, 1440])
+total_basis_size 87900.0 total_weight_size 1810160.0
+begin_cat 40 end_cat 60
+epoch:0, loss:0.48433, loss_ce:0.48433, loss_mu:0.00000
+epoch:10, loss:0.40098, loss_ce:0.40098, loss_mu:0.00000
+epoch:20, loss:0.26162, loss_ce:0.26162, loss_mu:0.00000
+epoch:30, loss:0.45422, loss_ce:0.45422, loss_mu:0.00000
+epoch:40, loss:0.36225, loss_ce:0.36225, loss_mu:0.00000
+epoch:50, loss:0.36375, loss_ce:0.36375, loss_mu:0.00000
+epoch:60, loss:0.33072, loss_ce:0.33072, loss_mu:0.00000
+epoch:70, loss:0.85711, loss_ce:0.85711, loss_mu:0.00000
+epoch:80, loss:0.42790, loss_ce:0.42790, loss_mu:0.00000
+epoch:90, loss:0.30340, loss_ce:0.30340, loss_mu:0.00000
+train_time: -1892.5346653461456 decompose_time: -304.2222144603729 retrain_time: -1183.3347563743591
+train_time 3380.5435285568237 test_time 3.607701301574707
+Acc for task 0 : [0.0, 66.60000000000001, 66.60000000000001, 66.60000000000001]
+Acc for task 1 : [0.0, 53.7, 53.7]
+Acc for task 2 : [0.0, 70.39999999999999]
+Accuracy for 3 task(s): 	 [Class-IL]: 34.17 % 	 [Task-IL]: 63.57 %
+Download not needed, files already on disk.
+Download not needed, files already on disk.
+begin_cat 60 end_cat 80
+epoch:0, loss:103.16590, loss_ce:1.58274, loss_mu:10.15832
+epoch:10, loss:102.65561, loss_ce:1.10788, loss_mu:10.15477
+epoch:20, loss:102.49126, loss_ce:0.95425, loss_mu:10.15370
+epoch:30, loss:101.92602, loss_ce:0.39354, loss_mu:10.15325
+epoch:40, loss:102.14533, loss_ce:0.61726, loss_mu:10.15281
+epoch:50, loss:101.86375, loss_ce:0.35390, loss_mu:10.15098
+epoch:60, loss:101.76246, loss_ce:0.25773, loss_mu:10.15047
+epoch:70, loss:101.83442, loss_ce:0.33104, loss_mu:10.15034
+epoch:80, loss:101.93895, loss_ce:0.43622, loss_mu:10.15027
+epoch:90, loss:101.91087, loss_ce:0.40860, loss_mu:10.15023
+basis_size: torch.Size([20, 7]) weight_size torch.Size([7, 27])
+basis_size: torch.Size([20, 11]) weight_size torch.Size([11, 180])
+basis_size: torch.Size([20, 11]) weight_size torch.Size([11, 180])
+basis_size: torch.Size([20, 10]) weight_size torch.Size([10, 180])
+basis_size: torch.Size([20, 10]) weight_size torch.Size([10, 180])
+basis_size: torch.Size([40, 19]) weight_size torch.Size([19, 180])
+basis_size: torch.Size([40, 24]) weight_size torch.Size([24, 360])
+basis_size: torch.Size([40, 13]) weight_size torch.Size([13, 20])
+basis_size: torch.Size([40, 24]) weight_size torch.Size([24, 360])
+basis_size: torch.Size([40, 25]) weight_size torch.Size([25, 360])
+basis_size: torch.Size([80, 43]) weight_size torch.Size([43, 360])
+basis_size: torch.Size([80, 42]) weight_size torch.Size([42, 720])
+basis_size: torch.Size([80, 25]) weight_size torch.Size([25, 40])
+basis_size: torch.Size([80, 45]) weight_size torch.Size([45, 720])
+basis_size: torch.Size([80, 41]) weight_size torch.Size([41, 720])
+basis_size: torch.Size([160, 83]) weight_size torch.Size([83, 720])
+basis_size: torch.Size([160, 95]) weight_size torch.Size([95, 1440])
+basis_size: torch.Size([160, 47]) weight_size torch.Size([47, 80])
+basis_size: torch.Size([160, 102]) weight_size torch.Size([102, 1440])
+basis_size: torch.Size([160, 93]) weight_size torch.Size([93, 1440])
+total_basis_size 88060.0 total_weight_size 2437629.0
+begin_cat 60 end_cat 80
+epoch:0, loss:0.36294, loss_ce:0.36294, loss_mu:0.00000
+epoch:10, loss:0.42375, loss_ce:0.42375, loss_mu:0.00000
+epoch:20, loss:0.39548, loss_ce:0.39548, loss_mu:0.00000
+epoch:30, loss:0.37934, loss_ce:0.37934, loss_mu:0.00000
+epoch:40, loss:0.18511, loss_ce:0.18511, loss_mu:0.00000
+epoch:50, loss:0.29936, loss_ce:0.29936, loss_mu:0.00000
+epoch:60, loss:0.25179, loss_ce:0.25179, loss_mu:0.00000
+epoch:70, loss:0.24112, loss_ce:0.24112, loss_mu:0.00000
+epoch:80, loss:0.61351, loss_ce:0.61351, loss_mu:0.00000
+epoch:90, loss:0.35606, loss_ce:0.35606, loss_mu:0.00000
+train_time: -1893.8266689777374 decompose_time: -301.13668847084045 retrain_time: -1170.125107049942
+train_time 3365.5459220409393 test_time 5.826867341995239
+Acc for task 0 : [0.0, 66.60000000000001, 66.60000000000001, 66.60000000000001, 66.60000000000001]
+Acc for task 1 : [0.0, 53.7, 53.7, 53.7]
+Acc for task 2 : [0.0, 70.39999999999999, 70.39999999999999]
+Acc for task 3 : [0.0, 72.89999999999999]
+Accuracy for 4 task(s): 	 [Class-IL]: 36.55 % 	 [Task-IL]: 65.9 %
+Download not needed, files already on disk.
+Download not needed, files already on disk.
+begin_cat 80 end_cat 100
+epoch:0, loss:103.72745, loss_ce:2.08150, loss_mu:10.16459
+epoch:10, loss:102.70557, loss_ce:1.10018, loss_mu:10.16054
+epoch:20, loss:101.90039, loss_ce:0.30406, loss_mu:10.15963
+epoch:30, loss:103.15002, loss_ce:1.55876, loss_mu:10.15913
+epoch:40, loss:102.05401, loss_ce:0.46450, loss_mu:10.15895
+epoch:50, loss:101.95622, loss_ce:0.38587, loss_mu:10.15703
+epoch:60, loss:101.95922, loss_ce:0.39284, loss_mu:10.15664
+epoch:70, loss:101.92287, loss_ce:0.35767, loss_mu:10.15652
+epoch:80, loss:101.82218, loss_ce:0.25740, loss_mu:10.15648
+epoch:90, loss:101.71283, loss_ce:0.14850, loss_mu:10.15643
+basis_size: torch.Size([20, 7]) weight_size torch.Size([7, 27])
+basis_size: torch.Size([20, 11]) weight_size torch.Size([11, 180])
+basis_size: torch.Size([20, 11]) weight_size torch.Size([11, 180])
+basis_size: torch.Size([20, 10]) weight_size torch.Size([10, 180])
+basis_size: torch.Size([20, 10]) weight_size torch.Size([10, 180])
+basis_size: torch.Size([40, 19]) weight_size torch.Size([19, 180])
+basis_size: torch.Size([40, 24]) weight_size torch.Size([24, 360])
+basis_size: torch.Size([40, 13]) weight_size torch.Size([13, 20])
+basis_size: torch.Size([40, 24]) weight_size torch.Size([24, 360])
+basis_size: torch.Size([40, 25]) weight_size torch.Size([25, 360])
+basis_size: torch.Size([80, 43]) weight_size torch.Size([43, 360])
+basis_size: torch.Size([80, 42]) weight_size torch.Size([42, 720])
+basis_size: torch.Size([80, 25]) weight_size torch.Size([25, 40])
+basis_size: torch.Size([80, 45]) weight_size torch.Size([45, 720])
+basis_size: torch.Size([80, 41]) weight_size torch.Size([41, 720])
+basis_size: torch.Size([160, 83]) weight_size torch.Size([83, 720])
+basis_size: torch.Size([160, 95]) weight_size torch.Size([95, 1440])
+basis_size: torch.Size([160, 47]) weight_size torch.Size([47, 80])
+basis_size: torch.Size([160, 102]) weight_size torch.Size([102, 1440])
+basis_size: torch.Size([160, 94]) weight_size torch.Size([94, 1440])
+total_basis_size 88220.0 total_weight_size 3066538.0
+begin_cat 80 end_cat 100
+epoch:0, loss:0.58275, loss_ce:0.58275, loss_mu:0.00000
+epoch:10, loss:0.26902, loss_ce:0.26902, loss_mu:0.00000
+epoch:20, loss:0.22864, loss_ce:0.22864, loss_mu:0.00000
+epoch:30, loss:0.19212, loss_ce:0.19212, loss_mu:0.00000
+epoch:40, loss:0.21225, loss_ce:0.21225, loss_mu:0.00000
+epoch:50, loss:0.57745, loss_ce:0.57745, loss_mu:0.00000
+epoch:60, loss:0.44998, loss_ce:0.44998, loss_mu:0.00000
+epoch:70, loss:0.37476, loss_ce:0.37476, loss_mu:0.00000
+epoch:80, loss:0.39350, loss_ce:0.39350, loss_mu:0.00000
+epoch:90, loss:0.38725, loss_ce:0.38725, loss_mu:0.00000
+train_time: -1893.737565279007 decompose_time: -301.5303199291229 retrain_time: -1180.2896428108215
+train_time 3376.010286808014 test_time 8.55298638343811
+Acc for task 0 : [0.0, 66.60000000000001, 66.60000000000001, 66.60000000000001, 66.60000000000001, 66.60000000000001]
+Acc for task 1 : [0.0, 53.7, 53.7, 53.7, 53.7]
+Acc for task 2 : [0.0, 70.39999999999999, 70.39999999999999, 70.39999999999999]
+Acc for task 3 : [0.0, 72.89999999999999, 72.89999999999999]
+Acc for task 4 : [0.0, 71.2]
+Accuracy for 5 task(s): 	 [Class-IL]: 35.82 % 	 [Task-IL]: 66.96 %
+Download not needed, files already on disk.
+Download not needed, files already on disk.
+begin_cat 100 end_cat 120
+epoch:0, loss:103.09628, loss_ce:1.39575, loss_mu:10.17005
+epoch:10, loss:103.61196, loss_ce:1.94288, loss_mu:10.16691
+epoch:20, loss:102.76141, loss_ce:1.10002, loss_mu:10.16614
+epoch:30, loss:102.49522, loss_ce:0.83816, loss_mu:10.16571
+epoch:40, loss:102.47905, loss_ce:0.82550, loss_mu:10.16535
+epoch:50, loss:102.02078, loss_ce:0.38485, loss_mu:10.16359
+epoch:60, loss:102.29316, loss_ce:0.66199, loss_mu:10.16312
+epoch:70, loss:101.96154, loss_ce:0.33144, loss_mu:10.16301
+epoch:80, loss:102.23688, loss_ce:0.60729, loss_mu:10.16296
+epoch:90, loss:102.02931, loss_ce:0.40012, loss_mu:10.16292
+basis_size: torch.Size([20, 7]) weight_size torch.Size([7, 27])
+basis_size: torch.Size([20, 11]) weight_size torch.Size([11, 180])
+basis_size: torch.Size([20, 11]) weight_size torch.Size([11, 180])
+basis_size: torch.Size([20, 10]) weight_size torch.Size([10, 180])
+basis_size: torch.Size([20, 10]) weight_size torch.Size([10, 180])
+basis_size: torch.Size([40, 19]) weight_size torch.Size([19, 180])
+basis_size: torch.Size([40, 24]) weight_size torch.Size([24, 360])
+basis_size: torch.Size([40, 13]) weight_size torch.Size([13, 20])
+basis_size: torch.Size([40, 24]) weight_size torch.Size([24, 360])
+basis_size: torch.Size([40, 25]) weight_size torch.Size([25, 360])
+basis_size: torch.Size([80, 43]) weight_size torch.Size([43, 360])
+basis_size: torch.Size([80, 42]) weight_size torch.Size([42, 720])
+basis_size: torch.Size([80, 25]) weight_size torch.Size([25, 40])
+basis_size: torch.Size([80, 45]) weight_size torch.Size([45, 720])
+basis_size: torch.Size([80, 41]) weight_size torch.Size([41, 720])
+basis_size: torch.Size([160, 83]) weight_size torch.Size([83, 720])
+basis_size: torch.Size([160, 95]) weight_size torch.Size([95, 1440])
+basis_size: torch.Size([160, 47]) weight_size torch.Size([47, 80])
+basis_size: torch.Size([160, 102]) weight_size torch.Size([102, 1440])
+basis_size: torch.Size([160, 95]) weight_size torch.Size([95, 1440])
+total_basis_size 88380.0 total_weight_size 3696887.0
+begin_cat 100 end_cat 120
+epoch:0, loss:0.30464, loss_ce:0.30464, loss_mu:0.00000
+epoch:10, loss:0.21848, loss_ce:0.21848, loss_mu:0.00000
+epoch:20, loss:0.43631, loss_ce:0.43631, loss_mu:0.00000
+epoch:30, loss:0.42840, loss_ce:0.42840, loss_mu:0.00000
+epoch:40, loss:0.21884, loss_ce:0.21884, loss_mu:0.00000
+epoch:50, loss:0.43544, loss_ce:0.43544, loss_mu:0.00000
+epoch:60, loss:0.40698, loss_ce:0.40698, loss_mu:0.00000
+epoch:70, loss:0.33671, loss_ce:0.33671, loss_mu:0.00000
+epoch:80, loss:0.29415, loss_ce:0.29415, loss_mu:0.00000
+epoch:90, loss:0.55220, loss_ce:0.55220, loss_mu:0.00000
+train_time: -1891.4462246894836 decompose_time: -305.6161825656891 retrain_time: -1177.5608716011047
+train_time 3375.08353471756 test_time 11.78200650215149
+Acc for task 0 : [0.0, 66.60000000000001, 66.60000000000001, 66.60000000000001, 66.60000000000001, 66.60000000000001, 66.60000000000001]
+Acc for task 1 : [0.0, 53.7, 53.7, 53.7, 53.7, 53.7]
+Acc for task 2 : [0.0, 70.39999999999999, 70.39999999999999, 70.39999999999999, 70.39999999999999]
+Acc for task 3 : [0.0, 72.89999999999999, 72.89999999999999, 72.89999999999999]
+Acc for task 4 : [0.0, 71.2, 71.2]
+Acc for task 5 : [0.0, 70.19999999999999]
+Accuracy for 6 task(s): 	 [Class-IL]: 34.28 % 	 [Task-IL]: 67.5 %
+Download not needed, files already on disk.
+Download not needed, files already on disk.
+begin_cat 120 end_cat 140
+epoch:0, loss:103.60325, loss_ce:1.83648, loss_mu:10.17668
+epoch:10, loss:102.74277, loss_ce:1.01128, loss_mu:10.17315
+epoch:20, loss:102.45074, loss_ce:0.72948, loss_mu:10.17213
+epoch:30, loss:102.30444, loss_ce:0.58947, loss_mu:10.17150
+epoch:40, loss:101.98224, loss_ce:0.27093, loss_mu:10.17113
+epoch:50, loss:101.88662, loss_ce:0.19172, loss_mu:10.16949
+epoch:60, loss:101.79746, loss_ce:0.10707, loss_mu:10.16904
+epoch:70, loss:102.07165, loss_ce:0.38223, loss_mu:10.16894
+epoch:80, loss:102.30630, loss_ce:0.61743, loss_mu:10.16889
+epoch:90, loss:101.95618, loss_ce:0.26770, loss_mu:10.16885
+basis_size: torch.Size([20, 7]) weight_size torch.Size([7, 27])
+basis_size: torch.Size([20, 11]) weight_size torch.Size([11, 180])
+basis_size: torch.Size([20, 11]) weight_size torch.Size([11, 180])
+basis_size: torch.Size([20, 10]) weight_size torch.Size([10, 180])
+basis_size: torch.Size([20, 10]) weight_size torch.Size([10, 180])
+basis_size: torch.Size([40, 19]) weight_size torch.Size([19, 180])
+basis_size: torch.Size([40, 24]) weight_size torch.Size([24, 360])
+basis_size: torch.Size([40, 13]) weight_size torch.Size([13, 20])
+basis_size: torch.Size([40, 24]) weight_size torch.Size([24, 360])
+basis_size: torch.Size([40, 25]) weight_size torch.Size([25, 360])
+basis_size: torch.Size([80, 43]) weight_size torch.Size([43, 360])
+basis_size: torch.Size([80, 42]) weight_size torch.Size([42, 720])
+basis_size: torch.Size([80, 25]) weight_size torch.Size([25, 40])
+basis_size: torch.Size([80, 45]) weight_size torch.Size([45, 720])
+basis_size: torch.Size([80, 41]) weight_size torch.Size([41, 720])
+basis_size: torch.Size([160, 83]) weight_size torch.Size([83, 720])
+basis_size: torch.Size([160, 95]) weight_size torch.Size([95, 1440])
+basis_size: torch.Size([160, 47]) weight_size torch.Size([47, 80])
+basis_size: torch.Size([160, 102]) weight_size torch.Size([102, 1440])
+basis_size: torch.Size([160, 95]) weight_size torch.Size([95, 1440])
+total_basis_size 88380.0 total_weight_size 4327236.0
+begin_cat 120 end_cat 140
+epoch:0, loss:0.20315, loss_ce:0.20315, loss_mu:0.00000
+epoch:10, loss:0.49768, loss_ce:0.49768, loss_mu:0.00000
+epoch:20, loss:0.26082, loss_ce:0.26082, loss_mu:0.00000
+epoch:30, loss:0.30603, loss_ce:0.30603, loss_mu:0.00000
+epoch:40, loss:0.29488, loss_ce:0.29488, loss_mu:0.00000
+epoch:50, loss:0.37274, loss_ce:0.37274, loss_mu:0.00000
+epoch:60, loss:0.46226, loss_ce:0.46226, loss_mu:0.00000
+epoch:70, loss:0.39307, loss_ce:0.39307, loss_mu:0.00000
+epoch:80, loss:0.45177, loss_ce:0.45177, loss_mu:0.00000
+epoch:90, loss:0.45570, loss_ce:0.45570, loss_mu:0.00000
+train_time: -1893.4739623069763 decompose_time: -306.66900062561035 retrain_time: -1201.199474811554
+train_time 3401.798053741455 test_time 15.68833613395691
+Acc for task 0 : [0.0, 66.60000000000001, 66.60000000000001, 66.60000000000001, 66.60000000000001, 66.60000000000001, 66.60000000000001, 66.60000000000001]
+Acc for task 1 : [0.0, 53.7, 53.7, 53.7, 53.7, 53.7, 53.7]
+Acc for task 2 : [0.0, 70.39999999999999, 70.39999999999999, 70.39999999999999, 70.39999999999999, 70.39999999999999]
+Acc for task 3 : [0.0, 72.89999999999999, 72.89999999999999, 72.89999999999999, 72.89999999999999]
+Acc for task 4 : [0.0, 71.2, 71.2, 71.2]
+Acc for task 5 : [0.0, 70.19999999999999, 70.19999999999999]
+Acc for task 6 : [0.0, 68.5]
+Accuracy for 7 task(s): 	 [Class-IL]: 33.87 % 	 [Task-IL]: 67.64 %
+Download not needed, files already on disk.
+Download not needed, files already on disk.
+begin_cat 140 end_cat 160
+epoch:0, loss:103.47117, loss_ce:1.70897, loss_mu:10.17622
+epoch:10, loss:102.19501, loss_ce:0.46744, loss_mu:10.17276
+epoch:20, loss:102.51513, loss_ce:0.79626, loss_mu:10.17189
+epoch:30, loss:102.83081, loss_ce:1.11553, loss_mu:10.17153
+epoch:40, loss:102.58011, loss_ce:0.86833, loss_mu:10.17118
+epoch:50, loss:101.92761, loss_ce:0.23325, loss_mu:10.16944
+epoch:60, loss:101.92677, loss_ce:0.23673, loss_mu:10.16900
+epoch:70, loss:102.15585, loss_ce:0.46675, loss_mu:10.16891
+epoch:80, loss:101.88263, loss_ce:0.19412, loss_mu:10.16885
+epoch:90, loss:101.96487, loss_ce:0.27663, loss_mu:10.16882
+basis_size: torch.Size([20, 7]) weight_size torch.Size([7, 27])
+basis_size: torch.Size([20, 11]) weight_size torch.Size([11, 180])
+basis_size: torch.Size([20, 11]) weight_size torch.Size([11, 180])
+basis_size: torch.Size([20, 10]) weight_size torch.Size([10, 180])
+basis_size: torch.Size([20, 10]) weight_size torch.Size([10, 180])
+basis_size: torch.Size([40, 19]) weight_size torch.Size([19, 180])
+basis_size: torch.Size([40, 24]) weight_size torch.Size([24, 360])
+basis_size: torch.Size([40, 13]) weight_size torch.Size([13, 20])
+basis_size: torch.Size([40, 24]) weight_size torch.Size([24, 360])
+basis_size: torch.Size([40, 25]) weight_size torch.Size([25, 360])
+basis_size: torch.Size([80, 43]) weight_size torch.Size([43, 360])
+basis_size: torch.Size([80, 42]) weight_size torch.Size([42, 720])
+basis_size: torch.Size([80, 25]) weight_size torch.Size([25, 40])
+basis_size: torch.Size([80, 45]) weight_size torch.Size([45, 720])
+basis_size: torch.Size([80, 41]) weight_size torch.Size([41, 720])
+basis_size: torch.Size([160, 83]) weight_size torch.Size([83, 720])
+basis_size: torch.Size([160, 95]) weight_size torch.Size([95, 1440])
+basis_size: torch.Size([160, 47]) weight_size torch.Size([47, 80])
+basis_size: torch.Size([160, 102]) weight_size torch.Size([102, 1440])
+basis_size: torch.Size([160, 95]) weight_size torch.Size([95, 1440])
+total_basis_size 88380.0 total_weight_size 4957585.0
+begin_cat 140 end_cat 160
+epoch:0, loss:0.48520, loss_ce:0.48520, loss_mu:0.00000
+epoch:10, loss:0.22206, loss_ce:0.22206, loss_mu:0.00000
+epoch:20, loss:0.49738, loss_ce:0.49738, loss_mu:0.00000
+epoch:30, loss:0.35787, loss_ce:0.35787, loss_mu:0.00000
+epoch:40, loss:0.42458, loss_ce:0.42458, loss_mu:0.00000
+epoch:50, loss:0.43334, loss_ce:0.43334, loss_mu:0.00000
+epoch:60, loss:0.48365, loss_ce:0.48365, loss_mu:0.00000
+epoch:70, loss:0.28125, loss_ce:0.28125, loss_mu:0.00000
+epoch:80, loss:0.37090, loss_ce:0.37090, loss_mu:0.00000
+epoch:90, loss:0.34902, loss_ce:0.34902, loss_mu:0.00000
+train_time: -1931.3008658885956 decompose_time: -313.57959961891174 retrain_time: -1197.4847934246063
+train_time 3442.836343050003 test_time 20.025184869766235
+Acc for task 0 : [0.0, 66.60000000000001, 66.60000000000001, 66.60000000000001, 66.60000000000001, 66.60000000000001, 66.60000000000001, 66.60000000000001, 66.60000000000001]
+Acc for task 1 : [0.0, 53.7, 53.7, 53.7, 53.7, 53.7, 53.7, 53.7]
+Acc for task 2 : [0.0, 70.39999999999999, 70.39999999999999, 70.39999999999999, 70.39999999999999, 70.39999999999999, 70.39999999999999]
+Acc for task 3 : [0.0, 72.89999999999999, 72.89999999999999, 72.89999999999999, 72.89999999999999, 72.89999999999999]
+Acc for task 4 : [0.0, 71.2, 71.2, 71.2, 71.2]
+Acc for task 5 : [0.0, 70.19999999999999, 70.19999999999999, 70.19999999999999]
+Acc for task 6 : [0.0, 68.5, 68.5]
+Acc for task 7 : [0.0, 70.5]
+Accuracy for 8 task(s): 	 [Class-IL]: 32.9 % 	 [Task-IL]: 68.0 %
+Download not needed, files already on disk.
+Download not needed, files already on disk.
+begin_cat 160 end_cat 180
+epoch:0, loss:104.19027, loss_ce:2.43034, loss_mu:10.17599
+epoch:10, loss:102.47558, loss_ce:0.74828, loss_mu:10.17273
+epoch:20, loss:102.84310, loss_ce:1.12411, loss_mu:10.17190
+epoch:30, loss:102.41904, loss_ce:0.70206, loss_mu:10.17170
+epoch:40, loss:102.33974, loss_ce:0.62563, loss_mu:10.17141
+epoch:50, loss:102.08881, loss_ce:0.39152, loss_mu:10.16973
+epoch:60, loss:102.16169, loss_ce:0.46857, loss_mu:10.16931
+epoch:70, loss:102.15014, loss_ce:0.45802, loss_mu:10.16921
+epoch:80, loss:102.29318, loss_ce:0.60129, loss_mu:10.16919
+epoch:90, loss:102.07509, loss_ce:0.38341, loss_mu:10.16917
+basis_size: torch.Size([20, 7]) weight_size torch.Size([7, 27])
+basis_size: torch.Size([20, 11]) weight_size torch.Size([11, 180])
+basis_size: torch.Size([20, 11]) weight_size torch.Size([11, 180])
+basis_size: torch.Size([20, 10]) weight_size torch.Size([10, 180])
+basis_size: torch.Size([20, 10]) weight_size torch.Size([10, 180])
+basis_size: torch.Size([40, 19]) weight_size torch.Size([19, 180])
+basis_size: torch.Size([40, 24]) weight_size torch.Size([24, 360])
+basis_size: torch.Size([40, 13]) weight_size torch.Size([13, 20])
+basis_size: torch.Size([40, 24]) weight_size torch.Size([24, 360])
+basis_size: torch.Size([40, 25]) weight_size torch.Size([25, 360])
+basis_size: torch.Size([80, 43]) weight_size torch.Size([43, 360])
+basis_size: torch.Size([80, 42]) weight_size torch.Size([42, 720])
+basis_size: torch.Size([80, 25]) weight_size torch.Size([25, 40])
+basis_size: torch.Size([80, 45]) weight_size torch.Size([45, 720])
+basis_size: torch.Size([80, 41]) weight_size torch.Size([41, 720])
+basis_size: torch.Size([160, 83]) weight_size torch.Size([83, 720])
+basis_size: torch.Size([160, 95]) weight_size torch.Size([95, 1440])
+basis_size: torch.Size([160, 47]) weight_size torch.Size([47, 80])
+basis_size: torch.Size([160, 102]) weight_size torch.Size([102, 1440])
+basis_size: torch.Size([160, 95]) weight_size torch.Size([95, 1440])
+total_basis_size 88380.0 total_weight_size 5587934.0
+begin_cat 160 end_cat 180
+epoch:0, loss:0.76800, loss_ce:0.76800, loss_mu:0.00000
+epoch:10, loss:0.54118, loss_ce:0.54118, loss_mu:0.00000
+epoch:20, loss:0.34403, loss_ce:0.34403, loss_mu:0.00000
+epoch:30, loss:0.60062, loss_ce:0.60062, loss_mu:0.00000
+epoch:40, loss:0.26430, loss_ce:0.26430, loss_mu:0.00000
+epoch:50, loss:0.44672, loss_ce:0.44672, loss_mu:0.00000
+epoch:60, loss:0.36039, loss_ce:0.36039, loss_mu:0.00000
+epoch:70, loss:0.56867, loss_ce:0.56867, loss_mu:0.00000
+epoch:80, loss:0.39394, loss_ce:0.39394, loss_mu:0.00000
+epoch:90, loss:0.31871, loss_ce:0.31871, loss_mu:0.00000
+train_time: -1933.7099759578705 decompose_time: -307.132958650589 retrain_time: -1196.6389315128326
+train_time 3437.9680004119873 test_time 24.79606342315674
+Acc for task 0 : [0.0, 66.60000000000001, 66.60000000000001, 66.60000000000001, 66.60000000000001, 66.60000000000001, 66.60000000000001, 66.60000000000001, 66.60000000000001, 66.60000000000001]
+Acc for task 1 : [0.0, 53.7, 53.7, 53.7, 53.7, 53.7, 53.7, 53.7, 53.7]
+Acc for task 2 : [0.0, 70.39999999999999, 70.39999999999999, 70.39999999999999, 70.39999999999999, 70.39999999999999, 70.39999999999999, 70.39999999999999]
+Acc for task 3 : [0.0, 72.89999999999999, 72.89999999999999, 72.89999999999999, 72.89999999999999, 72.89999999999999, 72.89999999999999]
+Acc for task 4 : [0.0, 71.2, 71.2, 71.2, 71.2, 71.2]
+Acc for task 5 : [0.0, 70.19999999999999, 70.19999999999999, 70.19999999999999, 70.19999999999999]
+Acc for task 6 : [0.0, 68.5, 68.5, 68.5]
+Acc for task 7 : [0.0, 70.5, 70.5]
+Acc for task 8 : [0.0, 64.4]
+Accuracy for 9 task(s): 	 [Class-IL]: 31.61 % 	 [Task-IL]: 67.6 %
+Download not needed, files already on disk.
+Download not needed, files already on disk.
+begin_cat 180 end_cat 200
+epoch:0, loss:103.35443, loss_ce:1.58744, loss_mu:10.17670
+epoch:10, loss:102.88665, loss_ce:1.16233, loss_mu:10.17243
+epoch:20, loss:102.59249, loss_ce:0.87919, loss_mu:10.17133
+epoch:30, loss:102.67522, loss_ce:0.96631, loss_mu:10.17089
+epoch:40, loss:102.18845, loss_ce:0.48233, loss_mu:10.17061
+epoch:50, loss:102.13917, loss_ce:0.44658, loss_mu:10.16926
+epoch:60, loss:101.90948, loss_ce:0.22030, loss_mu:10.16892
+epoch:70, loss:102.05937, loss_ce:0.37106, loss_mu:10.16883
+epoch:80, loss:102.02625, loss_ce:0.33823, loss_mu:10.16880
+epoch:90, loss:102.02191, loss_ce:0.33432, loss_mu:10.16876
+basis_size: torch.Size([20, 7]) weight_size torch.Size([7, 27])
+basis_size: torch.Size([20, 11]) weight_size torch.Size([11, 180])
+basis_size: torch.Size([20, 11]) weight_size torch.Size([11, 180])
+basis_size: torch.Size([20, 10]) weight_size torch.Size([10, 180])
+basis_size: torch.Size([20, 10]) weight_size torch.Size([10, 180])
+basis_size: torch.Size([40, 19]) weight_size torch.Size([19, 180])
+basis_size: torch.Size([40, 24]) weight_size torch.Size([24, 360])
+basis_size: torch.Size([40, 13]) weight_size torch.Size([13, 20])
+basis_size: torch.Size([40, 24]) weight_size torch.Size([24, 360])
+basis_size: torch.Size([40, 25]) weight_size torch.Size([25, 360])
+basis_size: torch.Size([80, 43]) weight_size torch.Size([43, 360])
+basis_size: torch.Size([80, 42]) weight_size torch.Size([42, 720])
+basis_size: torch.Size([80, 25]) weight_size torch.Size([25, 40])
+basis_size: torch.Size([80, 45]) weight_size torch.Size([45, 720])
+basis_size: torch.Size([80, 41]) weight_size torch.Size([41, 720])
+basis_size: torch.Size([160, 83]) weight_size torch.Size([83, 720])
+basis_size: torch.Size([160, 95]) weight_size torch.Size([95, 1440])
+basis_size: torch.Size([160, 47]) weight_size torch.Size([47, 80])
+basis_size: torch.Size([160, 102]) weight_size torch.Size([102, 1440])
+basis_size: torch.Size([160, 95]) weight_size torch.Size([95, 1440])
+total_basis_size 88380.0 total_weight_size 6218283.0
+begin_cat 180 end_cat 200
+epoch:0, loss:0.45913, loss_ce:0.45913, loss_mu:0.00000
+epoch:10, loss:0.37255, loss_ce:0.37255, loss_mu:0.00000
+epoch:20, loss:0.41142, loss_ce:0.41142, loss_mu:0.00000
+epoch:30, loss:0.26001, loss_ce:0.26001, loss_mu:0.00000
+epoch:40, loss:0.35597, loss_ce:0.35597, loss_mu:0.00000
+epoch:50, loss:0.30160, loss_ce:0.30160, loss_mu:0.00000
+epoch:60, loss:0.53469, loss_ce:0.53469, loss_mu:0.00000
+epoch:70, loss:0.28385, loss_ce:0.28385, loss_mu:0.00000
+epoch:80, loss:0.27299, loss_ce:0.27299, loss_mu:0.00000
+epoch:90, loss:0.38742, loss_ce:0.38742, loss_mu:0.00000
+train_time: -1929.987519979477 decompose_time: -306.5878496170044 retrain_time: -1201.7910838127136
+train_time 3438.85675406456 test_time 30.241130352020264
+Acc for task 0 : [0.0, 66.60000000000001, 66.60000000000001, 66.60000000000001, 66.60000000000001, 66.60000000000001, 66.60000000000001, 66.60000000000001, 66.60000000000001, 66.60000000000001, 66.60000000000001]
+Acc for task 1 : [0.0, 53.7, 53.7, 53.7, 53.7, 53.7, 53.7, 53.7, 53.7, 53.7]
+Acc for task 2 : [0.0, 70.39999999999999, 70.39999999999999, 70.39999999999999, 70.39999999999999, 70.39999999999999, 70.39999999999999, 70.39999999999999, 70.39999999999999]
+Acc for task 3 : [0.0, 72.89999999999999, 72.89999999999999, 72.89999999999999, 72.89999999999999, 72.89999999999999, 72.89999999999999, 72.89999999999999]
+Acc for task 4 : [0.0, 71.2, 71.2, 71.2, 71.2, 71.2, 71.2]
+Acc for task 5 : [0.0, 70.19999999999999, 70.19999999999999, 70.19999999999999, 70.19999999999999, 70.19999999999999]
+Acc for task 6 : [0.0, 68.5, 68.5, 68.5, 68.5]
+Acc for task 7 : [0.0, 70.5, 70.5, 70.5]
+Acc for task 8 : [0.0, 64.4, 64.4]
+Acc for task 9 : [0.0, 72.89999999999999]
+Accuracy for 10 task(s): 	 [Class-IL]: 30.48 % 	 [Task-IL]: 68.13 %
+predict_time -0.1659259796142578
+Accuracy for 1 task(s): 	 [Class-IL]: 66.6 % 	 [Task-IL]: 66.6 %
+Accuracy for 2 task(s): 	 [Class-IL]: 37.65 % 	 [Task-IL]: 60.15 %
+Accuracy for 3 task(s): 	 [Class-IL]: 34.17 % 	 [Task-IL]: 63.57 %
+Accuracy for 4 task(s): 	 [Class-IL]: 36.55 % 	 [Task-IL]: 65.9 %
+Accuracy for 5 task(s): 	 [Class-IL]: 35.82 % 	 [Task-IL]: 66.96 %
+Accuracy for 6 task(s): 	 [Class-IL]: 34.28 % 	 [Task-IL]: 67.5 %
+Accuracy for 7 task(s): 	 [Class-IL]: 33.87 % 	 [Task-IL]: 67.64 %
+Accuracy for 8 task(s): 	 [Class-IL]: 32.9 % 	 [Task-IL]: 68.0 %
+Accuracy for 9 task(s): 	 [Class-IL]: 31.61 % 	 [Task-IL]: 67.6 %
+Accuracy for 10 task(s): 	 [Class-IL]: 30.48 % 	 [Task-IL]: 68.13 %
+forget_taskil: 0.0 forget_classil: 20.89 bwt_taskil: 0.0 bwt_classil: -20.89
+
+=================================================================
+========================== seq-tinyimg : 4 ==========================
+=================================================================
+
+Namespace(root='./data/', transform='default', featureNet=None, nt=None, t_c_arr=None, validation=False, class_shuffle=False, backbone='None', n_epochs=100, learning_rate=None, batch_size=64, print_freq=10, img_dir='img/bmkpv2/', seed=None, model='bmkpv2', device=device(type='cuda'), dataset='seq-tinyimg', retrain_epochs=100, net='resnet18', lr=0.03, threshold=0.98, threshold_first=0.98, nf=20, lambd=10, is_bn_stats=True, is_update_basis=True, is_rotate=False, example_num=500, c_reg_lambd=0)
+Download not needed, files already on disk.
+Download not needed, files already on disk.
+begin_cat 0 end_cat 20
+epoch:0, loss:2.83633, loss_ce:2.83633, loss_mu:0.00000
+epoch:10, loss:1.81218, loss_ce:1.81218, loss_mu:0.00000
+epoch:20, loss:1.96623, loss_ce:1.96623, loss_mu:0.00000
+epoch:30, loss:1.92080, loss_ce:1.92080, loss_mu:0.00000
+epoch:40, loss:0.30730, loss_ce:0.30730, loss_mu:0.00000
+epoch:50, loss:0.02576, loss_ce:0.02576, loss_mu:0.00000
+epoch:60, loss:0.24905, loss_ce:0.24905, loss_mu:0.00000
+epoch:70, loss:0.20388, loss_ce:0.20388, loss_mu:0.00000
+epoch:80, loss:0.36362, loss_ce:0.36362, loss_mu:0.00000
+epoch:90, loss:0.03622, loss_ce:0.03622, loss_mu:0.00000
+basis_size: torch.Size([20, 7]) weight_size torch.Size([7, 27])
+basis_size: torch.Size([20, 12]) weight_size torch.Size([12, 180])
+basis_size: torch.Size([20, 12]) weight_size torch.Size([12, 180])
+basis_size: torch.Size([20, 11]) weight_size torch.Size([11, 180])
+basis_size: torch.Size([20, 11]) weight_size torch.Size([11, 180])
+basis_size: torch.Size([40, 19]) weight_size torch.Size([19, 180])
+basis_size: torch.Size([40, 24]) weight_size torch.Size([24, 360])
+basis_size: torch.Size([40, 12]) weight_size torch.Size([12, 20])
+basis_size: torch.Size([40, 23]) weight_size torch.Size([23, 360])
+basis_size: torch.Size([40, 18]) weight_size torch.Size([18, 360])
+basis_size: torch.Size([80, 29]) weight_size torch.Size([29, 360])
+basis_size: torch.Size([80, 27]) weight_size torch.Size([27, 720])
+basis_size: torch.Size([80, 21]) weight_size torch.Size([21, 40])
+basis_size: torch.Size([80, 43]) weight_size torch.Size([43, 720])
+basis_size: torch.Size([80, 41]) weight_size torch.Size([41, 720])
+basis_size: torch.Size([160, 70]) weight_size torch.Size([70, 720])
+basis_size: torch.Size([160, 74]) weight_size torch.Size([74, 1440])
+basis_size: torch.Size([160, 42]) weight_size torch.Size([42, 80])
+basis_size: torch.Size([160, 89]) weight_size torch.Size([89, 1440])
+basis_size: torch.Size([160, 59]) weight_size torch.Size([59, 1440])
+total_basis_size 71220.0 total_weight_size 500169.0
+begin_cat 0 end_cat 20
+epoch:0, loss:0.18957, loss_ce:0.18957, loss_mu:0.00000
+epoch:10, loss:0.11957, loss_ce:0.11957, loss_mu:0.00000
+epoch:20, loss:0.08543, loss_ce:0.08543, loss_mu:0.00000
+epoch:30, loss:0.64422, loss_ce:0.64422, loss_mu:0.00000
+epoch:40, loss:0.39826, loss_ce:0.39826, loss_mu:0.00000
+epoch:50, loss:0.57309, loss_ce:0.57309, loss_mu:0.00000
+epoch:60, loss:0.40242, loss_ce:0.40242, loss_mu:0.00000
+epoch:70, loss:0.03582, loss_ce:0.03582, loss_mu:0.00000
+epoch:80, loss:0.45171, loss_ce:0.45171, loss_mu:0.00000
+epoch:90, loss:0.17509, loss_ce:0.17509, loss_mu:0.00000
+train_time: -1668.9081230163574 decompose_time: -160.82730269432068 retrain_time: -1147.6900391578674
+train_time 2977.8983907699585 test_time 0.5893573760986328
+Acc for task 0 : [0.0, 65.60000000000001]
+Accuracy for 1 task(s): 	 [Class-IL]: 65.6 % 	 [Task-IL]: 65.6 %
+Download not needed, files already on disk.
+Download not needed, files already on disk.
+begin_cat 20 end_cat 40
+epoch:0, loss:31.11192, loss_ce:2.22534, loss_mu:2.88866
+epoch:10, loss:18.94055, loss_ce:1.74496, loss_mu:1.71956
+epoch:20, loss:17.32970, loss_ce:1.23093, loss_mu:1.60988
+epoch:30, loss:16.64048, loss_ce:1.03145, loss_mu:1.56090
+epoch:40, loss:16.45671, loss_ce:1.14223, loss_mu:1.53145
+epoch:50, loss:15.45799, loss_ce:0.24840, loss_mu:1.52096
+epoch:60, loss:15.31324, loss_ce:0.12778, loss_mu:1.51855
+epoch:70, loss:15.55238, loss_ce:0.38992, loss_mu:1.51625
+epoch:80, loss:15.40376, loss_ce:0.26330, loss_mu:1.51405
+epoch:90, loss:15.51652, loss_ce:0.39532, loss_mu:1.51212
+basis_size: torch.Size([20, 8]) weight_size torch.Size([8, 27])
+basis_size: torch.Size([20, 13]) weight_size torch.Size([13, 180])
+basis_size: torch.Size([20, 13]) weight_size torch.Size([13, 180])
+basis_size: torch.Size([20, 12]) weight_size torch.Size([12, 180])
+basis_size: torch.Size([20, 12]) weight_size torch.Size([12, 180])
+basis_size: torch.Size([40, 20]) weight_size torch.Size([20, 180])
+basis_size: torch.Size([40, 25]) weight_size torch.Size([25, 360])
+basis_size: torch.Size([40, 13]) weight_size torch.Size([13, 20])
+basis_size: torch.Size([40, 24]) weight_size torch.Size([24, 360])
+basis_size: torch.Size([40, 20]) weight_size torch.Size([20, 360])
+basis_size: torch.Size([80, 34]) weight_size torch.Size([34, 360])
+basis_size: torch.Size([80, 33]) weight_size torch.Size([33, 720])
+basis_size: torch.Size([80, 22]) weight_size torch.Size([22, 40])
+basis_size: torch.Size([80, 46]) weight_size torch.Size([46, 720])
+basis_size: torch.Size([80, 45]) weight_size torch.Size([45, 720])
+basis_size: torch.Size([160, 84]) weight_size torch.Size([84, 720])
+basis_size: torch.Size([160, 92]) weight_size torch.Size([92, 1440])
+basis_size: torch.Size([160, 43]) weight_size torch.Size([43, 80])
+basis_size: torch.Size([160, 98]) weight_size torch.Size([98, 1440])
+basis_size: torch.Size([160, 77]) weight_size torch.Size([77, 1440])
+total_basis_size 82680.0 total_weight_size 1088885.0
+begin_cat 20 end_cat 40
+epoch:0, loss:1.29980, loss_ce:1.29980, loss_mu:0.00000
+epoch:10, loss:1.21218, loss_ce:1.21218, loss_mu:0.00000
+epoch:20, loss:1.36777, loss_ce:1.36777, loss_mu:0.00000
+epoch:30, loss:0.88616, loss_ce:0.88616, loss_mu:0.00000
+epoch:40, loss:0.88804, loss_ce:0.88804, loss_mu:0.00000
+epoch:50, loss:1.29098, loss_ce:1.29098, loss_mu:0.00000
+epoch:60, loss:1.61262, loss_ce:1.61262, loss_mu:0.00000
+epoch:70, loss:0.68117, loss_ce:0.68117, loss_mu:0.00000
+epoch:80, loss:0.80196, loss_ce:0.80196, loss_mu:0.00000
+epoch:90, loss:1.13754, loss_ce:1.13754, loss_mu:0.00000
+train_time: -1812.6306898593903 decompose_time: -314.613632440567 retrain_time: -1134.9714365005493
+train_time 3262.6634311676025 test_time 1.8862152099609375
+Acc for task 0 : [0.0, 65.60000000000001, 65.60000000000001]
+Acc for task 1 : [0.0, 53.800000000000004]
+Accuracy for 2 task(s): 	 [Class-IL]: 38.1 % 	 [Task-IL]: 59.7 %
+Download not needed, files already on disk.
+Download not needed, files already on disk.
+begin_cat 40 end_cat 60
+epoch:0, loss:103.93988, loss_ce:1.54019, loss_mu:10.23997
+epoch:10, loss:102.67363, loss_ce:0.92076, loss_mu:10.17529
+epoch:20, loss:102.56934, loss_ce:0.82904, loss_mu:10.17403
+epoch:30, loss:102.47755, loss_ce:0.74156, loss_mu:10.17360
+epoch:40, loss:102.21500, loss_ce:0.48388, loss_mu:10.17311
+epoch:50, loss:102.17651, loss_ce:0.46791, loss_mu:10.17086
+epoch:60, loss:102.08263, loss_ce:0.38006, loss_mu:10.17026
+epoch:70, loss:101.95050, loss_ce:0.24915, loss_mu:10.17014
+epoch:80, loss:102.03955, loss_ce:0.33895, loss_mu:10.17006
+epoch:90, loss:102.10941, loss_ce:0.40900, loss_mu:10.17004
+basis_size: torch.Size([20, 8]) weight_size torch.Size([8, 27])
+basis_size: torch.Size([20, 13]) weight_size torch.Size([13, 180])
+basis_size: torch.Size([20, 13]) weight_size torch.Size([13, 180])
+basis_size: torch.Size([20, 12]) weight_size torch.Size([12, 180])
+basis_size: torch.Size([20, 12]) weight_size torch.Size([12, 180])
+basis_size: torch.Size([40, 20]) weight_size torch.Size([20, 180])
+basis_size: torch.Size([40, 25]) weight_size torch.Size([25, 360])
+basis_size: torch.Size([40, 13]) weight_size torch.Size([13, 20])
+basis_size: torch.Size([40, 24]) weight_size torch.Size([24, 360])
+basis_size: torch.Size([40, 20]) weight_size torch.Size([20, 360])
+basis_size: torch.Size([80, 34]) weight_size torch.Size([34, 360])
+basis_size: torch.Size([80, 33]) weight_size torch.Size([33, 720])
+basis_size: torch.Size([80, 22]) weight_size torch.Size([22, 40])
+basis_size: torch.Size([80, 46]) weight_size torch.Size([46, 720])
+basis_size: torch.Size([80, 45]) weight_size torch.Size([45, 720])
+basis_size: torch.Size([160, 84]) weight_size torch.Size([84, 720])
+basis_size: torch.Size([160, 92]) weight_size torch.Size([92, 1440])
+basis_size: torch.Size([160, 43]) weight_size torch.Size([43, 80])
+basis_size: torch.Size([160, 98]) weight_size torch.Size([98, 1440])
+basis_size: torch.Size([160, 80]) weight_size torch.Size([80, 1440])
+total_basis_size 83160.0 total_weight_size 1681921.0
+begin_cat 40 end_cat 60
+epoch:0, loss:0.34289, loss_ce:0.34289, loss_mu:0.00000
+epoch:10, loss:0.32072, loss_ce:0.32072, loss_mu:0.00000
+epoch:20, loss:0.45815, loss_ce:0.45815, loss_mu:0.00000
+epoch:30, loss:0.46403, loss_ce:0.46403, loss_mu:0.00000
+epoch:40, loss:0.36420, loss_ce:0.36420, loss_mu:0.00000
+epoch:50, loss:0.52988, loss_ce:0.52988, loss_mu:0.00000
+epoch:60, loss:0.51545, loss_ce:0.51545, loss_mu:0.00000
+epoch:70, loss:0.29616, loss_ce:0.29616, loss_mu:0.00000
+epoch:80, loss:0.63408, loss_ce:0.63408, loss_mu:0.00000
+epoch:90, loss:0.40244, loss_ce:0.40244, loss_mu:0.00000
+train_time: -1806.3016040325165 decompose_time: -319.54367327690125 retrain_time: -1135.3737115859985
+train_time 3261.668564081192 test_time 3.59883189201355
+Acc for task 0 : [0.0, 65.60000000000001, 65.60000000000001, 65.60000000000001]
+Acc for task 1 : [0.0, 53.800000000000004, 53.800000000000004]
+Acc for task 2 : [0.0, 69.69999999999999]
+Accuracy for 3 task(s): 	 [Class-IL]: 35.2 % 	 [Task-IL]: 63.03 %
+Download not needed, files already on disk.
+Download not needed, files already on disk.
+begin_cat 60 end_cat 80
+epoch:0, loss:103.32794, loss_ce:1.36298, loss_mu:10.19650
+epoch:10, loss:103.24057, loss_ce:1.31177, loss_mu:10.19288
+epoch:20, loss:102.77125, loss_ce:0.85356, loss_mu:10.19177
+epoch:30, loss:103.31291, loss_ce:1.39998, loss_mu:10.19129
+epoch:40, loss:102.62020, loss_ce:0.71050, loss_mu:10.19097
+epoch:50, loss:102.52226, loss_ce:0.63193, loss_mu:10.18903
+epoch:60, loss:102.25680, loss_ce:0.37181, loss_mu:10.18850
+epoch:70, loss:102.47538, loss_ce:0.59183, loss_mu:10.18835
+epoch:80, loss:102.46069, loss_ce:0.57782, loss_mu:10.18829
+epoch:90, loss:102.07980, loss_ce:0.19736, loss_mu:10.18824
+basis_size: torch.Size([20, 8]) weight_size torch.Size([8, 27])
+basis_size: torch.Size([20, 13]) weight_size torch.Size([13, 180])
+basis_size: torch.Size([20, 13]) weight_size torch.Size([13, 180])
+basis_size: torch.Size([20, 12]) weight_size torch.Size([12, 180])
+basis_size: torch.Size([20, 12]) weight_size torch.Size([12, 180])
+basis_size: torch.Size([40, 20]) weight_size torch.Size([20, 180])
+basis_size: torch.Size([40, 25]) weight_size torch.Size([25, 360])
+basis_size: torch.Size([40, 13]) weight_size torch.Size([13, 20])
+basis_size: torch.Size([40, 24]) weight_size torch.Size([24, 360])
+basis_size: torch.Size([40, 20]) weight_size torch.Size([20, 360])
+basis_size: torch.Size([80, 34]) weight_size torch.Size([34, 360])
+basis_size: torch.Size([80, 33]) weight_size torch.Size([33, 720])
+basis_size: torch.Size([80, 22]) weight_size torch.Size([22, 40])
+basis_size: torch.Size([80, 46]) weight_size torch.Size([46, 720])
+basis_size: torch.Size([80, 45]) weight_size torch.Size([45, 720])
+basis_size: torch.Size([160, 84]) weight_size torch.Size([84, 720])
+basis_size: torch.Size([160, 92]) weight_size torch.Size([92, 1440])
+basis_size: torch.Size([160, 43]) weight_size torch.Size([43, 80])
+basis_size: torch.Size([160, 98]) weight_size torch.Size([98, 1440])
+basis_size: torch.Size([160, 83]) weight_size torch.Size([83, 1440])
+total_basis_size 83640.0 total_weight_size 2279277.0
+begin_cat 60 end_cat 80
+epoch:0, loss:0.48688, loss_ce:0.48688, loss_mu:0.00000
+epoch:10, loss:0.46999, loss_ce:0.46999, loss_mu:0.00000
+epoch:20, loss:0.55118, loss_ce:0.55118, loss_mu:0.00000
+epoch:30, loss:0.65974, loss_ce:0.65974, loss_mu:0.00000
+epoch:40, loss:0.60383, loss_ce:0.60383, loss_mu:0.00000
+epoch:50, loss:0.75078, loss_ce:0.75078, loss_mu:0.00000
+epoch:60, loss:0.30513, loss_ce:0.30513, loss_mu:0.00000
+epoch:70, loss:0.64474, loss_ce:0.64474, loss_mu:0.00000
+epoch:80, loss:0.39907, loss_ce:0.39907, loss_mu:0.00000
+epoch:90, loss:0.26362, loss_ce:0.26362, loss_mu:0.00000
+train_time: -1861.4860076904297 decompose_time: -303.7330458164215 retrain_time: -1174.3952376842499
+train_time 3340.0650103092194 test_time 5.884260892868042
+Acc for task 0 : [0.0, 65.60000000000001, 65.60000000000001, 65.60000000000001, 65.60000000000001]
+Acc for task 1 : [0.0, 53.800000000000004, 53.800000000000004, 53.800000000000004]
+Acc for task 2 : [0.0, 69.69999999999999, 69.69999999999999]
+Acc for task 3 : [0.0, 72.6]
+Accuracy for 4 task(s): 	 [Class-IL]: 36.25 % 	 [Task-IL]: 65.42 %
+Download not needed, files already on disk.
+Download not needed, files already on disk.
+begin_cat 80 end_cat 100
+epoch:0, loss:103.57785, loss_ce:1.42506, loss_mu:10.21528
+epoch:10, loss:103.27866, loss_ce:1.16507, loss_mu:10.21136
+epoch:20, loss:102.78607, loss_ce:0.68455, loss_mu:10.21015
+epoch:30, loss:103.10325, loss_ce:1.00642, loss_mu:10.20968
+epoch:40, loss:102.33546, loss_ce:0.24310, loss_mu:10.20924
+epoch:50, loss:102.26306, loss_ce:0.18792, loss_mu:10.20751
+epoch:60, loss:102.53213, loss_ce:0.46201, loss_mu:10.20701
+epoch:70, loss:102.40138, loss_ce:0.33267, loss_mu:10.20687
+epoch:80, loss:102.42300, loss_ce:0.35491, loss_mu:10.20681
+epoch:90, loss:102.33461, loss_ce:0.26701, loss_mu:10.20676
+basis_size: torch.Size([20, 8]) weight_size torch.Size([8, 27])
+basis_size: torch.Size([20, 13]) weight_size torch.Size([13, 180])
+basis_size: torch.Size([20, 13]) weight_size torch.Size([13, 180])
+basis_size: torch.Size([20, 12]) weight_size torch.Size([12, 180])
+basis_size: torch.Size([20, 12]) weight_size torch.Size([12, 180])
+basis_size: torch.Size([40, 20]) weight_size torch.Size([20, 180])
+basis_size: torch.Size([40, 25]) weight_size torch.Size([25, 360])
+basis_size: torch.Size([40, 13]) weight_size torch.Size([13, 20])
+basis_size: torch.Size([40, 24]) weight_size torch.Size([24, 360])
+basis_size: torch.Size([40, 20]) weight_size torch.Size([20, 360])
+basis_size: torch.Size([80, 34]) weight_size torch.Size([34, 360])
+basis_size: torch.Size([80, 33]) weight_size torch.Size([33, 720])
+basis_size: torch.Size([80, 22]) weight_size torch.Size([22, 40])
+basis_size: torch.Size([80, 46]) weight_size torch.Size([46, 720])
+basis_size: torch.Size([80, 45]) weight_size torch.Size([45, 720])
+basis_size: torch.Size([160, 84]) weight_size torch.Size([84, 720])
+basis_size: torch.Size([160, 92]) weight_size torch.Size([92, 1440])
+basis_size: torch.Size([160, 43]) weight_size torch.Size([43, 80])
+basis_size: torch.Size([160, 98]) weight_size torch.Size([98, 1440])
+basis_size: torch.Size([160, 85]) weight_size torch.Size([85, 1440])
+total_basis_size 83960.0 total_weight_size 2879513.0
+begin_cat 80 end_cat 100
+epoch:0, loss:0.43404, loss_ce:0.43404, loss_mu:0.00000
+epoch:10, loss:0.42455, loss_ce:0.42455, loss_mu:0.00000
+epoch:20, loss:0.40189, loss_ce:0.40189, loss_mu:0.00000
+epoch:30, loss:0.47877, loss_ce:0.47877, loss_mu:0.00000
+epoch:40, loss:0.64497, loss_ce:0.64497, loss_mu:0.00000
+epoch:50, loss:0.35985, loss_ce:0.35985, loss_mu:0.00000
+epoch:60, loss:0.30628, loss_ce:0.30628, loss_mu:0.00000
+epoch:70, loss:0.18668, loss_ce:0.18668, loss_mu:0.00000
+epoch:80, loss:0.26698, loss_ce:0.26698, loss_mu:0.00000
+epoch:90, loss:0.19899, loss_ce:0.19899, loss_mu:0.00000
+train_time: -1904.1935503482819 decompose_time: -309.0017001628876 retrain_time: -1177.7615113258362
+train_time 3391.435908317566 test_time 8.51372480392456
+Acc for task 0 : [0.0, 65.60000000000001, 65.60000000000001, 65.60000000000001, 65.60000000000001, 65.60000000000001]
+Acc for task 1 : [0.0, 53.800000000000004, 53.800000000000004, 53.800000000000004, 53.800000000000004]
+Acc for task 2 : [0.0, 69.69999999999999, 69.69999999999999, 69.69999999999999]
+Acc for task 3 : [0.0, 72.6, 72.6]
+Acc for task 4 : [0.0, 70.19999999999999]
+Accuracy for 5 task(s): 	 [Class-IL]: 35.56 % 	 [Task-IL]: 66.38 %
+Download not needed, files already on disk.
+Download not needed, files already on disk.
+begin_cat 100 end_cat 120
+epoch:0, loss:103.71256, loss_ce:1.44034, loss_mu:10.22722
+epoch:10, loss:103.38017, loss_ce:1.14116, loss_mu:10.22390
+epoch:20, loss:103.34238, loss_ce:1.11326, loss_mu:10.22291
+epoch:30, loss:102.92384, loss_ce:0.69948, loss_mu:10.22244
+epoch:40, loss:102.95359, loss_ce:0.73203, loss_mu:10.22216
+epoch:50, loss:102.62355, loss_ce:0.42075, loss_mu:10.22028
+epoch:60, loss:102.84399, loss_ce:0.64626, loss_mu:10.21977
+epoch:70, loss:102.47411, loss_ce:0.27790, loss_mu:10.21962
+epoch:80, loss:102.53963, loss_ce:0.34397, loss_mu:10.21957
+epoch:90, loss:102.51456, loss_ce:0.31923, loss_mu:10.21953
+basis_size: torch.Size([20, 8]) weight_size torch.Size([8, 27])
+basis_size: torch.Size([20, 13]) weight_size torch.Size([13, 180])
+basis_size: torch.Size([20, 13]) weight_size torch.Size([13, 180])
+basis_size: torch.Size([20, 12]) weight_size torch.Size([12, 180])
+basis_size: torch.Size([20, 12]) weight_size torch.Size([12, 180])
+basis_size: torch.Size([40, 20]) weight_size torch.Size([20, 180])
+basis_size: torch.Size([40, 25]) weight_size torch.Size([25, 360])
+basis_size: torch.Size([40, 13]) weight_size torch.Size([13, 20])
+basis_size: torch.Size([40, 24]) weight_size torch.Size([24, 360])
+basis_size: torch.Size([40, 20]) weight_size torch.Size([20, 360])
+basis_size: torch.Size([80, 34]) weight_size torch.Size([34, 360])
+basis_size: torch.Size([80, 33]) weight_size torch.Size([33, 720])
+basis_size: torch.Size([80, 22]) weight_size torch.Size([22, 40])
+basis_size: torch.Size([80, 46]) weight_size torch.Size([46, 720])
+basis_size: torch.Size([80, 45]) weight_size torch.Size([45, 720])
+basis_size: torch.Size([160, 84]) weight_size torch.Size([84, 720])
+basis_size: torch.Size([160, 92]) weight_size torch.Size([92, 1440])
+basis_size: torch.Size([160, 43]) weight_size torch.Size([43, 80])
+basis_size: torch.Size([160, 98]) weight_size torch.Size([98, 1440])
+basis_size: torch.Size([160, 87]) weight_size torch.Size([87, 1440])
+total_basis_size 84280.0 total_weight_size 3482629.0
+begin_cat 100 end_cat 120
+epoch:0, loss:0.50771, loss_ce:0.50771, loss_mu:0.00000
+epoch:10, loss:0.35196, loss_ce:0.35196, loss_mu:0.00000
+epoch:20, loss:0.70431, loss_ce:0.70431, loss_mu:0.00000
+epoch:30, loss:0.50660, loss_ce:0.50660, loss_mu:0.00000
+epoch:40, loss:0.30324, loss_ce:0.30324, loss_mu:0.00000
+epoch:50, loss:0.26881, loss_ce:0.26881, loss_mu:0.00000
+epoch:60, loss:0.46761, loss_ce:0.46761, loss_mu:0.00000
+epoch:70, loss:0.40601, loss_ce:0.40601, loss_mu:0.00000
+epoch:80, loss:0.39348, loss_ce:0.39348, loss_mu:0.00000
+epoch:90, loss:0.60412, loss_ce:0.60412, loss_mu:0.00000
+train_time: -1893.6199831962585 decompose_time: -304.2038016319275 retrain_time: -1180.844390153885
+train_time 3379.1419019699097 test_time 11.777650356292725
+Acc for task 0 : [0.0, 65.60000000000001, 65.60000000000001, 65.60000000000001, 65.60000000000001, 65.60000000000001, 65.60000000000001]
+Acc for task 1 : [0.0, 53.800000000000004, 53.800000000000004, 53.800000000000004, 53.800000000000004, 53.800000000000004]
+Acc for task 2 : [0.0, 69.69999999999999, 69.69999999999999, 69.69999999999999, 69.69999999999999]
+Acc for task 3 : [0.0, 72.6, 72.6, 72.6]
+Acc for task 4 : [0.0, 70.19999999999999, 70.19999999999999]
+Acc for task 5 : [0.0, 70.19999999999999]
+Accuracy for 6 task(s): 	 [Class-IL]: 33.85 % 	 [Task-IL]: 67.02 %
+Download not needed, files already on disk.
+Download not needed, files already on disk.
+begin_cat 120 end_cat 140
+epoch:0, loss:103.97237, loss_ce:1.58026, loss_mu:10.23921
+epoch:10, loss:103.30182, loss_ce:0.94620, loss_mu:10.23556
+epoch:20, loss:103.17972, loss_ce:0.83373, loss_mu:10.23460
+epoch:30, loss:102.67657, loss_ce:0.33587, loss_mu:10.23407
+epoch:40, loss:103.05701, loss_ce:0.71913, loss_mu:10.23379
+epoch:50, loss:102.74313, loss_ce:0.42215, loss_mu:10.23210
+epoch:60, loss:102.49670, loss_ce:0.18034, loss_mu:10.23164
+epoch:70, loss:102.68999, loss_ce:0.37469, loss_mu:10.23153
+epoch:80, loss:102.56718, loss_ce:0.25234, loss_mu:10.23148
+epoch:90, loss:102.60764, loss_ce:0.29325, loss_mu:10.23144
+basis_size: torch.Size([20, 8]) weight_size torch.Size([8, 27])
+basis_size: torch.Size([20, 13]) weight_size torch.Size([13, 180])
+basis_size: torch.Size([20, 13]) weight_size torch.Size([13, 180])
+basis_size: torch.Size([20, 12]) weight_size torch.Size([12, 180])
+basis_size: torch.Size([20, 12]) weight_size torch.Size([12, 180])
+basis_size: torch.Size([40, 20]) weight_size torch.Size([20, 180])
+basis_size: torch.Size([40, 25]) weight_size torch.Size([25, 360])
+basis_size: torch.Size([40, 13]) weight_size torch.Size([13, 20])
+basis_size: torch.Size([40, 24]) weight_size torch.Size([24, 360])
+basis_size: torch.Size([40, 20]) weight_size torch.Size([20, 360])
+basis_size: torch.Size([80, 34]) weight_size torch.Size([34, 360])
+basis_size: torch.Size([80, 33]) weight_size torch.Size([33, 720])
+basis_size: torch.Size([80, 22]) weight_size torch.Size([22, 40])
+basis_size: torch.Size([80, 46]) weight_size torch.Size([46, 720])
+basis_size: torch.Size([80, 45]) weight_size torch.Size([45, 720])
+basis_size: torch.Size([160, 84]) weight_size torch.Size([84, 720])
+basis_size: torch.Size([160, 92]) weight_size torch.Size([92, 1440])
+basis_size: torch.Size([160, 43]) weight_size torch.Size([43, 80])
+basis_size: torch.Size([160, 98]) weight_size torch.Size([98, 1440])
+basis_size: torch.Size([160, 88]) weight_size torch.Size([88, 1440])
+total_basis_size 84440.0 total_weight_size 4087185.0
+begin_cat 120 end_cat 140
+epoch:0, loss:0.34027, loss_ce:0.34027, loss_mu:0.00000
+epoch:10, loss:0.58027, loss_ce:0.58027, loss_mu:0.00000
+epoch:20, loss:0.53400, loss_ce:0.53400, loss_mu:0.00000
+epoch:30, loss:0.44581, loss_ce:0.44581, loss_mu:0.00000
+epoch:40, loss:0.36467, loss_ce:0.36467, loss_mu:0.00000
+epoch:50, loss:0.52155, loss_ce:0.52155, loss_mu:0.00000
+epoch:60, loss:0.50481, loss_ce:0.50481, loss_mu:0.00000
+epoch:70, loss:0.38592, loss_ce:0.38592, loss_mu:0.00000
+epoch:80, loss:0.38873, loss_ce:0.38873, loss_mu:0.00000
+epoch:90, loss:0.20228, loss_ce:0.20228, loss_mu:0.00000
+train_time: -1907.1071102619171 decompose_time: -307.035475730896 retrain_time: -1176.1811792850494
+train_time 3390.7925605773926 test_time 15.511542081832886
+Acc for task 0 : [0.0, 65.60000000000001, 65.60000000000001, 65.60000000000001, 65.60000000000001, 65.60000000000001, 65.60000000000001, 65.60000000000001]
+Acc for task 1 : [0.0, 53.800000000000004, 53.800000000000004, 53.800000000000004, 53.800000000000004, 53.800000000000004, 53.800000000000004]
+Acc for task 2 : [0.0, 69.69999999999999, 69.69999999999999, 69.69999999999999, 69.69999999999999, 69.69999999999999]
+Acc for task 3 : [0.0, 72.6, 72.6, 72.6, 72.6]
+Acc for task 4 : [0.0, 70.19999999999999, 70.19999999999999, 70.3]
+Acc for task 5 : [0.0, 70.19999999999999, 70.19999999999999]
+Acc for task 6 : [0.0, 70.8]
+Accuracy for 7 task(s): 	 [Class-IL]: 33.61 % 	 [Task-IL]: 67.57 %
+Download not needed, files already on disk.
+Download not needed, files already on disk.
+begin_cat 140 end_cat 160
+epoch:0, loss:104.43059, loss_ce:1.97301, loss_mu:10.24576
+epoch:10, loss:103.68423, loss_ce:1.26449, loss_mu:10.24197
+epoch:20, loss:102.96530, loss_ce:0.55496, loss_mu:10.24103
+epoch:30, loss:103.54182, loss_ce:1.13579, loss_mu:10.24060
+epoch:40, loss:103.15975, loss_ce:0.75824, loss_mu:10.24015
+epoch:50, loss:102.82220, loss_ce:0.43708, loss_mu:10.23851
+epoch:60, loss:102.96472, loss_ce:0.58451, loss_mu:10.23802
+epoch:70, loss:103.11551, loss_ce:0.73636, loss_mu:10.23791
+epoch:80, loss:102.80080, loss_ce:0.42233, loss_mu:10.23785
+epoch:90, loss:102.69561, loss_ce:0.31757, loss_mu:10.23780
+basis_size: torch.Size([20, 8]) weight_size torch.Size([8, 27])
+basis_size: torch.Size([20, 13]) weight_size torch.Size([13, 180])
+basis_size: torch.Size([20, 13]) weight_size torch.Size([13, 180])
+basis_size: torch.Size([20, 12]) weight_size torch.Size([12, 180])
+basis_size: torch.Size([20, 12]) weight_size torch.Size([12, 180])
+basis_size: torch.Size([40, 20]) weight_size torch.Size([20, 180])
+basis_size: torch.Size([40, 25]) weight_size torch.Size([25, 360])
+basis_size: torch.Size([40, 13]) weight_size torch.Size([13, 20])
+basis_size: torch.Size([40, 24]) weight_size torch.Size([24, 360])
+basis_size: torch.Size([40, 20]) weight_size torch.Size([20, 360])
+basis_size: torch.Size([80, 34]) weight_size torch.Size([34, 360])
+basis_size: torch.Size([80, 33]) weight_size torch.Size([33, 720])
+basis_size: torch.Size([80, 22]) weight_size torch.Size([22, 40])
+basis_size: torch.Size([80, 46]) weight_size torch.Size([46, 720])
+basis_size: torch.Size([80, 45]) weight_size torch.Size([45, 720])
+basis_size: torch.Size([160, 84]) weight_size torch.Size([84, 720])
+basis_size: torch.Size([160, 92]) weight_size torch.Size([92, 1440])
+basis_size: torch.Size([160, 43]) weight_size torch.Size([43, 80])
+basis_size: torch.Size([160, 98]) weight_size torch.Size([98, 1440])
+basis_size: torch.Size([160, 90]) weight_size torch.Size([90, 1440])
+total_basis_size 84760.0 total_weight_size 4694621.0
+begin_cat 140 end_cat 160
+epoch:0, loss:0.37168, loss_ce:0.37168, loss_mu:0.00000
+epoch:10, loss:0.46312, loss_ce:0.46312, loss_mu:0.00000
+epoch:20, loss:0.52646, loss_ce:0.52646, loss_mu:0.00000
+epoch:30, loss:0.27307, loss_ce:0.27307, loss_mu:0.00000
+epoch:40, loss:0.37274, loss_ce:0.37274, loss_mu:0.00000
+epoch:50, loss:0.47243, loss_ce:0.47243, loss_mu:0.00000
+epoch:60, loss:0.42081, loss_ce:0.42081, loss_mu:0.00000
+epoch:70, loss:0.51396, loss_ce:0.51396, loss_mu:0.00000
+epoch:80, loss:0.15796, loss_ce:0.15796, loss_mu:0.00000
+epoch:90, loss:0.41944, loss_ce:0.41944, loss_mu:0.00000
+train_time: -1892.5909588336945 decompose_time: -307.87025785446167 retrain_time: -1171.7924251556396
+train_time 3372.7076909542084 test_time 19.781919956207275
+Acc for task 0 : [0.0, 65.60000000000001, 65.60000000000001, 65.60000000000001, 65.60000000000001, 65.60000000000001, 65.60000000000001, 65.60000000000001, 65.60000000000001]
+Acc for task 1 : [0.0, 53.800000000000004, 53.800000000000004, 53.800000000000004, 53.800000000000004, 53.800000000000004, 53.800000000000004, 53.800000000000004]
+Acc for task 2 : [0.0, 69.69999999999999, 69.69999999999999, 69.69999999999999, 69.69999999999999, 69.69999999999999, 69.69999999999999]
+Acc for task 3 : [0.0, 72.6, 72.6, 72.6, 72.6, 72.6]
+Acc for task 4 : [0.0, 70.19999999999999, 70.19999999999999, 70.3, 70.19999999999999]
+Acc for task 5 : [0.0, 70.19999999999999, 70.19999999999999, 70.19999999999999]
+Acc for task 6 : [0.0, 70.8, 70.8]
+Acc for task 7 : [0.0, 70.8]
+Accuracy for 8 task(s): 	 [Class-IL]: 32.75 % 	 [Task-IL]: 67.96 %
+Download not needed, files already on disk.
+Download not needed, files already on disk.
+begin_cat 160 end_cat 180
+epoch:0, loss:104.32955, loss_ce:1.75777, loss_mu:10.25718
+epoch:10, loss:103.60439, loss_ce:1.05842, loss_mu:10.25460
+epoch:20, loss:103.72903, loss_ce:1.19217, loss_mu:10.25369
+epoch:30, loss:103.26129, loss_ce:0.72822, loss_mu:10.25331
+epoch:40, loss:102.91359, loss_ce:0.38248, loss_mu:10.25311
+epoch:50, loss:103.15404, loss_ce:0.64072, loss_mu:10.25133
+epoch:60, loss:102.79569, loss_ce:0.28675, loss_mu:10.25089
+epoch:70, loss:102.76011, loss_ce:0.25231, loss_mu:10.25078
+epoch:80, loss:103.09599, loss_ce:0.58874, loss_mu:10.25072
+epoch:90, loss:102.95280, loss_ce:0.44584, loss_mu:10.25070
+basis_size: torch.Size([20, 8]) weight_size torch.Size([8, 27])
+basis_size: torch.Size([20, 13]) weight_size torch.Size([13, 180])
+basis_size: torch.Size([20, 13]) weight_size torch.Size([13, 180])
+basis_size: torch.Size([20, 12]) weight_size torch.Size([12, 180])
+basis_size: torch.Size([20, 12]) weight_size torch.Size([12, 180])
+basis_size: torch.Size([40, 20]) weight_size torch.Size([20, 180])
+basis_size: torch.Size([40, 25]) weight_size torch.Size([25, 360])
+basis_size: torch.Size([40, 13]) weight_size torch.Size([13, 20])
+basis_size: torch.Size([40, 24]) weight_size torch.Size([24, 360])
+basis_size: torch.Size([40, 20]) weight_size torch.Size([20, 360])
+basis_size: torch.Size([80, 34]) weight_size torch.Size([34, 360])
+basis_size: torch.Size([80, 33]) weight_size torch.Size([33, 720])
+basis_size: torch.Size([80, 22]) weight_size torch.Size([22, 40])
+basis_size: torch.Size([80, 46]) weight_size torch.Size([46, 720])
+basis_size: torch.Size([80, 45]) weight_size torch.Size([45, 720])
+basis_size: torch.Size([160, 84]) weight_size torch.Size([84, 720])
+basis_size: torch.Size([160, 92]) weight_size torch.Size([92, 1440])
+basis_size: torch.Size([160, 43]) weight_size torch.Size([43, 80])
+basis_size: torch.Size([160, 98]) weight_size torch.Size([98, 1440])
+basis_size: torch.Size([160, 92]) weight_size torch.Size([92, 1440])
+total_basis_size 85080.0 total_weight_size 5304937.0
+begin_cat 160 end_cat 180
+epoch:0, loss:0.52021, loss_ce:0.52021, loss_mu:0.00000
+epoch:10, loss:0.42378, loss_ce:0.42378, loss_mu:0.00000
+epoch:20, loss:0.54837, loss_ce:0.54837, loss_mu:0.00000
+epoch:30, loss:0.38785, loss_ce:0.38785, loss_mu:0.00000
+epoch:40, loss:0.47220, loss_ce:0.47220, loss_mu:0.00000
+epoch:50, loss:0.78838, loss_ce:0.78838, loss_mu:0.00000
+epoch:60, loss:0.67383, loss_ce:0.67383, loss_mu:0.00000
+epoch:70, loss:0.52825, loss_ce:0.52825, loss_mu:0.00000
+epoch:80, loss:0.40467, loss_ce:0.40467, loss_mu:0.00000
+epoch:90, loss:0.66234, loss_ce:0.66234, loss_mu:0.00000
+train_time: -1892.5904467105865 decompose_time: -304.2891175746918 retrain_time: -1173.166451215744
+train_time 3370.501960992813 test_time 24.430769681930542
+Acc for task 0 : [0.0, 65.60000000000001, 65.60000000000001, 65.60000000000001, 65.60000000000001, 65.60000000000001, 65.60000000000001, 65.60000000000001, 65.60000000000001, 65.60000000000001]
+Acc for task 1 : [0.0, 53.800000000000004, 53.800000000000004, 53.800000000000004, 53.800000000000004, 53.800000000000004, 53.800000000000004, 53.800000000000004, 53.800000000000004]
+Acc for task 2 : [0.0, 69.69999999999999, 69.69999999999999, 69.69999999999999, 69.69999999999999, 69.69999999999999, 69.69999999999999, 69.69999999999999]
+Acc for task 3 : [0.0, 72.6, 72.6, 72.6, 72.6, 72.6, 72.6]
+Acc for task 4 : [0.0, 70.19999999999999, 70.19999999999999, 70.3, 70.19999999999999, 70.3]
+Acc for task 5 : [0.0, 70.19999999999999, 70.19999999999999, 70.19999999999999, 70.19999999999999]
+Acc for task 6 : [0.0, 70.8, 70.8, 70.8]
+Acc for task 7 : [0.0, 70.8, 70.8]
+Acc for task 8 : [0.0, 65.7]
+Accuracy for 9 task(s): 	 [Class-IL]: 31.79 % 	 [Task-IL]: 67.72 %
+Download not needed, files already on disk.
+Download not needed, files already on disk.
+begin_cat 180 end_cat 200
+epoch:0, loss:104.26341, loss_ce:1.55852, loss_mu:10.27049
+epoch:10, loss:103.53403, loss_ce:0.87013, loss_mu:10.26639
+epoch:20, loss:103.17320, loss_ce:0.52104, loss_mu:10.26522
+epoch:30, loss:103.41959, loss_ce:0.77160, loss_mu:10.26480
+epoch:40, loss:103.10370, loss_ce:0.45874, loss_mu:10.26450
+epoch:50, loss:102.89500, loss_ce:0.26514, loss_mu:10.26299
+epoch:60, loss:103.07140, loss_ce:0.44535, loss_mu:10.26261
+epoch:70, loss:102.91755, loss_ce:0.29239, loss_mu:10.26252
+epoch:80, loss:102.82342, loss_ce:0.19865, loss_mu:10.26248
+epoch:90, loss:102.85979, loss_ce:0.23530, loss_mu:10.26245
+basis_size: torch.Size([20, 8]) weight_size torch.Size([8, 27])
+basis_size: torch.Size([20, 13]) weight_size torch.Size([13, 180])
+basis_size: torch.Size([20, 13]) weight_size torch.Size([13, 180])
+basis_size: torch.Size([20, 12]) weight_size torch.Size([12, 180])
+basis_size: torch.Size([20, 12]) weight_size torch.Size([12, 180])
+basis_size: torch.Size([40, 20]) weight_size torch.Size([20, 180])
+basis_size: torch.Size([40, 25]) weight_size torch.Size([25, 360])
+basis_size: torch.Size([40, 13]) weight_size torch.Size([13, 20])
+basis_size: torch.Size([40, 24]) weight_size torch.Size([24, 360])
+basis_size: torch.Size([40, 20]) weight_size torch.Size([20, 360])
+basis_size: torch.Size([80, 34]) weight_size torch.Size([34, 360])
+basis_size: torch.Size([80, 33]) weight_size torch.Size([33, 720])
+basis_size: torch.Size([80, 22]) weight_size torch.Size([22, 40])
+basis_size: torch.Size([80, 46]) weight_size torch.Size([46, 720])
+basis_size: torch.Size([80, 45]) weight_size torch.Size([45, 720])
+basis_size: torch.Size([160, 84]) weight_size torch.Size([84, 720])
+basis_size: torch.Size([160, 92]) weight_size torch.Size([92, 1440])
+basis_size: torch.Size([160, 43]) weight_size torch.Size([43, 80])
+basis_size: torch.Size([160, 98]) weight_size torch.Size([98, 1440])
+basis_size: torch.Size([160, 93]) weight_size torch.Size([93, 1440])
+total_basis_size 85240.0 total_weight_size 5916693.0
+begin_cat 180 end_cat 200
+epoch:0, loss:0.34756, loss_ce:0.34756, loss_mu:0.00000
+epoch:10, loss:0.34145, loss_ce:0.34145, loss_mu:0.00000
+epoch:20, loss:0.22247, loss_ce:0.22247, loss_mu:0.00000
+epoch:30, loss:0.65634, loss_ce:0.65634, loss_mu:0.00000
+epoch:40, loss:0.35889, loss_ce:0.35889, loss_mu:0.00000
+epoch:50, loss:0.21815, loss_ce:0.21815, loss_mu:0.00000
+epoch:60, loss:0.23586, loss_ce:0.23586, loss_mu:0.00000
+epoch:70, loss:0.28798, loss_ce:0.28798, loss_mu:0.00000
+epoch:80, loss:0.28522, loss_ce:0.28522, loss_mu:0.00000
+epoch:90, loss:0.39244, loss_ce:0.39244, loss_mu:0.00000
+train_time: -1890.948748588562 decompose_time: -308.8148560523987 retrain_time: -1181.8764345645905
+train_time 3382.0904071331024 test_time 29.786783695220947
+Acc for task 0 : [0.0, 65.60000000000001, 65.60000000000001, 65.60000000000001, 65.60000000000001, 65.60000000000001, 65.60000000000001, 65.60000000000001, 65.60000000000001, 65.60000000000001, 65.60000000000001]
+Acc for task 1 : [0.0, 53.800000000000004, 53.800000000000004, 53.800000000000004, 53.800000000000004, 53.800000000000004, 53.800000000000004, 53.800000000000004, 53.800000000000004, 53.800000000000004]
+Acc for task 2 : [0.0, 69.69999999999999, 69.69999999999999, 69.69999999999999, 69.69999999999999, 69.69999999999999, 69.69999999999999, 69.69999999999999, 69.69999999999999]
+Acc for task 3 : [0.0, 72.6, 72.6, 72.6, 72.6, 72.6, 72.6, 72.6]
+Acc for task 4 : [0.0, 70.19999999999999, 70.19999999999999, 70.3, 70.19999999999999, 70.3, 70.19999999999999]
+Acc for task 5 : [0.0, 70.19999999999999, 70.19999999999999, 70.19999999999999, 70.19999999999999, 70.19999999999999]
+Acc for task 6 : [0.0, 70.8, 70.8, 70.8, 70.8]
+Acc for task 7 : [0.0, 70.8, 70.8, 70.8]
+Acc for task 8 : [0.0, 65.7, 65.7]
+Acc for task 9 : [0.0, 71.5]
+Accuracy for 10 task(s): 	 [Class-IL]: 30.96 % 	 [Task-IL]: 68.09 %
+predict_time -0.16428351402282715
+Accuracy for 1 task(s): 	 [Class-IL]: 65.6 % 	 [Task-IL]: 65.6 %
+Accuracy for 2 task(s): 	 [Class-IL]: 38.1 % 	 [Task-IL]: 59.7 %
+Accuracy for 3 task(s): 	 [Class-IL]: 35.2 % 	 [Task-IL]: 63.03 %
+Accuracy for 4 task(s): 	 [Class-IL]: 36.25 % 	 [Task-IL]: 65.42 %
+Accuracy for 5 task(s): 	 [Class-IL]: 35.56 % 	 [Task-IL]: 66.38 %
+Accuracy for 6 task(s): 	 [Class-IL]: 33.85 % 	 [Task-IL]: 67.02 %
+Accuracy for 7 task(s): 	 [Class-IL]: 33.61 % 	 [Task-IL]: 67.57 %
+Accuracy for 8 task(s): 	 [Class-IL]: 32.75 % 	 [Task-IL]: 67.96 %
+Accuracy for 9 task(s): 	 [Class-IL]: 31.79 % 	 [Task-IL]: 67.72 %
+Accuracy for 10 task(s): 	 [Class-IL]: 30.96 % 	 [Task-IL]: 68.09 %
+forget_taskil: 0.01 forget_classil: 20.37 bwt_taskil: 0.0 bwt_classil: -20.37
+
+=================================================================
+========================== seq-tinyimg : 5 ==========================
+=================================================================
+
+Namespace(root='./data/', transform='default', featureNet=None, nt=None, t_c_arr=None, validation=False, class_shuffle=False, backbone='None', n_epochs=100, learning_rate=None, batch_size=64, print_freq=10, img_dir='img/bmkpv2/', seed=None, model='bmkpv2', device=device(type='cuda'), dataset='seq-tinyimg', retrain_epochs=100, net='resnet18', lr=0.03, threshold=0.98, threshold_first=0.98, nf=20, lambd=10, is_bn_stats=True, is_update_basis=True, is_rotate=False, example_num=500, c_reg_lambd=0)
+Download not needed, files already on disk.
+Download not needed, files already on disk.
+begin_cat 0 end_cat 20
+epoch:0, loss:2.76310, loss_ce:2.76310, loss_mu:0.00000
+epoch:10, loss:1.39564, loss_ce:1.39564, loss_mu:0.00000
+epoch:20, loss:0.78758, loss_ce:0.78758, loss_mu:0.00000
+epoch:30, loss:0.42432, loss_ce:0.42432, loss_mu:0.00000
+epoch:40, loss:0.43177, loss_ce:0.43177, loss_mu:0.00000
+epoch:50, loss:0.49524, loss_ce:0.49524, loss_mu:0.00000
+epoch:60, loss:0.00032, loss_ce:0.00032, loss_mu:0.00000
+epoch:70, loss:0.22176, loss_ce:0.22176, loss_mu:0.00000
+epoch:80, loss:0.41982, loss_ce:0.41982, loss_mu:0.00000
+epoch:90, loss:0.01757, loss_ce:0.01757, loss_mu:0.00000
+basis_size: torch.Size([20, 7]) weight_size torch.Size([7, 27])
+basis_size: torch.Size([20, 11]) weight_size torch.Size([11, 180])
+basis_size: torch.Size([20, 13]) weight_size torch.Size([13, 180])
+basis_size: torch.Size([20, 13]) weight_size torch.Size([13, 180])
+basis_size: torch.Size([20, 11]) weight_size torch.Size([11, 180])
+basis_size: torch.Size([40, 18]) weight_size torch.Size([18, 180])
+basis_size: torch.Size([40, 17]) weight_size torch.Size([17, 360])
+basis_size: torch.Size([40, 12]) weight_size torch.Size([12, 20])
+basis_size: torch.Size([40, 19]) weight_size torch.Size([19, 360])
+basis_size: torch.Size([40, 17]) weight_size torch.Size([17, 360])
+basis_size: torch.Size([80, 31]) weight_size torch.Size([31, 360])
+basis_size: torch.Size([80, 36]) weight_size torch.Size([36, 720])
+basis_size: torch.Size([80, 21]) weight_size torch.Size([21, 40])
+basis_size: torch.Size([80, 43]) weight_size torch.Size([43, 720])
+basis_size: torch.Size([80, 38]) weight_size torch.Size([38, 720])
+basis_size: torch.Size([160, 70]) weight_size torch.Size([70, 720])
+basis_size: torch.Size([160, 80]) weight_size torch.Size([80, 1440])
+basis_size: torch.Size([160, 45]) weight_size torch.Size([45, 80])
+basis_size: torch.Size([160, 96]) weight_size torch.Size([96, 1440])
+basis_size: torch.Size([160, 78]) weight_size torch.Size([78, 1440])
+total_basis_size 76980.0 total_weight_size 547389.0
+begin_cat 0 end_cat 20
+epoch:0, loss:1.45632, loss_ce:1.45632, loss_mu:0.00000
+epoch:10, loss:0.29260, loss_ce:0.29260, loss_mu:0.00000
+epoch:20, loss:0.01331, loss_ce:0.01331, loss_mu:0.00000
+epoch:30, loss:0.20039, loss_ce:0.20039, loss_mu:0.00000
+epoch:40, loss:0.00189, loss_ce:0.00189, loss_mu:0.00000
+epoch:50, loss:0.23927, loss_ce:0.23927, loss_mu:0.00000
+epoch:60, loss:0.00449, loss_ce:0.00449, loss_mu:0.00000
+epoch:70, loss:0.42527, loss_ce:0.42527, loss_mu:0.00000
+epoch:80, loss:0.20477, loss_ce:0.20477, loss_mu:0.00000
+epoch:90, loss:0.54320, loss_ce:0.54320, loss_mu:0.00000
+train_time: -1692.7666618824005 decompose_time: -157.55660581588745 retrain_time: -1207.4773857593536
+train_time 3058.2493724823 test_time 0.600255012512207
+Acc for task 0 : [0.0, 68.4]
+Accuracy for 1 task(s): 	 [Class-IL]: 68.4 % 	 [Task-IL]: 68.4 %
+Download not needed, files already on disk.
+Download not needed, files already on disk.
+begin_cat 20 end_cat 40
+epoch:0, loss:37.56937, loss_ce:2.26285, loss_mu:3.53065
+epoch:10, loss:23.78167, loss_ce:1.40645, loss_mu:2.23752
+epoch:20, loss:22.00952, loss_ce:1.07820, loss_mu:2.09313
+epoch:30, loss:21.11464, loss_ce:0.81212, loss_mu:2.03025
+epoch:40, loss:20.80443, loss_ce:0.86383, loss_mu:1.99406
+epoch:50, loss:20.45174, loss_ce:0.63791, loss_mu:1.98138
+epoch:60, loss:20.23766, loss_ce:0.45259, loss_mu:1.97851
+epoch:70, loss:20.26579, loss_ce:0.50763, loss_mu:1.97582
+epoch:80, loss:20.46263, loss_ce:0.73000, loss_mu:1.97326
+epoch:90, loss:19.87510, loss_ce:0.16463, loss_mu:1.97105
+basis_size: torch.Size([20, 9]) weight_size torch.Size([9, 27])
+basis_size: torch.Size([20, 12]) weight_size torch.Size([12, 180])
+basis_size: torch.Size([20, 14]) weight_size torch.Size([14, 180])
+basis_size: torch.Size([20, 14]) weight_size torch.Size([14, 180])
+basis_size: torch.Size([20, 12]) weight_size torch.Size([12, 180])
+basis_size: torch.Size([40, 19]) weight_size torch.Size([19, 180])
+basis_size: torch.Size([40, 18]) weight_size torch.Size([18, 360])
+basis_size: torch.Size([40, 13]) weight_size torch.Size([13, 20])
+basis_size: torch.Size([40, 20]) weight_size torch.Size([20, 360])
+basis_size: torch.Size([40, 19]) weight_size torch.Size([19, 360])
+basis_size: torch.Size([80, 35]) weight_size torch.Size([35, 360])
+basis_size: torch.Size([80, 39]) weight_size torch.Size([39, 720])
+basis_size: torch.Size([80, 23]) weight_size torch.Size([23, 40])
+basis_size: torch.Size([80, 45]) weight_size torch.Size([45, 720])
+basis_size: torch.Size([80, 41]) weight_size torch.Size([41, 720])
+basis_size: torch.Size([160, 84]) weight_size torch.Size([84, 720])
+basis_size: torch.Size([160, 94]) weight_size torch.Size([94, 1440])
+basis_size: torch.Size([160, 48]) weight_size torch.Size([48, 80])
+basis_size: torch.Size([160, 101]) weight_size torch.Size([101, 1440])
+basis_size: torch.Size([160, 87]) weight_size torch.Size([87, 1440])
+total_basis_size 85660.0 total_weight_size 1155112.0
+begin_cat 20 end_cat 40
+epoch:0, loss:0.52785, loss_ce:0.52785, loss_mu:0.00000
+epoch:10, loss:1.56427, loss_ce:1.56427, loss_mu:0.00000
+epoch:20, loss:0.69615, loss_ce:0.69615, loss_mu:0.00000
+epoch:30, loss:0.67812, loss_ce:0.67812, loss_mu:0.00000
+epoch:40, loss:0.54457, loss_ce:0.54457, loss_mu:0.00000
+epoch:50, loss:0.41973, loss_ce:0.41973, loss_mu:0.00000
+epoch:60, loss:0.99460, loss_ce:0.99460, loss_mu:0.00000
+epoch:70, loss:0.82398, loss_ce:0.82398, loss_mu:0.00000
+epoch:80, loss:0.84061, loss_ce:0.84061, loss_mu:0.00000
+epoch:90, loss:0.90796, loss_ce:0.90796, loss_mu:0.00000
+train_time: -1910.2500083446503 decompose_time: -314.51353907585144 retrain_time: -1177.7942695617676
+train_time 3403.0259675979614 test_time 1.8820459842681885
+Acc for task 0 : [0.0, 68.4, 68.4]
+Acc for task 1 : [0.0, 57.3]
+Accuracy for 2 task(s): 	 [Class-IL]: 38.05 % 	 [Task-IL]: 62.85 %
+Download not needed, files already on disk.
+Download not needed, files already on disk.
+begin_cat 40 end_cat 60
+epoch:0, loss:103.69865, loss_ce:1.57346, loss_mu:10.21252
+epoch:10, loss:103.06727, loss_ce:1.43067, loss_mu:10.16366
+epoch:20, loss:102.42481, loss_ce:0.79846, loss_mu:10.16263
+epoch:30, loss:102.47486, loss_ce:0.85300, loss_mu:10.16219
+epoch:40, loss:102.22134, loss_ce:0.60299, loss_mu:10.16184
+epoch:50, loss:102.13619, loss_ce:0.53916, loss_mu:10.15970
+epoch:60, loss:102.22827, loss_ce:0.63640, loss_mu:10.15919
+epoch:70, loss:101.96426, loss_ce:0.37351, loss_mu:10.15908
+epoch:80, loss:102.01943, loss_ce:0.42905, loss_mu:10.15904
+epoch:90, loss:102.09646, loss_ce:0.50653, loss_mu:10.15899
+basis_size: torch.Size([20, 9]) weight_size torch.Size([9, 27])
+basis_size: torch.Size([20, 12]) weight_size torch.Size([12, 180])
+basis_size: torch.Size([20, 14]) weight_size torch.Size([14, 180])
+basis_size: torch.Size([20, 14]) weight_size torch.Size([14, 180])
+basis_size: torch.Size([20, 12]) weight_size torch.Size([12, 180])
+basis_size: torch.Size([40, 19]) weight_size torch.Size([19, 180])
+basis_size: torch.Size([40, 18]) weight_size torch.Size([18, 360])
+basis_size: torch.Size([40, 13]) weight_size torch.Size([13, 20])
+basis_size: torch.Size([40, 20]) weight_size torch.Size([20, 360])
+basis_size: torch.Size([40, 19]) weight_size torch.Size([19, 360])
+basis_size: torch.Size([80, 35]) weight_size torch.Size([35, 360])
+basis_size: torch.Size([80, 39]) weight_size torch.Size([39, 720])
+basis_size: torch.Size([80, 23]) weight_size torch.Size([23, 40])
+basis_size: torch.Size([80, 45]) weight_size torch.Size([45, 720])
+basis_size: torch.Size([80, 41]) weight_size torch.Size([41, 720])
+basis_size: torch.Size([160, 84]) weight_size torch.Size([84, 720])
+basis_size: torch.Size([160, 94]) weight_size torch.Size([94, 1440])
+basis_size: torch.Size([160, 48]) weight_size torch.Size([48, 80])
+basis_size: torch.Size([160, 101]) weight_size torch.Size([101, 1440])
+basis_size: torch.Size([160, 90]) weight_size torch.Size([90, 1440])
+total_basis_size 86140.0 total_weight_size 1767155.0
+begin_cat 40 end_cat 60
+epoch:0, loss:0.22267, loss_ce:0.22267, loss_mu:0.00000
+epoch:10, loss:0.44513, loss_ce:0.44513, loss_mu:0.00000
+epoch:20, loss:0.31740, loss_ce:0.31740, loss_mu:0.00000
+epoch:30, loss:0.67382, loss_ce:0.67382, loss_mu:0.00000
+epoch:40, loss:0.66985, loss_ce:0.66985, loss_mu:0.00000
+epoch:50, loss:0.53247, loss_ce:0.53247, loss_mu:0.00000
+epoch:60, loss:0.35958, loss_ce:0.35958, loss_mu:0.00000
+epoch:70, loss:0.31441, loss_ce:0.31441, loss_mu:0.00000
+epoch:80, loss:0.42484, loss_ce:0.42484, loss_mu:0.00000
+epoch:90, loss:0.30822, loss_ce:0.30822, loss_mu:0.00000
+train_time: -1906.0722346305847 decompose_time: -308.72768330574036 retrain_time: -1183.7972452640533
+train_time 3399.0720868110657 test_time 3.5415353775024414
+Acc for task 0 : [0.0, 68.4, 68.4, 68.4]
+Acc for task 1 : [0.0, 57.3, 57.3]
+Acc for task 2 : [0.0, 69.19999999999999]
+Accuracy for 3 task(s): 	 [Class-IL]: 38.23 % 	 [Task-IL]: 64.97 %
+Download not needed, files already on disk.
+Download not needed, files already on disk.
+begin_cat 60 end_cat 80
+epoch:0, loss:103.37859, loss_ce:1.52777, loss_mu:10.18508
+epoch:10, loss:102.68274, loss_ce:0.87097, loss_mu:10.18118
+epoch:20, loss:102.37447, loss_ce:0.57237, loss_mu:10.18021
+epoch:30, loss:102.35282, loss_ce:0.55373, loss_mu:10.17991
+epoch:40, loss:102.01196, loss_ce:0.21647, loss_mu:10.17955
+epoch:50, loss:102.08596, loss_ce:0.30886, loss_mu:10.17771
+epoch:60, loss:102.29942, loss_ce:0.52726, loss_mu:10.17722
+epoch:70, loss:102.14170, loss_ce:0.37080, loss_mu:10.17709
+epoch:80, loss:102.15627, loss_ce:0.38610, loss_mu:10.17702
+epoch:90, loss:102.07999, loss_ce:0.31025, loss_mu:10.17697
+basis_size: torch.Size([20, 9]) weight_size torch.Size([9, 27])
+basis_size: torch.Size([20, 12]) weight_size torch.Size([12, 180])
+basis_size: torch.Size([20, 14]) weight_size torch.Size([14, 180])
+basis_size: torch.Size([20, 14]) weight_size torch.Size([14, 180])
+basis_size: torch.Size([20, 12]) weight_size torch.Size([12, 180])
+basis_size: torch.Size([40, 19]) weight_size torch.Size([19, 180])
+basis_size: torch.Size([40, 18]) weight_size torch.Size([18, 360])
+basis_size: torch.Size([40, 13]) weight_size torch.Size([13, 20])
+basis_size: torch.Size([40, 20]) weight_size torch.Size([20, 360])
+basis_size: torch.Size([40, 19]) weight_size torch.Size([19, 360])
+basis_size: torch.Size([80, 35]) weight_size torch.Size([35, 360])
+basis_size: torch.Size([80, 39]) weight_size torch.Size([39, 720])
+basis_size: torch.Size([80, 23]) weight_size torch.Size([23, 40])
+basis_size: torch.Size([80, 45]) weight_size torch.Size([45, 720])
+basis_size: torch.Size([80, 41]) weight_size torch.Size([41, 720])
+basis_size: torch.Size([160, 84]) weight_size torch.Size([84, 720])
+basis_size: torch.Size([160, 94]) weight_size torch.Size([94, 1440])
+basis_size: torch.Size([160, 48]) weight_size torch.Size([48, 80])
+basis_size: torch.Size([160, 101]) weight_size torch.Size([101, 1440])
+basis_size: torch.Size([160, 92]) weight_size torch.Size([92, 1440])
+total_basis_size 86460.0 total_weight_size 2382078.0
+begin_cat 60 end_cat 80
+epoch:0, loss:0.35718, loss_ce:0.35718, loss_mu:0.00000
+epoch:10, loss:0.37052, loss_ce:0.37052, loss_mu:0.00000
+epoch:20, loss:0.34625, loss_ce:0.34625, loss_mu:0.00000
+epoch:30, loss:0.48099, loss_ce:0.48099, loss_mu:0.00000
+epoch:40, loss:0.27617, loss_ce:0.27617, loss_mu:0.00000
+epoch:50, loss:0.31063, loss_ce:0.31063, loss_mu:0.00000
+epoch:60, loss:0.33993, loss_ce:0.33993, loss_mu:0.00000
+epoch:70, loss:0.36609, loss_ce:0.36609, loss_mu:0.00000
+epoch:80, loss:0.28496, loss_ce:0.28496, loss_mu:0.00000
+epoch:90, loss:0.21076, loss_ce:0.21076, loss_mu:0.00000
+train_time: -1909.1400356292725 decompose_time: -306.6137466430664 retrain_time: -1179.3961939811707
+train_time 3395.6351861953735 test_time 5.7262279987335205
+Acc for task 0 : [0.0, 68.4, 68.4, 68.4, 68.4]
+Acc for task 1 : [0.0, 57.3, 57.3, 57.3]
+Acc for task 2 : [0.0, 69.19999999999999, 69.19999999999999]
+Acc for task 3 : [0.0, 71.89999999999999]
+Accuracy for 4 task(s): 	 [Class-IL]: 39.12 % 	 [Task-IL]: 66.7 %
+Download not needed, files already on disk.
+Download not needed, files already on disk.
+begin_cat 80 end_cat 100
+epoch:0, loss:103.38025, loss_ce:1.40916, loss_mu:10.19711
+epoch:10, loss:102.27299, loss_ce:0.33705, loss_mu:10.19359
+epoch:20, loss:102.74712, loss_ce:0.82069, loss_mu:10.19264
+epoch:30, loss:102.57458, loss_ce:0.65252, loss_mu:10.19221
+epoch:40, loss:102.41386, loss_ce:0.49694, loss_mu:10.19169
+epoch:50, loss:102.11884, loss_ce:0.21812, loss_mu:10.19007
+epoch:60, loss:102.46962, loss_ce:0.57283, loss_mu:10.18968
+epoch:70, loss:102.31838, loss_ce:0.42279, loss_mu:10.18956
+epoch:80, loss:102.16736, loss_ce:0.27231, loss_mu:10.18950
+epoch:90, loss:102.04010, loss_ce:0.14548, loss_mu:10.18946
+basis_size: torch.Size([20, 9]) weight_size torch.Size([9, 27])
+basis_size: torch.Size([20, 12]) weight_size torch.Size([12, 180])
+basis_size: torch.Size([20, 14]) weight_size torch.Size([14, 180])
+basis_size: torch.Size([20, 14]) weight_size torch.Size([14, 180])
+basis_size: torch.Size([20, 12]) weight_size torch.Size([12, 180])
+basis_size: torch.Size([40, 19]) weight_size torch.Size([19, 180])
+basis_size: torch.Size([40, 18]) weight_size torch.Size([18, 360])
+basis_size: torch.Size([40, 13]) weight_size torch.Size([13, 20])
+basis_size: torch.Size([40, 20]) weight_size torch.Size([20, 360])
+basis_size: torch.Size([40, 19]) weight_size torch.Size([19, 360])
+basis_size: torch.Size([80, 35]) weight_size torch.Size([35, 360])
+basis_size: torch.Size([80, 39]) weight_size torch.Size([39, 720])
+basis_size: torch.Size([80, 23]) weight_size torch.Size([23, 40])
+basis_size: torch.Size([80, 45]) weight_size torch.Size([45, 720])
+basis_size: torch.Size([80, 41]) weight_size torch.Size([41, 720])
+basis_size: torch.Size([160, 84]) weight_size torch.Size([84, 720])
+basis_size: torch.Size([160, 94]) weight_size torch.Size([94, 1440])
+basis_size: torch.Size([160, 48]) weight_size torch.Size([48, 80])
+basis_size: torch.Size([160, 101]) weight_size torch.Size([101, 1440])
+basis_size: torch.Size([160, 94]) weight_size torch.Size([94, 1440])
+total_basis_size 86780.0 total_weight_size 2999881.0
+begin_cat 80 end_cat 100
+epoch:0, loss:0.28623, loss_ce:0.28623, loss_mu:0.00000
+epoch:10, loss:0.16634, loss_ce:0.16634, loss_mu:0.00000
+epoch:20, loss:0.33088, loss_ce:0.33088, loss_mu:0.00000
+epoch:30, loss:0.45052, loss_ce:0.45052, loss_mu:0.00000
+epoch:40, loss:0.37228, loss_ce:0.37228, loss_mu:0.00000
+epoch:50, loss:0.37051, loss_ce:0.37051, loss_mu:0.00000
+epoch:60, loss:0.24433, loss_ce:0.24433, loss_mu:0.00000
+epoch:70, loss:0.31462, loss_ce:0.31462, loss_mu:0.00000
+epoch:80, loss:0.43799, loss_ce:0.43799, loss_mu:0.00000
+epoch:90, loss:0.22049, loss_ce:0.22049, loss_mu:0.00000
+train_time: -1909.6335887908936 decompose_time: -311.12668228149414 retrain_time: -1188.1067793369293
+train_time 3409.328946352005 test_time 8.423857688903809
+Acc for task 0 : [0.0, 68.4, 68.4, 68.4, 68.4, 68.4]
+Acc for task 1 : [0.0, 57.3, 57.3, 57.3, 57.3]
+Acc for task 2 : [0.0, 69.19999999999999, 69.19999999999999, 69.19999999999999]
+Acc for task 3 : [0.0, 71.89999999999999, 71.89999999999999]
+Acc for task 4 : [0.0, 71.0]
+Accuracy for 5 task(s): 	 [Class-IL]: 37.86 % 	 [Task-IL]: 67.56 %
+Download not needed, files already on disk.
+Download not needed, files already on disk.
+begin_cat 100 end_cat 120
+epoch:0, loss:103.23221, loss_ce:1.13704, loss_mu:10.20952
+epoch:10, loss:103.19048, loss_ce:1.12754, loss_mu:10.20629
+epoch:20, loss:102.61121, loss_ce:0.55794, loss_mu:10.20533
+epoch:30, loss:103.27464, loss_ce:1.22455, loss_mu:10.20501
+epoch:40, loss:102.65116, loss_ce:0.60541, loss_mu:10.20458
+epoch:50, loss:102.25632, loss_ce:0.22780, loss_mu:10.20285
+epoch:60, loss:102.30711, loss_ce:0.28320, loss_mu:10.20239
+epoch:70, loss:102.55943, loss_ce:0.53667, loss_mu:10.20228
+epoch:80, loss:102.23414, loss_ce:0.21195, loss_mu:10.20222
+epoch:90, loss:102.77400, loss_ce:0.75233, loss_mu:10.20217
+basis_size: torch.Size([20, 9]) weight_size torch.Size([9, 27])
+basis_size: torch.Size([20, 12]) weight_size torch.Size([12, 180])
+basis_size: torch.Size([20, 14]) weight_size torch.Size([14, 180])
+basis_size: torch.Size([20, 14]) weight_size torch.Size([14, 180])
+basis_size: torch.Size([20, 12]) weight_size torch.Size([12, 180])
+basis_size: torch.Size([40, 19]) weight_size torch.Size([19, 180])
+basis_size: torch.Size([40, 18]) weight_size torch.Size([18, 360])
+basis_size: torch.Size([40, 13]) weight_size torch.Size([13, 20])
+basis_size: torch.Size([40, 20]) weight_size torch.Size([20, 360])
+basis_size: torch.Size([40, 19]) weight_size torch.Size([19, 360])
+basis_size: torch.Size([80, 35]) weight_size torch.Size([35, 360])
+basis_size: torch.Size([80, 39]) weight_size torch.Size([39, 720])
+basis_size: torch.Size([80, 23]) weight_size torch.Size([23, 40])
+basis_size: torch.Size([80, 45]) weight_size torch.Size([45, 720])
+basis_size: torch.Size([80, 41]) weight_size torch.Size([41, 720])
+basis_size: torch.Size([160, 84]) weight_size torch.Size([84, 720])
+basis_size: torch.Size([160, 94]) weight_size torch.Size([94, 1440])
+basis_size: torch.Size([160, 48]) weight_size torch.Size([48, 80])
+basis_size: torch.Size([160, 101]) weight_size torch.Size([101, 1440])
+basis_size: torch.Size([160, 96]) weight_size torch.Size([96, 1440])
+total_basis_size 87100.0 total_weight_size 3620564.0
+begin_cat 100 end_cat 120
+epoch:0, loss:0.35657, loss_ce:0.35657, loss_mu:0.00000
+epoch:10, loss:0.49579, loss_ce:0.49579, loss_mu:0.00000
+epoch:20, loss:0.66619, loss_ce:0.66619, loss_mu:0.00000
+epoch:30, loss:0.98251, loss_ce:0.98251, loss_mu:0.00000
+epoch:40, loss:0.62217, loss_ce:0.62217, loss_mu:0.00000
+epoch:50, loss:0.17858, loss_ce:0.17858, loss_mu:0.00000
+epoch:60, loss:0.41753, loss_ce:0.41753, loss_mu:0.00000
+epoch:70, loss:0.38412, loss_ce:0.38412, loss_mu:0.00000
+epoch:80, loss:0.39571, loss_ce:0.39571, loss_mu:0.00000
+epoch:90, loss:0.33480, loss_ce:0.33480, loss_mu:0.00000
+train_time: -1899.0729858875275 decompose_time: -311.851984500885 retrain_time: -1174.9070613384247
+train_time 3386.307049512863 test_time 11.513115167617798
+Acc for task 0 : [0.0, 68.4, 68.4, 68.4, 68.4, 68.4, 68.4]
+Acc for task 1 : [0.0, 57.3, 57.3, 57.3, 57.3, 57.3]
+Acc for task 2 : [0.0, 69.19999999999999, 69.19999999999999, 69.19999999999999, 69.19999999999999]
+Acc for task 3 : [0.0, 71.89999999999999, 71.89999999999999, 71.89999999999999]
+Acc for task 4 : [0.0, 71.0, 71.0]
+Acc for task 5 : [0.0, 70.7]
+Accuracy for 6 task(s): 	 [Class-IL]: 35.7 % 	 [Task-IL]: 68.08 %
+Download not needed, files already on disk.
+Download not needed, files already on disk.
+begin_cat 120 end_cat 140
+epoch:0, loss:104.28445, loss_ce:2.06514, loss_mu:10.22193
+epoch:10, loss:102.96022, loss_ce:0.77759, loss_mu:10.21826
+epoch:20, loss:102.96394, loss_ce:0.78949, loss_mu:10.21745
+epoch:30, loss:102.73686, loss_ce:0.56613, loss_mu:10.21707
+epoch:40, loss:102.64503, loss_ce:0.47990, loss_mu:10.21651
+epoch:50, loss:102.40441, loss_ce:0.25502, loss_mu:10.21494
+epoch:60, loss:102.50734, loss_ce:0.36224, loss_mu:10.21451
+epoch:70, loss:102.32269, loss_ce:0.17868, loss_mu:10.21440
+epoch:80, loss:102.58990, loss_ce:0.44656, loss_mu:10.21433
+epoch:90, loss:102.28799, loss_ce:0.14506, loss_mu:10.21429
+basis_size: torch.Size([20, 9]) weight_size torch.Size([9, 27])
+basis_size: torch.Size([20, 12]) weight_size torch.Size([12, 180])
+basis_size: torch.Size([20, 14]) weight_size torch.Size([14, 180])
+basis_size: torch.Size([20, 14]) weight_size torch.Size([14, 180])
+basis_size: torch.Size([20, 12]) weight_size torch.Size([12, 180])
+basis_size: torch.Size([40, 19]) weight_size torch.Size([19, 180])
+basis_size: torch.Size([40, 18]) weight_size torch.Size([18, 360])
+basis_size: torch.Size([40, 13]) weight_size torch.Size([13, 20])
+basis_size: torch.Size([40, 20]) weight_size torch.Size([20, 360])
+basis_size: torch.Size([40, 19]) weight_size torch.Size([19, 360])
+basis_size: torch.Size([80, 35]) weight_size torch.Size([35, 360])
+basis_size: torch.Size([80, 39]) weight_size torch.Size([39, 720])
+basis_size: torch.Size([80, 23]) weight_size torch.Size([23, 40])
+basis_size: torch.Size([80, 45]) weight_size torch.Size([45, 720])
+basis_size: torch.Size([80, 41]) weight_size torch.Size([41, 720])
+basis_size: torch.Size([160, 84]) weight_size torch.Size([84, 720])
+basis_size: torch.Size([160, 94]) weight_size torch.Size([94, 1440])
+basis_size: torch.Size([160, 48]) weight_size torch.Size([48, 80])
+basis_size: torch.Size([160, 101]) weight_size torch.Size([101, 1440])
+basis_size: torch.Size([160, 97]) weight_size torch.Size([97, 1440])
+total_basis_size 87260.0 total_weight_size 4242687.0
+begin_cat 120 end_cat 140
+epoch:0, loss:0.16822, loss_ce:0.16822, loss_mu:0.00000
+epoch:10, loss:0.28274, loss_ce:0.28274, loss_mu:0.00000
+epoch:20, loss:0.42637, loss_ce:0.42637, loss_mu:0.00000
+epoch:30, loss:0.45559, loss_ce:0.45559, loss_mu:0.00000
+epoch:40, loss:0.26591, loss_ce:0.26591, loss_mu:0.00000
+epoch:50, loss:0.52233, loss_ce:0.52233, loss_mu:0.00000
+epoch:60, loss:0.32351, loss_ce:0.32351, loss_mu:0.00000
+epoch:70, loss:0.55141, loss_ce:0.55141, loss_mu:0.00000
+epoch:80, loss:0.25929, loss_ce:0.25929, loss_mu:0.00000
+epoch:90, loss:0.18844, loss_ce:0.18844, loss_mu:0.00000
+train_time: -1895.8452768325806 decompose_time: -317.64457988739014 retrain_time: -1184.0236594676971
+train_time 3397.988553762436 test_time 15.240828037261963
+Acc for task 0 : [0.0, 68.4, 68.4, 68.4, 68.4, 68.4, 68.4, 68.4]
+Acc for task 1 : [0.0, 57.3, 57.3, 57.3, 57.3, 57.3, 57.3]
+Acc for task 2 : [0.0, 69.19999999999999, 69.19999999999999, 69.19999999999999, 69.19999999999999, 69.19999999999999]
+Acc for task 3 : [0.0, 71.89999999999999, 71.89999999999999, 71.89999999999999, 71.89999999999999]
+Acc for task 4 : [0.0, 71.0, 71.0, 71.0]
+Acc for task 5 : [0.0, 70.7, 70.7]
+Acc for task 6 : [0.0, 71.6]
+Accuracy for 7 task(s): 	 [Class-IL]: 34.76 % 	 [Task-IL]: 68.59 %
+Download not needed, files already on disk.
+Download not needed, files already on disk.
+begin_cat 140 end_cat 160
+epoch:0, loss:103.77036, loss_ce:1.49497, loss_mu:10.22754
+epoch:10, loss:102.97696, loss_ce:0.73261, loss_mu:10.22444
+epoch:20, loss:102.92767, loss_ce:0.69161, loss_mu:10.22361
+epoch:30, loss:102.75357, loss_ce:0.52151, loss_mu:10.22321
+epoch:40, loss:102.92239, loss_ce:0.69315, loss_mu:10.22292
+epoch:50, loss:102.56689, loss_ce:0.35379, loss_mu:10.22131
+epoch:60, loss:102.45752, loss_ce:0.24851, loss_mu:10.22090
+epoch:70, loss:102.59685, loss_ce:0.38876, loss_mu:10.22081
+epoch:80, loss:102.88773, loss_ce:0.68029, loss_mu:10.22075
+epoch:90, loss:102.47130, loss_ce:0.26430, loss_mu:10.22070
+basis_size: torch.Size([20, 9]) weight_size torch.Size([9, 27])
+basis_size: torch.Size([20, 12]) weight_size torch.Size([12, 180])
+basis_size: torch.Size([20, 14]) weight_size torch.Size([14, 180])
+basis_size: torch.Size([20, 14]) weight_size torch.Size([14, 180])
+basis_size: torch.Size([20, 12]) weight_size torch.Size([12, 180])
+basis_size: torch.Size([40, 19]) weight_size torch.Size([19, 180])
+basis_size: torch.Size([40, 18]) weight_size torch.Size([18, 360])
+basis_size: torch.Size([40, 13]) weight_size torch.Size([13, 20])
+basis_size: torch.Size([40, 20]) weight_size torch.Size([20, 360])
+basis_size: torch.Size([40, 19]) weight_size torch.Size([19, 360])
+basis_size: torch.Size([80, 35]) weight_size torch.Size([35, 360])
+basis_size: torch.Size([80, 39]) weight_size torch.Size([39, 720])
+basis_size: torch.Size([80, 23]) weight_size torch.Size([23, 40])
+basis_size: torch.Size([80, 45]) weight_size torch.Size([45, 720])
+basis_size: torch.Size([80, 41]) weight_size torch.Size([41, 720])
+basis_size: torch.Size([160, 84]) weight_size torch.Size([84, 720])
+basis_size: torch.Size([160, 94]) weight_size torch.Size([94, 1440])
+basis_size: torch.Size([160, 48]) weight_size torch.Size([48, 80])
+basis_size: torch.Size([160, 101]) weight_size torch.Size([101, 1440])
+basis_size: torch.Size([160, 98]) weight_size torch.Size([98, 1440])
+total_basis_size 87420.0 total_weight_size 4866250.0
+begin_cat 140 end_cat 160
+epoch:0, loss:0.31575, loss_ce:0.31575, loss_mu:0.00000
+epoch:10, loss:0.27053, loss_ce:0.27053, loss_mu:0.00000
+epoch:20, loss:0.54837, loss_ce:0.54837, loss_mu:0.00000
+epoch:30, loss:0.51145, loss_ce:0.51145, loss_mu:0.00000
+epoch:40, loss:0.27009, loss_ce:0.27009, loss_mu:0.00000
+epoch:50, loss:0.33776, loss_ce:0.33776, loss_mu:0.00000
+epoch:60, loss:0.42690, loss_ce:0.42690, loss_mu:0.00000
+epoch:70, loss:0.39757, loss_ce:0.39757, loss_mu:0.00000
+epoch:80, loss:0.68892, loss_ce:0.68892, loss_mu:0.00000
+epoch:90, loss:0.58075, loss_ce:0.58075, loss_mu:0.00000
+train_time: -1912.7281897068024 decompose_time: -310.8683445453644 retrain_time: -1183.446827173233
+train_time 3407.5340626239777 test_time 19.222683906555176
+Acc for task 0 : [0.0, 68.4, 68.4, 68.4, 68.4, 68.4, 68.4, 68.4, 68.4]
+Acc for task 1 : [0.0, 57.3, 57.3, 57.3, 57.3, 57.3, 57.3, 57.3]
+Acc for task 2 : [0.0, 69.19999999999999, 69.19999999999999, 69.19999999999999, 69.19999999999999, 69.19999999999999, 69.19999999999999]
+Acc for task 3 : [0.0, 71.89999999999999, 71.89999999999999, 71.89999999999999, 71.89999999999999, 71.89999999999999]
+Acc for task 4 : [0.0, 71.0, 71.0, 71.0, 71.0]
+Acc for task 5 : [0.0, 70.7, 70.7, 70.7]
+Acc for task 6 : [0.0, 71.6, 71.6]
+Acc for task 7 : [0.0, 68.7]
+Accuracy for 8 task(s): 	 [Class-IL]: 33.66 % 	 [Task-IL]: 68.6 %
+Download not needed, files already on disk.
+Download not needed, files already on disk.
+begin_cat 160 end_cat 180
+epoch:0, loss:104.38721, loss_ce:2.05207, loss_mu:10.23351
+epoch:10, loss:103.44345, loss_ce:1.13478, loss_mu:10.23087
+epoch:20, loss:103.01151, loss_ce:0.71170, loss_mu:10.22998
+epoch:30, loss:103.16151, loss_ce:0.86438, loss_mu:10.22971
+epoch:40, loss:102.94625, loss_ce:0.65212, loss_mu:10.22941
+epoch:50, loss:102.73368, loss_ce:0.45635, loss_mu:10.22773
+epoch:60, loss:102.70609, loss_ce:0.43277, loss_mu:10.22733
+epoch:70, loss:102.55734, loss_ce:0.28494, loss_mu:10.22724
+epoch:80, loss:102.62907, loss_ce:0.35727, loss_mu:10.22718
+epoch:90, loss:102.66353, loss_ce:0.39207, loss_mu:10.22715
+basis_size: torch.Size([20, 9]) weight_size torch.Size([9, 27])
+basis_size: torch.Size([20, 12]) weight_size torch.Size([12, 180])
+basis_size: torch.Size([20, 14]) weight_size torch.Size([14, 180])
+basis_size: torch.Size([20, 14]) weight_size torch.Size([14, 180])
+basis_size: torch.Size([20, 12]) weight_size torch.Size([12, 180])
+basis_size: torch.Size([40, 19]) weight_size torch.Size([19, 180])
+basis_size: torch.Size([40, 18]) weight_size torch.Size([18, 360])
+basis_size: torch.Size([40, 13]) weight_size torch.Size([13, 20])
+basis_size: torch.Size([40, 20]) weight_size torch.Size([20, 360])
+basis_size: torch.Size([40, 19]) weight_size torch.Size([19, 360])
+basis_size: torch.Size([80, 35]) weight_size torch.Size([35, 360])
+basis_size: torch.Size([80, 39]) weight_size torch.Size([39, 720])
+basis_size: torch.Size([80, 23]) weight_size torch.Size([23, 40])
+basis_size: torch.Size([80, 45]) weight_size torch.Size([45, 720])
+basis_size: torch.Size([80, 41]) weight_size torch.Size([41, 720])
+basis_size: torch.Size([160, 84]) weight_size torch.Size([84, 720])
+basis_size: torch.Size([160, 94]) weight_size torch.Size([94, 1440])
+basis_size: torch.Size([160, 48]) weight_size torch.Size([48, 80])
+basis_size: torch.Size([160, 101]) weight_size torch.Size([101, 1440])
+basis_size: torch.Size([160, 99]) weight_size torch.Size([99, 1440])
+total_basis_size 87580.0 total_weight_size 5491253.0
+begin_cat 160 end_cat 180
+epoch:0, loss:0.58612, loss_ce:0.58612, loss_mu:0.00000
+epoch:10, loss:0.57335, loss_ce:0.57335, loss_mu:0.00000
+epoch:20, loss:0.45929, loss_ce:0.45929, loss_mu:0.00000
+epoch:30, loss:0.62349, loss_ce:0.62349, loss_mu:0.00000
+epoch:40, loss:0.50018, loss_ce:0.50018, loss_mu:0.00000
+epoch:50, loss:0.48446, loss_ce:0.48446, loss_mu:0.00000
+epoch:60, loss:0.98415, loss_ce:0.98415, loss_mu:0.00000
+epoch:70, loss:0.37361, loss_ce:0.37361, loss_mu:0.00000
+epoch:80, loss:0.83414, loss_ce:0.83414, loss_mu:0.00000
+epoch:90, loss:0.36704, loss_ce:0.36704, loss_mu:0.00000
+train_time: -1906.6864161491394 decompose_time: -307.8871657848358 retrain_time: -1183.0646343231201
+train_time 3398.095650911331 test_time 24.015118837356567
+Acc for task 0 : [0.0, 68.4, 68.4, 68.4, 68.4, 68.4, 68.4, 68.4, 68.4, 68.4]
+Acc for task 1 : [0.0, 57.3, 57.3, 57.3, 57.3, 57.3, 57.3, 57.3, 57.3]
+Acc for task 2 : [0.0, 69.19999999999999, 69.19999999999999, 69.19999999999999, 69.19999999999999, 69.19999999999999, 69.19999999999999, 69.19999999999999]
+Acc for task 3 : [0.0, 71.89999999999999, 71.89999999999999, 71.89999999999999, 71.89999999999999, 71.89999999999999, 71.89999999999999]
+Acc for task 4 : [0.0, 71.0, 71.0, 71.0, 71.0, 71.0]
+Acc for task 5 : [0.0, 70.7, 70.7, 70.7, 70.7]
+Acc for task 6 : [0.0, 71.6, 71.6, 71.6]
+Acc for task 7 : [0.0, 68.7, 68.7]
+Acc for task 8 : [0.0, 65.10000000000001]
+Accuracy for 9 task(s): 	 [Class-IL]: 32.23 % 	 [Task-IL]: 68.21 %
+Download not needed, files already on disk.
+Download not needed, files already on disk.
+begin_cat 180 end_cat 200
+epoch:0, loss:104.56548, loss_ce:2.16146, loss_mu:10.24040
+epoch:10, loss:103.62572, loss_ce:1.26186, loss_mu:10.23639
+epoch:20, loss:103.13966, loss_ce:0.78470, loss_mu:10.23550
+epoch:30, loss:104.31963, loss_ce:1.96865, loss_mu:10.23510
+epoch:40, loss:102.70784, loss_ce:0.36128, loss_mu:10.23466
+epoch:50, loss:102.44019, loss_ce:0.10663, loss_mu:10.23336
+epoch:60, loss:102.65277, loss_ce:0.32245, loss_mu:10.23303
+epoch:70, loss:102.67883, loss_ce:0.34924, loss_mu:10.23296
+epoch:80, loss:102.52272, loss_ce:0.19347, loss_mu:10.23292
+epoch:90, loss:102.95925, loss_ce:0.63038, loss_mu:10.23289
+basis_size: torch.Size([20, 9]) weight_size torch.Size([9, 27])
+basis_size: torch.Size([20, 12]) weight_size torch.Size([12, 180])
+basis_size: torch.Size([20, 14]) weight_size torch.Size([14, 180])
+basis_size: torch.Size([20, 14]) weight_size torch.Size([14, 180])
+basis_size: torch.Size([20, 12]) weight_size torch.Size([12, 180])
+basis_size: torch.Size([40, 19]) weight_size torch.Size([19, 180])
+basis_size: torch.Size([40, 18]) weight_size torch.Size([18, 360])
+basis_size: torch.Size([40, 13]) weight_size torch.Size([13, 20])
+basis_size: torch.Size([40, 20]) weight_size torch.Size([20, 360])
+basis_size: torch.Size([40, 19]) weight_size torch.Size([19, 360])
+basis_size: torch.Size([80, 35]) weight_size torch.Size([35, 360])
+basis_size: torch.Size([80, 39]) weight_size torch.Size([39, 720])
+basis_size: torch.Size([80, 23]) weight_size torch.Size([23, 40])
+basis_size: torch.Size([80, 45]) weight_size torch.Size([45, 720])
+basis_size: torch.Size([80, 41]) weight_size torch.Size([41, 720])
+basis_size: torch.Size([160, 84]) weight_size torch.Size([84, 720])
+basis_size: torch.Size([160, 94]) weight_size torch.Size([94, 1440])
+basis_size: torch.Size([160, 48]) weight_size torch.Size([48, 80])
+basis_size: torch.Size([160, 101]) weight_size torch.Size([101, 1440])
+basis_size: torch.Size([160, 100]) weight_size torch.Size([100, 1440])
+total_basis_size 87740.0 total_weight_size 6117696.0
+begin_cat 180 end_cat 200
+epoch:0, loss:0.43989, loss_ce:0.43989, loss_mu:0.00000
+epoch:10, loss:0.58796, loss_ce:0.58796, loss_mu:0.00000
+epoch:20, loss:0.68696, loss_ce:0.68696, loss_mu:0.00000
+epoch:30, loss:0.23399, loss_ce:0.23399, loss_mu:0.00000
+epoch:40, loss:0.40452, loss_ce:0.40452, loss_mu:0.00000
+epoch:50, loss:0.35716, loss_ce:0.35716, loss_mu:0.00000
+epoch:60, loss:0.60400, loss_ce:0.60400, loss_mu:0.00000
+epoch:70, loss:0.24963, loss_ce:0.24963, loss_mu:0.00000
+epoch:80, loss:0.29273, loss_ce:0.29273, loss_mu:0.00000
+epoch:90, loss:0.28436, loss_ce:0.28436, loss_mu:0.00000
+train_time: -1915.4211134910583 decompose_time: -306.4685525894165 retrain_time: -1188.825602054596
+train_time 3411.2003099918365 test_time 29.115713357925415
+Acc for task 0 : [0.0, 68.4, 68.4, 68.4, 68.4, 68.4, 68.4, 68.4, 68.4, 68.4, 68.4]
+Acc for task 1 : [0.0, 57.3, 57.3, 57.3, 57.3, 57.3, 57.3, 57.3, 57.3, 57.3]
+Acc for task 2 : [0.0, 69.19999999999999, 69.19999999999999, 69.19999999999999, 69.19999999999999, 69.19999999999999, 69.19999999999999, 69.19999999999999, 69.19999999999999]
+Acc for task 3 : [0.0, 71.89999999999999, 71.89999999999999, 71.89999999999999, 71.89999999999999, 71.89999999999999, 71.89999999999999, 71.89999999999999]
+Acc for task 4 : [0.0, 71.0, 71.0, 71.0, 71.0, 71.0, 71.0]
+Acc for task 5 : [0.0, 70.7, 70.7, 70.7, 70.7, 70.7]
+Acc for task 6 : [0.0, 71.6, 71.6, 71.6, 71.6]
+Acc for task 7 : [0.0, 68.7, 68.7, 68.7]
+Acc for task 8 : [0.0, 65.10000000000001, 65.3]
+Acc for task 9 : [0.0, 72.5]
+Accuracy for 10 task(s): 	 [Class-IL]: 31.39 % 	 [Task-IL]: 68.66 %
+predict_time -0.15902996063232422
+Accuracy for 1 task(s): 	 [Class-IL]: 68.4 % 	 [Task-IL]: 68.4 %
+Accuracy for 2 task(s): 	 [Class-IL]: 38.05 % 	 [Task-IL]: 62.85 %
+Accuracy for 3 task(s): 	 [Class-IL]: 38.23 % 	 [Task-IL]: 64.97 %
+Accuracy for 4 task(s): 	 [Class-IL]: 39.12 % 	 [Task-IL]: 66.7 %
+Accuracy for 5 task(s): 	 [Class-IL]: 37.86 % 	 [Task-IL]: 67.56 %
+Accuracy for 6 task(s): 	 [Class-IL]: 35.7 % 	 [Task-IL]: 68.08 %
+Accuracy for 7 task(s): 	 [Class-IL]: 34.76 % 	 [Task-IL]: 68.59 %
+Accuracy for 8 task(s): 	 [Class-IL]: 33.66 % 	 [Task-IL]: 68.6 %
+Accuracy for 9 task(s): 	 [Class-IL]: 32.23 % 	 [Task-IL]: 68.21 %
+Accuracy for 10 task(s): 	 [Class-IL]: 31.39 % 	 [Task-IL]: 68.66 %
+forget_taskil: 0.0 forget_classil: 19.39 bwt_taskil: 0.02 bwt_classil: -19.39
