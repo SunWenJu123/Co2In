@@ -1,6 +1,6 @@
 # Co$^2$In 
 
->   Official repository paper: "Co$^2$In: a Bi-level Memory Incremental Learning Framework with Knowledge Encoding, Consolidation, and Integration"
+>   Official repository of paper: "Co$^2$In: a Bi-level Memory Incremental Learning Framework with Knowledge Encoding, Consolidation, and Integration"
 
 ![image-20240222181146274](img/README/image-20240222181146274.png)
 
